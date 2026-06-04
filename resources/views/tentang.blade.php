@@ -139,9 +139,26 @@ function toggleMenu() {
 
             <div class="hidden md:flex items-center gap-8">
                 <ul class="flex gap-8 font-medium">
-                    <li><a href="/tentang-kami" class="hover:text-green-700">Tentang Kami</a></li>
-                    <li><a href="/layanan" class="hover:text-green-700">Layanan</a></li>
-                    <li><a href="/gallery" class="hover:text-green-700">Media</a></li>
+                    <li>
+                        <a href="/tentang-kami"
+                        class="{{ request()->is('tentang-kami') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                            Tentang Kami
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/layanan"
+                        class="{{ request()->is('layanan') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                            Layanan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/gallery"
+                        class="{{ request()->is('gallery') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                            Media
+                        </a>
+                    </li>
                 </ul>
 
                 <a href="/pendaftaran">
@@ -175,7 +192,7 @@ function toggleMenu() {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             <div class="fade-up">
-                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8 glow-text">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8">
                     Tentang Enviroakualita
                 </h1>
 
@@ -254,10 +271,38 @@ function toggleMenu() {
     </div>
 </section>
 
+<!-- OUR APPROACH -->
+<section class="bg-white py-24">
+    <div class="container-custom">
+        <div class="text-center mb-14" data-aos="fade-up">
+            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Pendekatan Kami</p>
+            <h2 class="text-3xl md:text-4xl font-bold">Langkah Terstruktur untuk Dampak Berkelanjutan</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+                Enviroakualita menggabungkan edukasi, praktik langsung, dan evaluasi agar setiap program memberi hasil nyata bagi organisasi dan lingkungan.
+            </p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-3">
+            <div class="bg-green-50 rounded-3xl p-8 shadow hover-card" data-aos="fade-up">
+                <h3 class="text-xl font-semibold mb-4 text-green-800">Riset & Analisis</h3>
+                <p class="text-gray-600 leading-7">Kami memulai dengan memahami kebutuhan unik setiap peserta dan kondisi lingkungan mereka.</p>
+            </div>
+            <div class="bg-green-50 rounded-3xl p-8 shadow hover-card" data-aos="fade-up" data-aos-delay="150">
+                <h3 class="text-xl font-semibold mb-4 text-green-800">Pelatihan & Implementasi</h3>
+                <p class="text-gray-600 leading-7">Materi kami dirancang agar mudah dipelajari, langsung dipraktikkan, dan relevan untuk setiap jenis organisasi.</p>
+            </div>
+            <div class="bg-green-50 rounded-3xl p-8 shadow hover-card" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-xl font-semibold mb-4 text-green-800">Evaluasi & Tindak Lanjut</h3>
+                <p class="text-gray-600 leading-7">Setiap program dilengkapi monitoring hasil dan rekomendasi perbaikan untuk jangka panjang.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- CTA -->
 <section class="container-custom py-24 text-center" data-aos="zoom-in">
 
-    <h2 class="text-3xl md:text-5xl font-bold mb-6 glow-text">
+    <h2 class="text-3xl md:text-5xl font-bold mb-6">
         Siap Jadi Bagian dari Perubahan?
     </h2>
 
@@ -274,42 +319,49 @@ function toggleMenu() {
 </section>
 
 <!-- CONTACT -->
-<section class="bg-gray-100">
+<section class="bg-white">
     <div class="container-custom py-24">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">
+            Hubungi Kami
+        </h2>
 
-            <div data-aos="fade-right">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Support
-                </h2>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
 
-                <p class="text-gray-600 leading-7">
-                    Lokasi Environesia
-                </p>
+            <!-- Form -->
+            <div class="md:col-span-1" data-aos="fade-right">
+                <form class="space-y-4">
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
+                        <input type="text" placeholder="Nama Anda"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Email</label>
+                        <input type="email" placeholder="Email Anda"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Pesan</label>
+                        <textarea placeholder="Pesan..." rows="4"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
+                        Kirim
+                    </button>
+                </form>
             </div>
 
-            <form class="space-y-5" data-aos="fade-left">
-                <input type="text" placeholder="Nama"
-                    class="w-full p-4 rounded-xl border border-gray-300">
-
-                <input type="email" placeholder="Email"
-                    class="w-full p-4 rounded-xl border border-gray-300">
-
-                <textarea rows="5" placeholder="Pesan"
-                    class="w-full p-4 rounded-xl border border-gray-300"></textarea>
-
-                <button class="bg-green-700 text-white px-8 py-3 rounded-xl btn-shine">
-                    Kirim
-                </button>
-            </form>
+            <!-- Google Maps -->
+            <div class="md:col-span-4 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-left">
+                <iframe class="w-full h-full" style="min-height: 350px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.269662910655!2d106.8227387!3d-6.2297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e5d5d1%3A0x100e44e5b6408ce0!2sJakarta!5e0!3m2!1sid!2sid!4v1234567890">
+                </iframe>
+            </div>
 
         </div>
     </div>
 </section>
-
-<!-- Footer -->
-<footer class="bg-green-900 text-white text-center py-8">
-    <p>© 2026 Enviroakualita. All Rights Reserved.</p>
-</footer>
 
 @endsection

@@ -6,6 +6,23 @@
     <title>@yield('title', 'Enviroakualita')</title>
 
     <!-- Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#2B9048',
+                            dark: '#146032',
+                            light: '#4DB451'
+                        },
+                        'yellow-main': '#FFB900',
+                        'yellow-light': '#FFF664'
+                    }
+                }
+            }
+        }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Font -->
@@ -19,6 +36,16 @@
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <style>
+        :root {
+            --primary-main: #2B9048;
+            --primary-dark: #146032;
+            --primary-light: #4DB451;
+            --green-main: var(--primary-main);
+            --green-dark: var(--primary-dark);
+            --green-light: var(--primary-light);
+            --yellow-main: #FFB900;
+            --yellow-light: #FFF664;
+        }
         * {
             font-family: 'Poppins', sans-serif;
             box-sizing: border-box;
@@ -94,7 +121,7 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #15803d;
+            background: var(--primary-dark);
             border-radius: 20px;
         }
 
@@ -109,6 +136,9 @@
     <main class="flex-1 w-full">
         @yield('content')
     </main>
+
+    <!-- Footer -->
+    @include('components.footer')
 
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>

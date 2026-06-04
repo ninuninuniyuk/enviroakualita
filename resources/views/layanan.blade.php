@@ -141,9 +141,26 @@ function toggleMenu() {
 
             <div class="hidden md:flex items-center gap-8">
                 <ul class="flex gap-8 font-medium">
-                    <li><a href="/tentang-kami" class="hover:text-green-700">Tentang Kami</a></li>
-                    <li><a href="/layanan" class="hover:text-green-700">Layanan</a></li>
-                    <li><a href="/gallery" class="hover:text-green-700">Media</a></li>
+                    <li>
+                        <a href="/tentang-kami"
+                        class="{{ request()->is('tentang-kami') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                            Tentang Kami
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/layanan"
+                        class="{{ request()->is('layanan') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                            Layanan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/gallery"
+                        class="{{ request()->is('gallery') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                            Media
+                        </a>
+                    </li>
                 </ul>
 
                 <a href="/pendaftaran">
@@ -260,24 +277,114 @@ function toggleMenu() {
     </div>
 </section>
 
-<!-- Contact -->
-<section class="container-custom section-padding" data-aos="fade-up">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<!-- PROCESS -->
+<section class="container-custom section-padding">
+    <div class="text-center mb-14" data-aos="fade-up">
+        <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Proses Layanan</p>
+        <h2 class="text-3xl md:text-4xl font-bold">Langkah Kami untuk Menyelesaikan Kebutuhan Lingkungan Anda</h2>
+        <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+            Setiap proyek ditangani secara terstruktur, dari pemeriksaan awal hingga tindak lanjut hasil, agar pelayanan kami selalu efektif dan terpercaya.
+        </p>
+    </div>
 
-        <div>
-            <h2 class="text-3xl md:text-4xl font-bold mb-6">Support</h2>
-            <p class="text-gray-600">Lokasi Environesia</p>
+    <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up">
+            <div class="text-green-700 mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
+                1
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Audit & Analisis</h3>
+            <p class="text-gray-600 leading-7">Kami memetakan kondisi lingkungan dan regulasi yang relevan untuk menentukan rekomendasi yang tepat.</p>
         </div>
 
-        <form class="space-y-5">
-            <input type="text" placeholder="Nama" class="w-full border border-gray-300 p-4 rounded-lg">
-            <input type="email" placeholder="Email" class="w-full border border-gray-300 p-4 rounded-lg">
-            <textarea placeholder="Pesan" rows="5" class="w-full border border-gray-300 p-4 rounded-lg"></textarea>
+        <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="150">
+            <div class="text-green-700 mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
+                2
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Rencana & Dokumentasi</h3>
+            <p class="text-gray-600 leading-7">Kami menyiapkan dokumen AMDAL, UKL-UPL, dan rencana tindakan yang siap diajukan sesuai kebutuhan perusahaan.</p>
+        </div>
 
-            <button class="bg-green-700 text-white px-6 py-3 rounded-lg hover:scale-105 transition">
-                Kirim
-            </button>
-        </form>
+        <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
+            <div class="text-green-700 mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
+                3
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Implementasi & Evaluasi</h3>
+            <p class="text-gray-600 leading-7">Kami mendampingi implementasi, mengukur hasil, dan memberikan rekomendasi perbaikan berkelanjutan.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="bg-gray-50">
+    <div class="container-custom section-padding">
+        <div class="text-center mb-14" data-aos="fade-up">
+            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Kenapa Memilih Kami</p>
+            <h2 class="text-3xl md:text-4xl font-bold">Keunggulan Enviroakualita</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                Fokus kami adalah membuat proses lingkungan menjadi lebih mudah, cepat, dan terukur untuk Anda.
+            </p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-3">
+            <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">Regulasi Terbaru</h3>
+                <p class="text-gray-600 leading-7">Tim kami selalu up to date dengan aturan lingkungan terbaru untuk menjaga kepatuhan bisnis Anda.</p>
+            </div>
+            <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="150">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">Pendampingan Sampai Selesai</h3>
+                <p class="text-gray-600 leading-7">Kami tidak hanya memberikan rekomendasi, tetapi juga dukungan eksekusi dan evaluasi hasil.</p>
+            </div>
+            <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">Dokumen Siap Pakai</h3>
+                <p class="text-gray-600 leading-7">Dokumen AMDAL, UKL-UPL, dan lainnya dirancang langsung untuk proses perizinan dan pelaporan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="bg-white">
+    <div class="container-custom py-24">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">
+            Hubungi Kami
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+
+            <!-- Form -->
+            <div class="md:col-span-1" data-aos="fade-right">
+                <form class="space-y-4">
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
+                        <input type="text" placeholder="Nama Anda"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Email</label>
+                        <input type="email" placeholder="Email Anda"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Pesan</label>
+                        <textarea placeholder="Pesan..." rows="4"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
+                        Kirim
+                    </button>
+                </form>
+            </div>
+
+            <!-- Google Maps -->
+            <div class="md:col-span-4 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-left">
+                <iframe class="w-full h-full" style="min-height: 350px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.269662910655!2d106.8227387!3d-6.2297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e5d5d1%3A0x100e44e5b6408ce0!2sJakarta!5e0!3m2!1sid!2sid!4v1234567890">
+                </iframe>
+            </div>
+
+        </div>
     </div>
 </section>
 
@@ -294,10 +401,5 @@ function toggleMenu() {
         <p id="modalContent" class="text-gray-600 text-center leading-7"></p>
     </div>
 </div>
-
-<!-- Footer -->
-<footer class="bg-green-900 text-white py-8 text-center">
-    <p>© 2026 Environesia. All Rights Reserved.</p>
-</footer>
 
 @endsection

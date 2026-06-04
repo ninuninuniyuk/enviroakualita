@@ -96,6 +96,133 @@
         animation: gradientMove 12s ease infinite;
     }
 
+    .testimonial-wrapper {
+        position: relative;
+    }
+
+    .testimonial-carousel {
+        display: flex;
+        gap: 1.5rem;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 1rem;
+        padding-inline: calc(50% - 210px);
+    }
+
+    .testimonial-carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .testimonial-card {
+        scroll-snap-align: center;
+        min-width: 320px;
+        max-width: 420px;
+        flex: 0 0 auto;
+        background: #ffffff;
+        border-radius: 28px;
+        padding: 1.75rem;
+        border: 1px solid rgba(34,197,94,0.12);
+        box-shadow: 0 18px 40px rgba(15,23,42,0.08);
+        transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .testimonial-card.active-card {
+        transform: translateY(-10px) scale(1.04);
+        box-shadow: 0 26px 52px rgba(15,23,42,0.16);
+    }
+
+    .testimonial-card .avatar {
+        width: 64px;
+        height: 64px;
+        border-radius: 9999px;
+        overflow: hidden;
+        background: #e6f5ea;
+        border: 2px solid rgba(34,197,94,0.18);
+        margin-bottom: 1rem;
+    }
+
+    .testimonial-card .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .testimonial-card .quote {
+        font-size: 1rem;
+        color: #0f172a;
+        line-height: 1.85;
+        margin-bottom: 1rem;
+    }
+
+    .testimonial-card .card-text h3 {
+        font-size: 1.05rem;
+        margin-bottom: 0.35rem;
+        font-weight: 700;
+    }
+
+    .testimonial-card .card-text p.role {
+        margin: 0;
+        color: #6b7280;
+        font-size: 0.88rem;
+    }
+
+    .testimonial-controls {
+        display: flex;
+        justify-content: center;
+        gap: 0.75rem;
+        margin-top: 1.25rem;
+    }
+
+    .testimonial-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 9999px;
+        background: #d1d5db;
+        transition: background 0.3s ease;
+    }
+
+    .testimonial-dot.active {
+        background: #16a34a;
+    }
+
+    .testimonial-nav-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: grid;
+        place-items: center;
+        width: 52px;
+        height: 52px;
+        border-radius: 9999px;
+        background: #ffffff;
+        border: 0;
+        box-shadow: 0 10px 28px rgba(2,6,23,0.09);
+        cursor: pointer;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        z-index: 10;
+    }
+
+    .testimonial-nav-button:hover {
+        transform: translateY(-50%) scale(1.06);
+        box-shadow: 0 18px 44px rgba(2,6,23,0.12);
+    }
+
+    .testimonial-nav-button.left {
+        left: -20px;
+    }
+
+    .testimonial-nav-button.right {
+        right: -20px;
+    }
+
+    @media (max-width: 640px) {
+        .testimonial-carousel { padding-inline: 1rem; }
+        .testimonial-nav-button.left { left: 6px; }
+        .testimonial-nav-button.right { right: 6px; }
+    }
+
     @keyframes gradientMove {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
@@ -147,10 +274,115 @@ document.addEventListener("DOMContentLoaded", function () {
         once: true,
         offset: 100
     });
+    initTestimonialCarousel();
 });
 
 function toggleMenu() {
     document.getElementById('mobileMenu').classList.toggle('hidden');
+}
+
+function initTestimonialCarousel() {
+    const carousel = document.querySelector('.testimonial-carousel');
+    if (!carousel) return;
+
+    const dots = document.querySelectorAll('.testimonial-dot');
+    let currentIndex = 0;
+    let autoSlide = null;
+    let isDragging = false;
+    let startX = 0;
+    let scrollStart = 0;
+
+    const updateActiveDot = index => {
+        dots.forEach((dot, idx) => dot.classList.toggle('active', idx === index));
+    };
+
+    const scrollToIndex = index => {
+        const cards = carousel.querySelectorAll('.testimonial-card');
+        if (!cards.length) return;
+        currentIndex = (index + cards.length) % cards.length;
+        const card = cards[currentIndex];
+        const targetLeft = Math.max(0, card.offsetLeft - (carousel.offsetWidth / 2 - card.offsetWidth / 2));
+        carousel.scrollTo({ left: targetLeft, behavior: 'smooth' });
+        updateActiveDot(currentIndex);
+    };
+
+    const updateCentered = () => {
+        const cards = carousel.querySelectorAll('.testimonial-card');
+        if (!cards.length) return;
+        const center = carousel.scrollLeft + carousel.offsetWidth / 2;
+        let closest = 0;
+        let closestDist = Infinity;
+        cards.forEach((card, idx) => {
+            const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+            const dist = Math.abs(center - cardCenter);
+            if (dist < closestDist) {
+                closestDist = dist;
+                closest = idx;
+            }
+            card.classList.remove('active-card');
+        });
+        cards[closest].classList.add('active-card');
+        currentIndex = closest;
+        updateActiveDot(currentIndex);
+    };
+
+    let scrollTimeout;
+    carousel.addEventListener('scroll', () => {
+        updateCentered();
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            scrollToIndex(currentIndex);
+        }, 120);
+    });
+
+    const startAutoSlide = () => {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => scrollToIndex(currentIndex + 1), 3800);
+    };
+
+    carousel.addEventListener('pointerdown', e => {
+        isDragging = true;
+        carousel.setPointerCapture(e.pointerId);
+        startX = e.pageX;
+        scrollStart = carousel.scrollLeft;
+        clearInterval(autoSlide);
+    });
+
+    carousel.addEventListener('pointermove', e => {
+        if (!isDragging) return;
+        const delta = startX - e.pageX;
+        carousel.scrollLeft = scrollStart + delta;
+    });
+
+    carousel.addEventListener('pointerup', () => {
+        isDragging = false;
+        startAutoSlide();
+    });
+
+    carousel.addEventListener('pointerleave', () => {
+        if (isDragging) {
+            isDragging = false;
+            startAutoSlide();
+        }
+    });
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => scrollToIndex(index));
+    });
+
+    const prevButton = document.querySelector('.testimonial-prev');
+    const nextButton = document.querySelector('.testimonial-next');
+
+    if (prevButton) {
+        prevButton.addEventListener('click', () => scrollToIndex(currentIndex - 1));
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener('click', () => scrollToIndex(currentIndex + 1));
+    }
+
+    updateCentered();
+    startAutoSlide();
 }
 </script>
 
@@ -283,42 +515,182 @@ function toggleMenu() {
         <div class="grid md:grid-cols-3 gap-8">
 
             <div class="bg-white p-6 rounded-2xl shadow hover-lift" data-aos="fade-up">
-                <h3 class="text-2xl font-semibold mb-4">Sustainability</h3>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet.</p>
+                <h3 class="text-2xl font-semibold mb-4 text-green-700">Sustainability</h3>
+                <p class="text-gray-600">Pendekatan kami selalu mengutamakan praktik berkelanjutan yang mudah diterapkan.</p>
             </div>
 
             <div class="bg-white p-6 rounded-2xl shadow hover-lift" data-aos="fade-up" data-aos-delay="200">
-                <h3 class="text-2xl font-semibold mb-4">Training</h3>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet.</p>
+                <h3 class="text-2xl font-semibold mb-4 text-green-700">Training</h3>
+                <p class="text-gray-600">Materi yang disiapkan sesuai kebutuhan tim dan target lingkungan organisasi.</p>
             </div>
 
             <div class="bg-white p-6 rounded-2xl shadow hover-lift" data-aos="fade-up" data-aos-delay="400">
-                <h3 class="text-2xl font-semibold mb-4">Consulting</h3>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet.</p>
+                <h3 class="text-2xl font-semibold mb-4 text-green-700">Consulting</h3>
+                <p class="text-gray-600">Pendampingan lengkap mulai analisis hingga evaluasi implementasi.</p>
             </div>
 
         </div>
     </div>
 </section>
 
-<!-- CONTACT -->
-<section class="container-custom py-24">
-    <div class="grid md:grid-cols-2 gap-10">
-
-        <div data-aos="fade-right">
-            <h2 class="text-4xl font-bold mb-6">Support</h2>
-            <p class="text-gray-600">Lokasi Environesia</p>
+<!-- WHY CHOOSE US -->
+<section class="bg-green-50 py-24">
+    <div class="container-custom">
+        <div class="text-center mb-12" data-aos="fade-up">
+            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Kenapa Memilih Kami</p>
+            <h2 class="text-4xl font-bold">Layanan Lingkungan dengan Dampak Nyata</h2>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Kami membantu organisasi Anda bergerak lebih cepat menuju target keberlanjutan dengan metode yang mudah dipahami dan diterapkan.</p>
         </div>
 
-        <form class="space-y-5" data-aos="fade-left">
-            <input type="text" placeholder="Nama" class="w-full border p-4 rounded-lg">
-            <input type="email" placeholder="Email" class="w-full border p-4 rounded-lg">
-            <textarea placeholder="Pesan" rows="5" class="w-full border p-4 rounded-lg"></textarea>
+        <div class="grid gap-6 md:grid-cols-4">
+            <div class="bg-white rounded-3xl p-6 shadow hover-lift" data-aos="fade-up">
+                <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-green-50 text-green-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8c0-1.38 1.61-3 4-3s4 1.62 4 3c0 1.38-1.61 3-4 3S7 9.38 7 8zM7 8c0 1.38 1.61 3 4 3s4-1.62 4-3M7 8v8.5c0 1.38 1.61 2.5 4 2.5s4-1.12 4-2.5V8" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Praktis & Efektif</h3>
+                <p class="text-gray-600">Solusi kami didesain agar bisa langsung diterapkan di lapangan dan memberikan hasil cepat.</p>
+            </div>
+            <div class="bg-white rounded-3xl p-6 shadow hover-lift" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-green-50 text-green-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h9M12 4h9M3 6h10M3 12h10M3 18h10" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Pelatihan Terstruktur</h3>
+                <p class="text-gray-600">Sesi terarah dan modul lengkap untuk meningkatkan kompetensi tim Anda.</p>
+            </div>
+            <div class="bg-white rounded-3xl p-6 shadow hover-lift" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-green-50 text-green-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 12h6M11 16h4M11 8h2M6 20V10a1 1 0 011-1h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V20H6z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Data dan Evaluasi</h3>
+                <p class="text-gray-600">Setiap program dilengkapi laporan progress untuk pengambilan keputusan yang lebih baik.</p>
+            </div>
+            <div class="bg-white rounded-3xl p-6 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
+                <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-green-50 text-green-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5V9a2 2 0 00-2-2h-3m-4 13H6a2 2 0 01-2-2v-8a2 2 0 012-2h4.5l2 2H19a2 2 0 012 2v4m-7 4v-4H7" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Pendampingan Personal</h3>
+                <p class="text-gray-600">Tim kami siap mendampingi dari awal hingga evaluasi berkelanjutan.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-            <button class="bg-green-700 text-white px-6 py-3 rounded-lg btn-shine">
-                Kirim
-            </button>
-        </form>
+<!-- TESTIMONIALS -->
+<section class="bg-white py-24">
+    <div class="container-custom">
+        <div class="text-center mb-12" data-aos="fade-up">
+            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Testimoni</p>
+            <h2 class="text-4xl font-bold">Suara Klien Kami</h2>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Mereka telah merasakan perubahan setelah mengikuti pelatihan dan konsultasi dari Enviroakualita.</p>
+        </div>
+
+        <div class="testimonial-wrapper" data-aos="fade-up">
+            <button class="testimonial-nav-button left testimonial-prev" aria-label="Sebelumnya">‹</button>
+            <div class="testimonial-carousel">
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <img src="https://i.pravatar.cc/150?img=32" alt="Rina">
+                    </div>
+                    <div class="card-text">
+                        <p class="quote">"Pelatihan Enviroakualita membuat tim kami lebih memahami cara kerja lingkungan. Materinya jelas dan langsung bisa kami terapkan."</p>
+                        <h3>Rina Safitri</h3>
+                        <p class="role">Manajer CSR</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Aditya">
+                    </div>
+                    <div class="card-text">
+                        <p class="quote">"Audit lingkungan dari Enviroakualita memberi kami insight yang membuat proses operasional jadi lebih ramah lingkungan dan efisien."</p>
+                        <h3>Aditya Prakoso</h3>
+                        <p class="role">Pemilik Usaha</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <img src="https://i.pravatar.cc/150?img=18" alt="Nadia">
+                    </div>
+                    <div class="card-text">
+                        <p class="quote">"Pendekatan konsultasinya personal dan sangat membantu, terutama untuk tim yang baru ingin memulai program sustainability."</p>
+                        <h3>Nadia Putri</h3>
+                        <p class="role">Koordinator Komunitas</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <img src="https://i.pravatar.cc/150?img=22" alt="Bayu">
+                    </div>
+                    <div class="card-text">
+                        <p class="quote">"Programnya lengkap, dari pelatihan hingga evaluasi, jadi kami bisa menjaga komitmen perusahaan terhadap lingkungan."</p>
+                        <h3>Bayu Santoso</h3>
+                        <p class="role">Supervisor Operasional</p>
+                    </div>
+                </div>
+            </div>
+            <button class="testimonial-nav-button right testimonial-next" aria-label="Selanjutnya">›</button>
+        </div>
+
+        <div class="testimonial-controls" data-aos="fade-up">
+            <button class="testimonial-dot active"></button>
+            <button class="testimonial-dot"></button>
+            <button class="testimonial-dot"></button>
+            <button class="testimonial-dot"></button>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="bg-white">
+    <div class="container-custom py-24">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">
+            Hubungi Kami
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+
+            <!-- Form -->
+            <div class="md:col-span-1" data-aos="fade-right">
+                <form class="space-y-4">
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
+                        <input type="text" placeholder="Nama Anda"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Email</label>
+                        <input type="email" placeholder="Email Anda"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Pesan</label>
+                        <textarea placeholder="Pesan..." rows="4"
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
+                        Kirim
+                    </button>
+                </form>
+            </div>
+
+            <!-- Google Maps -->
+            <div class="md:col-span-4 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-left">
+                <iframe class="w-full h-full" style="min-height: 350px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.269662910655!2d106.8227387!3d-6.2297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e5d5d1%3A0x100e44e5b6408ce0!2sJakarta!5e0!3m2!1sid!2sid!4v1234567890">
+                </iframe>
+            </div>
+
+        </div>
     </div>
 </section>
 
