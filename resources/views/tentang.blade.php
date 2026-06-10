@@ -132,10 +132,13 @@ function toggleMenu() {
     <div class="container-custom py-5">
         <div class="flex items-center justify-between">
 
-            <a href="/"
-               class="text-xl md:text-2xl font-bold text-green-700 hover:scale-105 transition duration-300">
-                Enviroakualita
-            </a>
+            <a href="/" class="flex items-center hover:scale-105 transition duration-300">
+            <img
+                src="{{ asset('images/logo enviro.png') }}"
+                alt="Enviroakualita Logo"
+                class="w-48 h-auto object-contain"
+            >
+        </a>
 
             <div class="hidden md:flex items-center gap-8">
                 <ul class="flex gap-8 font-medium">
@@ -325,11 +328,11 @@ function toggleMenu() {
             Hubungi Kami
         </h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
 
             <!-- Form -->
-            <div class="md:col-span-1" data-aos="fade-right">
-                <form class="space-y-4">
+            <div class="rounded-3xl bg-white p-8 shadow-lg" data-aos="fade-right">
+                <form class="h-full flex flex-col justify-between space-y-4">
                     <div>
                         <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
                         <input type="text" placeholder="Nama Anda"
@@ -342,10 +345,10 @@ function toggleMenu() {
                             class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
                     </div>
 
-                    <div>
+                    <div class="flex-1">
                         <label class="font-semibold text-gray-700 text-sm block mb-2">Pesan</label>
-                        <textarea placeholder="Pesan..." rows="4"
-                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
+                        <textarea placeholder="Pesan..." rows="6"
+                            class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
                     </div>
 
                     <button type="submit" class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
@@ -355,13 +358,15 @@ function toggleMenu() {
             </div>
 
             <!-- Google Maps -->
-            <div class="md:col-span-4 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-left">
-                <iframe class="w-full h-full" style="min-height: 350px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.269662910655!2d106.8227387!3d-6.2297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e5d5d1%3A0x100e44e5b6408ce0!2sJakarta!5e0!3m2!1sid!2sid!4v1234567890">
+            <div class="rounded-3xl overflow-hidden shadow-lg" data-aos="fade-left">
+                <iframe class="w-full h-full" style="min-height: 450px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.269662910655!2d106.8227387!3d-6.2297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e5d5d1%3A0x100e44e5b6408ce0!2sJakarta!5e0!3m2!1sid!2sid!4v1234567890">
                 </iframe>
             </div>
 
         </div>
     </div>
 </section>
+
+@include('components.footer')
 
 @endsection

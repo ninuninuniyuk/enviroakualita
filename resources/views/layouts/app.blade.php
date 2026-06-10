@@ -137,9 +137,6 @@
         @yield('content')
     </main>
 
-    <!-- Footer -->
-    @include('components.footer')
-
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 

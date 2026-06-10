@@ -12,6 +12,16 @@
         font-family: Arial, sans-serif;
     }
 
+    /* Form input focus styles using CSS variables from layout */
+    input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+        transition: border-color 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
+        outline: none;
+        border-color: var(--primary-dark);
+        box-shadow: 0 8px 24px rgba(43,144,72,0.08);
+    }
     .glass {
         background: rgba(255,255,255,0.75);
         backdrop-filter: blur(12px);
@@ -51,8 +61,8 @@ function toggleMenu() {
 
         <div class="flex items-center justify-between">
 
-            <a href="/"
-               class="text-xl md:text-2xl font-bold text-green-700 hover:scale-105 transition duration-300">
+                <a href="/"
+                    class="text-xl md:text-2xl font-bold text-green-700 hover:scale-105 transition duration-300">
                 Enviroakualita
             </a>
 
@@ -117,7 +127,7 @@ function toggleMenu() {
                 Lingkungan Sekarang
             </h1>
 
-            <p class="text-green-100 text-base md:text-lg leading-8 max-w-xl">
+            <p class="text-green-200 text-base md:text-lg leading-8 max-w-xl">
                 Bergabung bersama program pelatihan, konsultasi, dan audit lingkungan
                 profesional untuk meningkatkan kualitas bisnis yang berkelanjutan.
             </p>
@@ -142,7 +152,7 @@ function toggleMenu() {
             <div class="space-y-6" data-aos="fade-right">
 
                 <div class="bg-white rounded-3xl p-8 shadow-lg">
-                    <h3 class="text-2xl font-bold text-green-700 mb-4">
+                    <h3 class="text-2xl font-bold text-primary mb-4">
                         Kenapa Bergabung?
                     </h3>
 
@@ -222,7 +232,7 @@ function toggleMenu() {
                                   class="w-full mt-2 p-4 rounded-xl border border-gray-300"></textarea>
                     </div>
 
-                    <button type="submit" id="submitBtn"
+                        <button type="submit" id="submitBtn"
                             class="w-full bg-green-700 text-white py-4 rounded-xl text-lg hover:bg-green-800 transition flex items-center justify-center gap-3">
                         <span id="btnText">KIRIM PENDAFTARAN</span>
 
@@ -247,10 +257,14 @@ function toggleMenu() {
 <div id="successPopup"
      class="hidden fixed inset-0 flex items-center justify-center z-50 popup-bg px-4">
 
-    <div id="popupContent"
+        <div id="popupContent"
          class="bg-white px-8 md:px-12 py-10 rounded-3xl shadow-2xl text-center opacity-0 scale-95 transition-all duration-500">
 
-        <div class="text-6xl mb-4">🎉</div>
+        <div class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </div>
 
         <h2 class="text-2xl md:text-3xl font-bold text-green-700 mb-3">
             Pendaftaran Berhasil!
@@ -261,10 +275,10 @@ function toggleMenu() {
         </p>
 
         <button onclick="closePopup()"
-                class="bg-green-700 text-white px-8 py-3 rounded-xl hover:scale-105 transition">
+            class="bg-green-700 text-white px-8 py-3 rounded-xl hover:scale-105 transition hover:bg-green-800">
             OK
         </button>
-    </div>
+        </div>
 </div>
 
 <script>
@@ -277,14 +291,22 @@ const popup = document.getElementById('successPopup');
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
+    // Basic HTML5 validity check before sending
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
+
     btnText.innerText = "Mengirim...";
     spinner.classList.remove('hidden');
     submitBtn.disabled = true;
+    submitBtn.setAttribute('aria-busy', 'true');
 
     setTimeout(() => {
         spinner.classList.add('hidden');
         btnText.innerText = "KIRIM PENDAFTARAN";
         submitBtn.disabled = false;
+        submitBtn.removeAttribute('aria-busy');
 
         popup.classList.remove('hidden');
 
