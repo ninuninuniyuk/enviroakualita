@@ -406,7 +406,7 @@ function initTestimonialCarousel() {
                     <li><a href="/gallery" class="hover:text-green-700">Media</a></li>
                 </ul>
 
-                <a href="/pendaftaran">
+                <a href="https://wa.me/+6289652767924">
                     <button class="bg-green-700 text-white px-5 py-2 rounded-lg btn-shine">
                         Daftar Sekarang
                     </button>

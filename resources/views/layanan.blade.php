@@ -166,7 +166,7 @@ function toggleMenu() {
                     </li>
                 </ul>
 
-                <a href="/pendaftaran">
+                <a href="/">
                     <button class="bg-green-700 text-white px-5 py-2 rounded-lg hover:scale-105 transition">
                         Daftar Sekarang
                     </button>
