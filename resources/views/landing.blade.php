@@ -593,7 +593,7 @@ function initTestimonialCarousel() {
         <div class="text-center mb-12" data-aos="fade-up">
             <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Testimoni</p>
             <h2 class="text-4xl font-bold">Suara Klien Kami</h2>
-            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Mereka telah merasakan perubahan setelah mengikuti pelatihan dan konsultasi dari Enviroakualita.</p>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Mereka telah merasakan perubahan setelah mengikuti pelatihan dan konsultasi dari Envirokualita.</p>
         </div>
 
         <div class="testimonial-wrapper" data-aos="fade-up">
@@ -604,7 +604,7 @@ function initTestimonialCarousel() {
                         <img src="https://i.pravatar.cc/150?img=32" alt="Rina">
                     </div>
                     <div class="card-text">
-                        <p class="quote">"Pelatihan Enviroakualita membuat tim kami lebih memahami cara kerja lingkungan. Materinya jelas dan langsung bisa kami terapkan."</p>
+                        <p class="quote">"Pelatihan Envirokualita membuat tim kami lebih memahami cara kerja lingkungan. Materinya jelas dan langsung bisa kami terapkan."</p>
                         <h3>Rina Safitri</h3>
                         <p class="role">Manajer CSR</p>
                     </div>

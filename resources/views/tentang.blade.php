@@ -330,32 +330,27 @@ function toggleMenu() {
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
 
-            <!-- Form -->
-            <div class="rounded-3xl bg-white p-8 shadow-lg" data-aos="fade-right">
-                <form class="h-full flex flex-col justify-between space-y-4">
-                    <div>
-                        <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
-                        <input type="text" placeholder="Nama Anda"
-                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
-                    </div>
+            <!-- Form Testimoni -->
+<div class="rounded-3xl bg-white p-8 shadow-lg" data-aos="fade-right">
+    <form class="h-full flex flex-col justify-between space-y-4">
+        <div>
+            <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
+            <input type="text" placeholder="Masukkan nama Anda"
+                class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+        </div>
 
-                    <div>
-                        <label class="font-semibold text-gray-700 text-sm block mb-2">Email</label>
-                        <input type="email" placeholder="Email Anda"
-                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
-                    </div>
+        <div class="flex-1">
+            <label class="font-semibold text-gray-700 text-sm block mb-2">Testimoni</label>
+            <textarea placeholder="Bagikan pengalaman Anda bersama Enviroakualita..." rows="6"
+                class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
+        </div>
 
-                    <div class="flex-1">
-                        <label class="font-semibold text-gray-700 text-sm block mb-2">Pesan</label>
-                        <textarea placeholder="Pesan..." rows="6"
-                            class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
-                    </div>
-
-                    <button type="submit" class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
-                        Kirim
-                    </button>
-                </form>
-            </div>
+        <button type="submit"
+            class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
+            Kirim Testimoni
+        </button>
+    </form>
+ </div>
 
             <!-- Google Maps -->
             <div class="rounded-3xl overflow-hidden shadow-lg" data-aos="fade-left">
