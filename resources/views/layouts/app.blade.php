@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>@yield('title', 'Enviroakualita')</title>
 
     <!-- Tailwind -->
@@ -12,40 +13,50 @@
                 extend: {
                     colors: {
                         primary: {
-                            DEFAULT: '#2B9048',
-                            dark: '#146032',
-                            light: '#4DB451'
+                            DEFAULT: '#2B9048', // Hijau utama
+                            dark: '#146032',    // Hijau tua
+                            light: '#4DB451',   // Hijau muda
+                            gradient: '#9ACA40' // Hijau gradient
                         },
-                        'yellow-main': '#FFB900',
-                        'yellow-light': '#FFF664'
+
+                        yellow: {
+                            DEFAULT: '#FFB900', // Kuning utama
+                            light: '#FFF664'    // Kuning terang
+                        }
                     }
                 }
             }
         }
     </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+        rel="stylesheet"
+    >
 
     <style>
         :root {
             --primary-main: #2B9048;
             --primary-dark: #146032;
             --primary-light: #4DB451;
-            --green-main: var(--primary-main);
-            --green-dark: var(--primary-dark);
-            --green-light: var(--primary-light);
+            --primary-gradient: #9ACA40;
+
             --yellow-main: #FFB900;
             --yellow-light: #FFF664;
         }
+
         * {
             font-family: 'Poppins', sans-serif;
             box-sizing: border-box;
@@ -72,7 +83,6 @@
             transition: all 0.3s ease;
         }
 
-        /* Global Container */
         .container-custom {
             width: 100%;
             max-width: 1280px;
@@ -102,7 +112,6 @@
             }
         }
 
-        /* Section spacing */
         .section-padding {
             padding-top: 4rem;
             padding-bottom: 4rem;
@@ -128,11 +137,20 @@
         ::-webkit-scrollbar-track {
             background: #f1f1f1;
         }
+
+        /* Gradient Brand */
+        .brand-gradient {
+            background: linear-gradient(
+                135deg,
+                #146032 0%,
+                #2B9048 50%,
+                #9ACA40 100%
+            );
+        }
     </style>
 </head>
 
 <body class="min-h-screen flex flex-col">
-
     <main class="flex-1 w-full">
         @yield('content')
     </main>
@@ -147,6 +165,5 @@
             offset: 100,
         });
     </script>
-
 </body>
 </html>

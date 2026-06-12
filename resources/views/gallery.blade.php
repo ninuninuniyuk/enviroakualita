@@ -238,30 +238,57 @@ function toggleMenu() {
     </p>
 </section>
 
+@php
+$gallery = [
+    [
+        'image' => 'gambar1.png',
+        'title' => 'Pelatihan ISO 14001',
+        'description' => 'Kegiatan pelatihan sistem manajemen lingkungan bersama peserta dari berbagai perusahaan.'
+    ],
+    [
+        'image' => 'gambar2.png',
+        'title' => 'Audit Lingkungan',
+        'description' => 'Pelaksanaan audit lingkungan untuk memastikan kepatuhan terhadap regulasi yang berlaku.'
+    ],
+    [
+        'image' => 'gambar3.jpeg',
+        'title' => 'Konsultasi Perusahaan',
+        'description' => 'Sesi konsultasi terkait pengelolaan lingkungan dan keberlanjutan perusahaan.'
+    ],
+    [
+        'image' => 'gambar4.jpeg',
+        'title' => 'Konsultasi Perusahaan',
+        'description' => 'Sesi konsultasi terkait pengelolaan lingkungan dan keberlanjutan perusahaan.'
+    ],
+];
+@endphp
+
 <!-- GALLERY -->
 <section class="container-custom pb-20">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        @for ($i = 1; $i <= 9; $i++)
-            <div
-                class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover zoom-img"
-                data-aos="zoom-in"
+        @foreach ($gallery as $item)
+        <div
+            class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover zoom-img"
+            data-aos="zoom-in"
+        >
+            <img
+                src="{{ asset('images/assets-media/' . $item['image']) }}"
+                class="w-full h-64 object-cover"
+                alt="{{ $item['title'] }}"
             >
-                <img
-                    src="https://picsum.photos/600/400?random={{ $i }}"
-                    class="w-full h-64 object-cover"
-                >
 
-                <div class="p-5">
-                    <h3 class="font-bold text-lg mb-2">
-                        Dokumentasi Kegiatan {{ $i }}
-                    </h3>
-                    <p class="text-gray-600 text-sm">
-                        Pelatihan dan audit lingkungan bersama tim profesional.
-                    </p>
-                </div>
+            <div class="p-5">
+                <h3 class="font-bold text-lg mb-2">
+                    {{ $item['title'] }}
+                </h3>
+
+                <p class="text-gray-600 text-sm">
+                    {{ $item['description'] }}
+                </p>
             </div>
-        @endfor
+        </div>
+        @endforeach
 
     </div>
 </section>
