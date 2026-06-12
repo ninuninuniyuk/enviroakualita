@@ -489,14 +489,28 @@ function initTestimonialCarousel() {
 
         <div data-aos="fade-right">
             <h2 class="text-4xl font-bold mb-6">
-                Belajar Peduli Lingkungan dengan Cara yang Tepat
+                Apa Itu Audit Lingkungan?
             </h2>
-            <p class="text-gray-600 mb-6">
-                Kami menyediakan pelatihan lingkungan untuk memahami prinsip keberlanjutan.
+
+            <p class="text-gray-600 mb-4">
+                Audit lingkungan merupakan proses evaluasi yang dilakukan secara
+                sistematis untuk menilai tingkat kepatuhan perusahaan terhadap
+                peraturan lingkungan hidup, efektivitas pengelolaan lingkungan,
+                serta potensi dampak yang ditimbulkan dari kegiatan operasional.
             </p>
-            <button class="bg-green-700 text-white px-6 py-3 rounded-lg btn-shine">
-                See Details
-            </button>
+
+            <p class="text-gray-600 mb-6">
+                Melalui audit lingkungan, perusahaan dapat mengidentifikasi
+                risiko, meningkatkan efisiensi penggunaan sumber daya,
+                mengurangi potensi pencemaran, serta memastikan kegiatan usaha
+                berjalan sesuai dengan standar dan regulasi yang berlaku.
+            </p>
+
+            <a href="/layanan">
+                <button class="bg-green-700 text-white px-6 py-3 rounded-lg btn-shine">
+                    Pelajari Layanan
+                </button>
+            </a>
         </div>
 
         <div data-aos="zoom-in">
@@ -504,6 +518,142 @@ function initTestimonialCarousel() {
                 src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?q=80&w=1200"
                 class="rounded-2xl shadow-lg floating"
             >
+        </div>
+    </div>
+</section>
+
+<section class="py-24 bg-gray-50">
+    <div class="container-custom">
+
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold">
+                Bagaimana Proses Audit Lingkungan Dilakukan?
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-4 gap-8">
+
+            <div class="text-center">
+                <div class="bg-green-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    1
+                </div>
+                <h3 class="font-semibold mb-2">Identifikasi</h3>
+                <p class="text-gray-600">
+                    Mengumpulkan data dan dokumen perusahaan.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="bg-green-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    2
+                </div>
+                <h3 class="font-semibold mb-2">Evaluasi</h3>
+                <p class="text-gray-600">
+                    Menilai kesesuaian terhadap regulasi lingkungan.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="bg-green-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    3
+                </div>
+                <h3 class="font-semibold mb-2">Analisis</h3>
+                <p class="text-gray-600">
+                    Mengidentifikasi risiko dan peluang perbaikan.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="bg-green-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    4
+                </div>
+                <h3 class="font-semibold mb-2">Rekomendasi</h3>
+                <p class="text-gray-600">
+                    Memberikan laporan dan solusi tindak lanjut.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="bg-white py-24">
+    <div class="container-custom">
+
+        <div class="text-center mb-14">
+            <h2 class="text-4xl font-bold mb-4">
+                Manfaat Audit Lingkungan
+            </h2>
+            <p class="text-gray-600 max-w-3xl mx-auto">
+                Audit lingkungan membantu perusahaan meningkatkan kinerja
+                lingkungan sekaligus mendukung keberlanjutan bisnis dalam
+                jangka panjang.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">
+                    Kepatuhan Regulasi
+                </h3>
+                <p class="text-gray-600">
+                    Memastikan perusahaan memenuhi peraturan dan standar
+                    lingkungan yang berlaku.
+                </p>
+            </div>
+
+            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">
+                    Mengurangi Risiko
+                </h3>
+                <p class="text-gray-600">
+                    Mengidentifikasi potensi pelanggaran dan dampak lingkungan
+                    sebelum menjadi masalah yang lebih besar.
+                </p>
+            </div>
+
+            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">
+                    Efisiensi Operasional
+                </h3>
+                <p class="text-gray-600">
+                    Membantu mengoptimalkan penggunaan energi, air, dan sumber
+                    daya lainnya.
+                </p>
+            </div>
+
+            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">
+                    Reputasi Perusahaan
+                </h3>
+                <p class="text-gray-600">
+                    Meningkatkan kepercayaan masyarakat, pelanggan, dan investor
+                    terhadap komitmen lingkungan perusahaan.
+                </p>
+            </div>
+
+            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">
+                    Perbaikan Berkelanjutan
+                </h3>
+                <p class="text-gray-600">
+                    Memberikan rekomendasi untuk meningkatkan sistem pengelolaan
+                    lingkungan secara terus-menerus.
+                </p>
+            </div>
+
+            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
+                <h3 class="text-xl font-semibold mb-3 text-green-700">
+                    Mendukung ESG
+                </h3>
+                <p class="text-gray-600">
+                    Membantu perusahaan memenuhi target Environmental, Social,
+                    and Governance (ESG).
+                </p>
+            </div>
+
         </div>
     </div>
 </section>

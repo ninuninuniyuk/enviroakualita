@@ -255,11 +255,6 @@ $gallery = [
         'title' => 'Konsultasi Perusahaan',
         'description' => 'Sesi konsultasi terkait pengelolaan lingkungan dan keberlanjutan perusahaan.'
     ],
-    [
-        'image' => 'gambar4.jpeg',
-        'title' => 'Konsultasi Perusahaan',
-        'description' => 'Sesi konsultasi terkait pengelolaan lingkungan dan keberlanjutan perusahaan.'
-    ],
 ];
 @endphp
 
