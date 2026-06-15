@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="relative overflow-hidden rounded-3xl">
 
         <img
-            src="{{ asset('images/assets-media/gambar1.png') }}"
+            src="{{ asset('images/assets-media/contoh.png') }}"
             alt="Featured News"
             class="w-full h-[550px] object-cover"
         >
