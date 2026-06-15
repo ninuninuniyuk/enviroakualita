@@ -155,12 +155,38 @@ function toggleMenu() {
                             Layanan
                         </a>
                     </li>
+                        <li class="relative group">
 
-                    <li>
-                        <a href="/gallery"
-                        class="{{ request()->is('gallery') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                        <button class="flex items-center gap-1 hover:text-green-700 transition">
                             Media
-                        </a>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="w-4 h-4 group-hover:rotate-180 transition duration-300"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown -->
+                        <div class="absolute left-0 mt-3 w-48 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+
+                            <a href="/gallery"
+                            class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-t-xl">
+                                Gallery
+                            </a>
+
+                            <a href="/news"
+                            class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-b-xl">
+                                News
+                            </a>
+
+                        </div>
+
+                    </li>
                     </li>
                 </ul>
 
@@ -180,7 +206,8 @@ function toggleMenu() {
             <ul class="flex flex-col gap-4 font-medium">
                 <li><a href="/tentang-kami">Tentang Kami</a></li>
                 <li><a href="/layanan">Layanan</a></li>
-                <li><a href="/gallery">Media</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/news">News</a></li>
             </ul>
         </div>
     </div>

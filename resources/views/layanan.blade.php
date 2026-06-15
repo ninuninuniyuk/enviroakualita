@@ -129,21 +129,24 @@ function toggleMenu() {
 </script>
 
 <!-- Navbar -->
-<nav class="shadow-sm bg-white sticky top-0 z-50">
+<nav class="shadow-sm bg-white sticky top-0 z-[9999]">
     <div class="container-custom py-5">
 
         <div class="flex items-center justify-between">
 
             <a href="/" class="flex items-center hover:scale-105 transition duration-300">
-            <img
-                src="{{ asset('images/logo enviro.png') }}"
-                alt="Enviroakualita Logo"
-                class="w-48 h-auto object-contain"
-            >
-        </a>
+                <img
+                    src="{{ asset('images/logo enviro.png') }}"
+                    alt="Enviroakualita Logo"
+                    class="w-48 h-auto object-contain"
+                >
+            </a>
 
+            <!-- Desktop Menu -->
             <div class="hidden md:flex items-center gap-8">
+
                 <ul class="flex gap-8 font-medium">
+
                     <li>
                         <a href="/tentang-kami"
                         class="{{ request()->is('tentang-kami') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
@@ -158,12 +161,48 @@ function toggleMenu() {
                         </a>
                     </li>
 
-                    <li>
-                        <a href="/gallery"
-                        class="{{ request()->is('gallery') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                    <!-- MEDIA DROPDOWN -->
+                    <li class="relative group">
+
+                        <a href="#"
+                        class="flex items-center gap-1 hover:text-green-700 transition duration-300">
+
                             Media
+
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+
+                                <path stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+
                         </a>
+
+                        <ul class="absolute left-0 top-full mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 hidden group-hover:block z-50">
+
+                            <li>
+                                <a href="/gallery"
+                                class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-t-xl">
+                                    Gallery
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/news"
+                                class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-b-xl">
+                                    News
+                                </a>
+                            </li>
+
+                        </ul>
+
                     </li>
+
                 </ul>
 
                 <a href="/">
@@ -171,20 +210,41 @@ function toggleMenu() {
                         Daftar Sekarang
                     </button>
                 </a>
+
             </div>
 
-            <button onclick="toggleMenu()" class="md:hidden text-green-700">
+            <!-- Mobile Button -->
+            <button onclick="toggleMenu()" class="md:hidden text-green-700 text-2xl">
                 ☰
             </button>
+
         </div>
 
+        <!-- Mobile Menu -->
         <div id="mobileMenu" class="hidden md:hidden mt-5">
+
             <ul class="flex flex-col gap-4 font-medium">
-                <li><a href="/tentang-kami">Tentang Kami</a></li>
-                <li><a href="/layanan">Layanan</a></li>
-                <li><a href="/gallery">Media</a></li>
+
+                <li>
+                    <a href="/tentang-kami">Tentang Kami</a>
+                </li>
+
+                <li>
+                    <a href="/layanan">Layanan</a>
+                </li>
+
+                <li>
+                    <a href="/gallery">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="/news">News</a>
+                </li>
+
             </ul>
+
         </div>
+
     </div>
 </nav>
 
@@ -359,5 +419,28 @@ function toggleMenu() {
         <p id="modalContent" class="text-gray-600 text-center leading-7"></p>
     </div>
 </div>
+
+<!-- CTA -->
+<section class="container-custom mb-20">
+    <div class="bg-green-700 rounded-3xl px-6 md:px-10 py-16 text-center text-white" data-aos="fade-up">
+
+        <h2 class="text-3xl md:text-4xl font-bold mb-5">
+            Bergabung Bersama Envirokualita
+        </h2>
+
+        <p class="max-w-3xl mx-auto leading-8 text-green-100 mb-8">
+            Tingkatkan pemahaman dan kepatuhan lingkungan melalui pelatihan,
+            konsultasi, serta layanan profesional yang kami sediakan.
+            Mari wujudkan pengelolaan lingkungan yang lebih baik bersama kami.
+        </p>
+
+        <a href="/">
+            <button class="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition duration-300">
+                Hubungi Kami
+            </button>
+        </a>
+
+    </div>
+</section>
 
 @endsection
