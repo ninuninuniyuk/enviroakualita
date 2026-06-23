@@ -42,9 +42,9 @@
 
     /* glow */
     .glow-text {
-        text-shadow:
-            0 0 10px rgba(34,197,94,0.35),
-            0 0 20px rgba(34,197,94,0.15);
+    text-shadow:
+        0 0 10px rgba(43,144,72,0.35),
+        0 0 20px rgba(154,202,64,0.15);
     }
 
     /* hover card */
@@ -100,7 +100,7 @@
             270deg,
             rgba(34,197,94,0.08),
             rgba(255,255,255,0.04),
-            rgba(34,197,94,0.08)
+            rgba(154,202,64,0.08)
         );
         background-size: 500% 500%;
         animation: gradientMove 10s ease infinite;
@@ -144,20 +144,20 @@ function toggleMenu() {
                 <ul class="flex gap-8 font-medium">
                     <li>
                         <a href="/tentang-kami"
-                        class="{{ request()->is('tentang-kami') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                        class="{{ request()->is('tentang-kami') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">
                             Tentang Kami
                         </a>
                     </li>
 
                     <li>
                         <a href="/layanan"
-                        class="{{ request()->is('layanan') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                        class="{{ request()->is('layanan') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">
                             Layanan
                         </a>
                     </li>
                         <li class="relative group">
 
-                        <button class="flex items-center gap-1 hover:text-green-700 transition">
+                        <button class="flex items-center gap-1 hover:text-[#146032] transition">
                             Media
                             <svg xmlns="http://www.w3.org/2000/svg"
                                 class="w-4 h-4 group-hover:rotate-180 transition duration-300"
@@ -175,12 +175,12 @@ function toggleMenu() {
                         <div class="absolute left-0 mt-3 w-48 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
 
                             <a href="/gallery"
-                            class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-t-xl">
+                            class="block px-5 py-3 hover:bg-green-50 hover:text-[#146032] rounded-t-xl">
                                 Gallery
                             </a>
 
                             <a href="/news"
-                            class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-b-xl">
+                            class="block px-5 py-3 hover:bg-green-50 hover:text-[#146032] rounded-b-xl">
                                 News
                             </a>
 
@@ -191,13 +191,13 @@ function toggleMenu() {
                 </ul>
 
                 <a href="/">
-                    <button class="bg-green-700 text-white px-5 py-2 rounded-lg btn-shine">
+                    <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-5 py-2 rounded-lg btn-shine">
                         Daftar Sekarang
                     </button>
                 </a>
             </div>
 
-            <button onclick="toggleMenu()" class="md:hidden text-green-700 text-2xl">
+            <button onclick="toggleMenu()" class="md:hidden text-[#2B9048] text-2xl">
                 ☰
             </button>
         </div>
@@ -271,7 +271,7 @@ function toggleMenu() {
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div class="bg-white p-8 rounded-3xl shadow hover-card" data-aos="fade-up">
-                <h3 class="text-xl md:text-2xl font-bold mb-4 text-green-700">
+                <h3 class="text-xl md:text-2xl font-bold mb-4 text-[#2B9048]">
                     Edukasi Relevan
                 </h3>
                 <p class="text-gray-600 leading-7">
@@ -280,7 +280,7 @@ function toggleMenu() {
             </div>
 
             <div class="bg-white p-8 rounded-3xl shadow hover-card" data-aos="fade-up" data-aos-delay="200">
-                <h3 class="text-xl md:text-2xl font-bold mb-4 text-green-700">
+                <h3 class="text-xl md:text-2xl font-bold mb-4 text-[#2B9048]">
                     Praktis & Aplikatif
                 </h3>
                 <p class="text-gray-600 leading-7">
@@ -289,7 +289,7 @@ function toggleMenu() {
             </div>
 
             <div class="bg-white p-8 rounded-3xl shadow hover-card" data-aos="fade-up" data-aos-delay="400">
-                <h3 class="text-xl md:text-2xl font-bold mb-4 text-green-700">
+                <h3 class="text-xl md:text-2xl font-bold mb-4 text-[#2B9048]">
                     Berdampak Nyata
                 </h3>
                 <p class="text-gray-600 leading-7">
@@ -305,7 +305,7 @@ function toggleMenu() {
 <section class="bg-white py-24">
     <div class="container-custom">
         <div class="text-center mb-14" data-aos="fade-up">
-            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Pendekatan Kami</p>
+            <p class="uppercase tracking-[4px] text-[#2B9048] mb-3 font-semibold">Pendekatan Kami</p>
             <h2 class="text-3xl md:text-4xl font-bold">Langkah Terstruktur untuk Dampak Berkelanjutan</h2>
             <p class="text-gray-600 max-w-2xl mx-auto mt-4">
                 Enviroakualita menggabungkan edukasi, praktik langsung, dan evaluasi agar setiap program memberi hasil nyata bagi organisasi dan lingkungan.
@@ -313,15 +313,15 @@ function toggleMenu() {
         </div>
 
         <div class="grid gap-6 md:grid-cols-3">
-            <div class="bg-green-50 rounded-3xl p-8 shadow hover-card" data-aos="fade-up">
+            <div class="bg-[#FFF664]/10 rounded-3xl p-8 shadow hover-card border border-[#9ACA40]/20" data-aos="fade-up">
                 <h3 class="text-xl font-semibold mb-4 text-green-800">Riset & Analisis</h3>
                 <p class="text-gray-600 leading-7">Kami memulai dengan memahami kebutuhan unik setiap peserta dan kondisi lingkungan mereka.</p>
             </div>
-            <div class="bg-green-50 rounded-3xl p-8 shadow hover-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="bg-[#FFF664]/10 rounded-3xl p-8 shadow hover-card border border-[#9ACA40]/20" data-aos="fade-up" data-aos-delay="150">
                 <h3 class="text-xl font-semibold mb-4 text-green-800">Pelatihan & Implementasi</h3>
                 <p class="text-gray-600 leading-7">Materi kami dirancang agar mudah dipelajari, langsung dipraktikkan, dan relevan untuk setiap jenis organisasi.</p>
             </div>
-            <div class="bg-green-50 rounded-3xl p-8 shadow hover-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-[#FFF664]/10 rounded-3xl p-8 shadow hover-card border border-[#9ACA40]/20" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="text-xl font-semibold mb-4 text-green-800">Evaluasi & Tindak Lanjut</h3>
                 <p class="text-gray-600 leading-7">Setiap program dilengkapi monitoring hasil dan rekomendasi perbaikan untuk jangka panjang.</p>
             </div>
@@ -342,7 +342,7 @@ function toggleMenu() {
     </p>
 
     <a href="/pendaftaran">
-        <button class="bg-green-700 text-white px-8 py-4 rounded-xl text-lg btn-shine">
+        <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-8 py-4 rounded-xl text-lg btn-shine">
             Mulai Sekarang
         </button>
     </a>
@@ -363,17 +363,17 @@ function toggleMenu() {
         <div>
             <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
             <input type="text" placeholder="Masukkan nama Anda"
-                class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700">
+                class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#2B9048]">
         </div>
 
         <div class="flex-1">
             <label class="font-semibold text-gray-700 text-sm block mb-2">Testimoni</label>
             <textarea placeholder="Bagikan pengalaman Anda bersama Enviroakualita..." rows="6"
-                class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-green-700"></textarea>
+                class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#2B9048]"></textarea>
         </div>
 
         <button type="submit"
-            class="w-full bg-green-700 text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-green-800 transition text-sm">
+            class="w-full bg-[#2B9048] text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-[#146032] transition text-sm">
             Kirim Testimoni
         </button>
     </form>

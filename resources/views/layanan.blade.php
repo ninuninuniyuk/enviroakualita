@@ -149,14 +149,14 @@ function toggleMenu() {
 
                     <li>
                         <a href="/tentang-kami"
-                        class="{{ request()->is('tentang-kami') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                        class="{{ request()->is('tentang-kami') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">
                             Tentang Kami
                         </a>
                     </li>
 
                     <li>
                         <a href="/layanan"
-                        class="{{ request()->is('layanan') ? 'text-green-700 font-bold' : 'hover:text-green-700' }}">
+                        class="{{ request()->is('layanan') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">
                             Layanan
                         </a>
                     </li>
@@ -165,7 +165,7 @@ function toggleMenu() {
                     <li class="relative group">
 
                         <a href="#"
-                        class="flex items-center gap-1 hover:text-green-700 transition duration-300">
+                        class="flex items-center gap-1 hover:text-[#146032] transition duration-300">
 
                             Media
 
@@ -187,14 +187,14 @@ function toggleMenu() {
 
                             <li>
                                 <a href="/gallery"
-                                class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-t-xl">
+                                class="block px-5 py-3 hover:bg-green-50 hover:text-[#146032] rounded-t-xl">
                                     Gallery
                                 </a>
                             </li>
 
                             <li>
                                 <a href="/news"
-                                class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-b-xl">
+                                class="block px-5 py-3 hover:bg-green-50 hover:text-[#146032] rounded-b-xl">
                                     News
                                 </a>
                             </li>
@@ -206,7 +206,7 @@ function toggleMenu() {
                 </ul>
 
                 <a href="/">
-                    <button class="bg-green-700 text-white px-5 py-2 rounded-lg hover:scale-105 transition">
+                    <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-5 py-2 rounded-lg btn-shine">
                         Daftar Sekarang
                     </button>
                 </a>
@@ -214,7 +214,7 @@ function toggleMenu() {
             </div>
 
             <!-- Mobile Button -->
-            <button onclick="toggleMenu()" class="md:hidden text-green-700 text-2xl">
+            <button onclick="toggleMenu()" class="md:hidden text-[#2B9048] text-2xl">
                 ☰
             </button>
 
@@ -280,17 +280,17 @@ function toggleMenu() {
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
 
                 <div>
-                    <h2 id="counter1" class="text-4xl font-bold text-green-300">0</h2>
+                    <h2 id="counter1" class="text-4xl font-bold text-[#FFF664]">0</h2>
                     <p>Peserta Pelatihan</p>
                 </div>
 
                 <div>
-                    <h2 id="counter2" class="text-4xl font-bold text-green-300">0</h2>
+                    <h2 id="counter2" class="text-4xl font-bold text-[#FFF664]">0</h2>
                     <p>Orang Puas</p>
                 </div>
 
                 <div>
-                    <h2 id="counter3" class="text-4xl font-bold text-green-300">0</h2>
+                    <h2 id="counter3" class="text-4xl font-bold text-[#FFF664]">0</h2>
                     <p>Kepatuhan</p>
                 </div>
 
@@ -309,7 +309,7 @@ function toggleMenu() {
 </section>
 
 <!-- Manfaat -->
-<section class="bg-gray-50">
+<section class="bg-[#FAFDEB]">
     <div class="container-custom section-padding">
         <h2 class="text-3xl font-bold text-center mb-10" data-aos="fade-up">
             Manfaat Layanan
@@ -329,7 +329,7 @@ function toggleMenu() {
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             @foreach ($layanan as $item)
                 <div onclick="openModal('{{ $item['judul'] }}', '{{ $item['isi'] }}')"
-                     class="bg-green-700 text-white p-6 rounded-xl cursor-pointer hover:bg-green-800 transition hover-lift text-center"
+                     class="bg-[#2B9048] text-white p-6 rounded-xl cursor-pointer hover:bg-green-800 transition hover-lift text-center"
                      data-aos="zoom-in">
                     <div class="font-semibold text-lg">
                         {{ $item['judul'] }}
@@ -343,7 +343,7 @@ function toggleMenu() {
 <!-- PROCESS -->
 <section class="container-custom section-padding">
     <div class="text-center mb-14" data-aos="fade-up">
-        <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Proses Layanan</p>
+        <p class="uppercase tracking-[4px] text-[#2B9048] mb-3 font-semibold">Proses Layanan</p>
         <h2 class="text-3xl md:text-4xl font-bold">Langkah Kami untuk Menyelesaikan Kebutuhan Lingkungan Anda</h2>
         <p class="text-gray-600 max-w-3xl mx-auto mt-4">
             Setiap proyek ditangani secara terstruktur, dari pemeriksaan awal hingga tindak lanjut hasil, agar pelayanan kami selalu efektif dan terpercaya.
@@ -352,7 +352,7 @@ function toggleMenu() {
 
     <div class="grid gap-6 md:grid-cols-3">
         <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up">
-            <div class="text-green-700 mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
+            <div class="text-[#2B9048] mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
                 1
             </div>
             <h3 class="text-xl font-semibold mb-3">Audit & Analisis</h3>
@@ -360,7 +360,7 @@ function toggleMenu() {
         </div>
 
         <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="150">
-            <div class="text-green-700 mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
+            <div class="text-[#2B9048] mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
                 2
             </div>
             <h3 class="text-xl font-semibold mb-3">Rencana & Dokumentasi</h3>
@@ -368,7 +368,7 @@ function toggleMenu() {
         </div>
 
         <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
-            <div class="text-green-700 mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
+            <div class="text-[#2B9048] mb-5 rounded-2xl bg-green-50 w-16 h-16 grid place-items-center text-2xl">
                 3
             </div>
             <h3 class="text-xl font-semibold mb-3">Implementasi & Evaluasi</h3>
@@ -378,10 +378,10 @@ function toggleMenu() {
 </section>
 
 <!-- WHY CHOOSE US -->
-<section class="bg-gray-50">
+<section class="bg-[#FAFDEB]">
     <div class="container-custom section-padding">
         <div class="text-center mb-14" data-aos="fade-up">
-            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Kenapa Memilih Kami</p>
+            <p class="uppercase tracking-[4px] text-[#2B9048] mb-3 font-semibold">Kenapa Memilih Kami</p>
             <h2 class="text-3xl md:text-4xl font-bold">Keunggulan Enviroakualita</h2>
             <p class="text-gray-600 max-w-3xl mx-auto mt-4">
                 Fokus kami adalah membuat proses lingkungan menjadi lebih mudah, cepat, dan terukur untuk Anda.
@@ -390,15 +390,15 @@ function toggleMenu() {
 
         <div class="grid gap-6 md:grid-cols-3">
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">Regulasi Terbaru</h3>
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Regulasi Terbaru</h3>
                 <p class="text-gray-600 leading-7">Tim kami selalu up to date dengan aturan lingkungan terbaru untuk menjaga kepatuhan bisnis Anda.</p>
             </div>
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="150">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">Pendampingan Sampai Selesai</h3>
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Pendampingan Sampai Selesai</h3>
                 <p class="text-gray-600 leading-7">Kami tidak hanya memberikan rekomendasi, tetapi juga dukungan eksekusi dan evaluasi hasil.</p>
             </div>
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">Dokumen Siap Pakai</h3>
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Dokumen Siap Pakai</h3>
                 <p class="text-gray-600 leading-7">Dokumen AMDAL, UKL-UPL, dan lainnya dirancang langsung untuk proses perizinan dan pelaporan.</p>
             </div>
         </div>
@@ -435,7 +435,7 @@ function toggleMenu() {
         </p>
 
         <a href="/">
-            <button class="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition duration-300">
+            <button class="bg-white text-[#2B9048] px-8 py-4 rounded-xl font-semibold hover:scale-105 transition duration-300">
                 Hubungi Kami
             </button>
         </a>

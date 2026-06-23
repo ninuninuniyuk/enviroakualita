@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </ul>
 
                 <a href="/">
-                    <button class="bg-green-700 text-white px-5 py-2 rounded-lg btn-shine">
+                    <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-5 py-2 rounded-lg btn-shine">
                         Daftar Sekarang
                     </button>
                 </a>

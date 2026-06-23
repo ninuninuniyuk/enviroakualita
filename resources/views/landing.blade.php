@@ -437,7 +437,7 @@ function initTestimonialCarousel() {
                 </ul>
 
                 <a href="https://wa.me/+6289652767924">
-                    <button class="bg-green-700 text-white px-5 py-2 rounded-lg btn-shine">
+                    <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-5 py-2 rounded-lg btn-shine">
                         Daftar Sekarang
                     </button>
                 </a>
@@ -470,8 +470,8 @@ function initTestimonialCarousel() {
     <div class="absolute inset-0 bg-black/50 animated-bg"></div>
 
     <!-- blob -->
-    <div class="absolute top-20 left-10 w-40 h-40 bg-green-400/20 rounded-full blur-3xl rotate-slow"></div>
-    <div class="absolute bottom-20 right-10 w-56 h-56 bg-emerald-300/20 rounded-full blur-3xl rotate-slow"></div>
+    <div class="absolute top-20 left-10 w-40 h-40 bg-[#9ACA40]/20 rounded-full blur-3xl rotate-slow"></div>
+    <div class="absolute bottom-20 right-10 w-56 h-56 bg-[#2B9048]/20 rounded-full blur-3xl rotate-slow"></div>
 
     <div class="relative z-10 container-custom min-h-screen flex flex-col justify-center items-center text-center py-20">
 
@@ -498,7 +498,7 @@ function initTestimonialCarousel() {
                     class="flex-1 bg-transparent outline-none text-white placeholder-gray-200 px-4 py-3"
                 >
 
-                <button class="bg-green-600 text-white px-8 py-3 rounded-full btn-shine">
+                <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-8 py-3 rounded-full btn-shine">
                     Search
                 </button>
             </div>
@@ -625,8 +625,8 @@ function initTestimonialCarousel() {
 
         <div class="grid md:grid-cols-3 gap-8">
 
-            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">
+            <div class="bg-[#FFF664]/15 p-8 rounded-2xl shadow hover-lift border border-[#FFF664]/30">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">
                     Kepatuhan Regulasi
                 </h3>
                 <p class="text-gray-600">
@@ -635,8 +635,8 @@ function initTestimonialCarousel() {
                 </p>
             </div>
 
-            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">
+            <div class="bg-[#FFF664]/15 p-8 rounded-2xl shadow hover-lift border border-[#FFF664]/30">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">
                     Mengurangi Risiko
                 </h3>
                 <p class="text-gray-600">
@@ -645,8 +645,8 @@ function initTestimonialCarousel() {
                 </p>
             </div>
 
-            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">
+            <div class="bg-[#FFF664]/15 p-8 rounded-2xl shadow hover-lift border border-[#FFF664]/30">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">
                     Efisiensi Operasional
                 </h3>
                 <p class="text-gray-600">
@@ -655,8 +655,8 @@ function initTestimonialCarousel() {
                 </p>
             </div>
 
-            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">
+            <div class="bg-[#FFF664]/15 p-8 rounded-2xl shadow hover-lift border border-[#FFF664]/30">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">
                     Reputasi Perusahaan
                 </h3>
                 <p class="text-gray-600">
@@ -665,8 +665,8 @@ function initTestimonialCarousel() {
                 </p>
             </div>
 
-            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">
+            <div class="bg-[#FFF664]/15 p-8 rounded-2xl shadow hover-lift border border-[#FFF664]/30">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">
                     Perbaikan Berkelanjutan
                 </h3>
                 <p class="text-gray-600">
@@ -675,8 +675,8 @@ function initTestimonialCarousel() {
                 </p>
             </div>
 
-            <div class="bg-green-50 p-8 rounded-2xl shadow hover-lift">
-                <h3 class="text-xl font-semibold mb-3 text-green-700">
+            <div class="bg-[#FFF664]/15 p-8 rounded-2xl shadow hover-lift border border-[#FFF664]/30">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">
                     Mendukung ESG
                 </h3>
                 <p class="text-gray-600">
@@ -719,7 +719,7 @@ function initTestimonialCarousel() {
 </section>
 
 <!-- WHY CHOOSE US -->
-<section class="bg-green-50 py-24">
+<section class="bg-[#F9FDE8] py-24">
     <div class="container-custom">
         <div class="text-center mb-12" data-aos="fade-up">
             <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Kenapa Memilih Kami</p>
