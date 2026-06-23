@@ -128,123 +128,76 @@ function toggleMenu() {
 }
 </script>
 
-<!-- Navbar -->
-<nav class="shadow-sm bg-white sticky top-0 z-[9999]">
+<!-- NAVBAR -->
+<nav class="shadow-sm bg-white sticky top-0 z-50">
     <div class="container-custom py-5">
-
         <div class="flex items-center justify-between">
 
             <a href="/" class="flex items-center hover:scale-105 transition duration-300">
-                <img
-                    src="{{ asset('images/logo enviro.png') }}"
-                    alt="Enviroakualita Logo"
-                    class="w-48 h-auto object-contain"
-                >
-            </a>
+            <img
+                src="{{ asset('images/logo enviro.png') }}"
+                alt="Enviroakualita Logo"
+                class="w-48 h-auto object-contain"
+            >
+        </a>
 
-            <!-- Desktop Menu -->
             <div class="hidden md:flex items-center gap-8">
-
                 <ul class="flex gap-8 font-medium">
-
-                    <li>
-                        <a href="/tentang-kami"
-                        class="{{ request()->is('tentang-kami') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">
-                            Tentang Kami
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/layanan"
-                        class="{{ request()->is('layanan') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">
-                            Layanan
-                        </a>
-                    </li>
-
-                    <!-- MEDIA DROPDOWN -->
+                    <li><a href="/tentang-kami" class="hover:text-green-700">Tentang Kami</a></li>
+                    <li><a href="/layanan" class="{{ request()->is('layanan*') ? 'text-[#2B9048] font-bold' : 'hover:text-[#146032]' }}">Layanan</a></li>
                     <li class="relative group">
+                    <button class="flex items-center gap-1 hover:text-green-700 transition">
+                        Media
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-4 h-4 group-hover:rotate-180 transition duration-300"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
 
-                        <a href="#"
-                        class="flex items-center gap-1 hover:text-[#146032] transition duration-300">
+                    <!-- Dropdown -->
+                    <div class="absolute left-0 mt-3 w-48 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
 
-                            Media
-
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor">
-
-                                <path stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M19 9l-7 7-7-7" />
-                            </svg>
-
+                        <a href="/gallery"
+                        class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-t-xl">
+                            Gallery
                         </a>
 
-                        <ul class="absolute left-0 top-full mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 hidden group-hover:block z-50">
+                        <a href="/news"
+                        class="block px-5 py-3 hover:bg-green-50 hover:text-green-700 rounded-b-xl">
+                            News
+                        </a>
 
-                            <li>
-                                <a href="/gallery"
-                                class="block px-5 py-3 hover:bg-green-50 hover:text-[#146032] rounded-t-xl">
-                                    Gallery
-                                </a>
-                            </li>
+                    </div>
 
-                            <li>
-                                <a href="/news"
-                                class="block px-5 py-3 hover:bg-green-50 hover:text-[#146032] rounded-b-xl">
-                                    News
-                                </a>
-                            </li>
-
-                        </ul>
-
-                    </li>
-
+                </li>
                 </ul>
 
-                <a href="/">
+                <a href="https://wa.me/+6289652767924">
                     <button class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-5 py-2 rounded-lg btn-shine">
                         Daftar Sekarang
                     </button>
                 </a>
-
             </div>
 
-            <!-- Mobile Button -->
-            <button onclick="toggleMenu()" class="md:hidden text-[#2B9048] text-2xl">
+            <button onclick="toggleMenu()" class="md:hidden text-green-700">
                 ☰
             </button>
-
         </div>
 
-        <!-- Mobile Menu -->
         <div id="mobileMenu" class="hidden md:hidden mt-5">
-
-            <ul class="flex flex-col gap-4 font-medium">
-
-                <li>
-                    <a href="/tentang-kami">Tentang Kami</a>
-                </li>
-
-                <li>
-                    <a href="/layanan">Layanan</a>
-                </li>
-
-                <li>
-                    <a href="/gallery">Gallery</a>
-                </li>
-
-                <li>
-                    <a href="/news">News</a>
-                </li>
-
+            <ul class="flex flex-col gap-4">
+                <li><a href="/tentang-kami">Tentang Kami</a></li>
+                <li><a href="/layanan">Layanan</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/news">News</a></li>
             </ul>
-
         </div>
-
     </div>
 </nav>
 
