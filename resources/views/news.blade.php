@@ -150,9 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
         <!-- Gambar -->
         <div>
             <img
-                src="{{ asset('images/assets-media/gambar1.png') }}"
+                src="{{ asset('images/assets-news/news1.jpeg') }}"
                 alt="Featured News"
-                class="w-full h-[350px] object-cover rounded-2xl shadow-lg"
+                class="w-full h-auto rounded-2xl shadow-lg"
             >
         </div>
 
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
 @php
 $news = [
     [
-        'image' => 'gambar1.png',
+        'image' => 'news1.jpeg',
         'title' => 'Pelatihan ISO 14001 Berjalan Sukses',
         'excerpt' => 'Pelatihan sistem manajemen lingkungan yang diikuti berbagai peserta dari sektor industri.'
     ],
@@ -213,9 +213,9 @@ $news = [
         >
 
             <img
-                src="{{ asset('images/assets-media/' . $item['image']) }}"
+                src="{{ asset('images/assets-news/' . $item['image']) }}"
                 alt="{{ $item['title'] }}"
-                class="w-full h-56 object-cover"
+                class="w-full object-contain"
             >
 
             <div class="p-6">
