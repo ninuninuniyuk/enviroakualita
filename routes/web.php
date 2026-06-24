@@ -30,3 +30,5 @@ Route::get('/gallery', function () {
 Route::get('/news', function () {
     return view('news');
 });
+
+Route::view('/news/lca-iso', 'news.lca');

@@ -105,7 +105,10 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- FEATURED NEWS -->
 <section class="container-custom py-12">
 
-    <div class="relative overflow-hidden rounded-3xl">
+    <div
+        class="relative overflow-hidden rounded-3xl"
+        data-aos="zoom-in"
+    >
 
         <img
             src="{{ asset('images/assets-media/contoh.png') }}"
@@ -143,101 +146,77 @@ document.addEventListener("DOMContentLoaded", function () {
 
 </section>
 
-<!-- FEATURED NEWS -->
-<section class="container-custom py-20">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-
-        <!-- Gambar -->
-        <div>
-            <img
-                src="{{ asset('images/assets-news/news1.jpeg') }}"
-                alt="Featured News"
-                class="w-full h-auto rounded-2xl shadow-lg"
-            >
-        </div>
-
-        <!-- Konten -->
-        <div>
-
-            <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
-                Polusi Udara di Kota Besar Indonesia:
-                Penyebab, Dampak Kesehatan,
-                dan Cara Melindungi Diri
-            </h2>
-
-            <p class="text-gray-600 leading-8 mb-6">
-                Polusi udara masih menjadi salah satu tantangan lingkungan terbesar
-                di Indonesia. Tingginya emisi kendaraan, aktivitas industri,
-                dan pembakaran terbuka dapat memengaruhi kualitas udara serta
-                kesehatan masyarakat.
-            </p>
-
-            <a href="#"
-               class="text-green-700 font-semibold hover:underline">
-                Baca Selengkapnya →
-            </a>
-
-        </div>
-
-    </div>
-</section>
-
 @php
 $news = [
     [
         'image' => 'news1.jpeg',
-        'title' => 'Pelatihan ISO 14001 Berjalan Sukses',
-        'excerpt' => 'Pelatihan sistem manajemen lingkungan yang diikuti berbagai peserta dari sektor industri.'
+        'title' => 'Mengenal 4 Langkah Standar ISO dalam Life Cycle Assessment',
+        'excerpt' => 'Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave) (KLHK, 2021).'
     ],
     [
-        'image' => 'gambar2.png',
-        'title' => 'Audit Lingkungan untuk Industri Manufaktur',
-        'excerpt' => 'Pelaksanaan audit lingkungan guna memastikan kepatuhan terhadap regulasi yang berlaku.'
+        'image' => 'news2.jpeg',
+        'title' => 'Mengatasi Tumpahan Limbah B3',
+        'excerpt' => 'Apa yang Harus Dilakukan Jika Terjadi!
+                    Bukan sekadar asal lap!
+                    Penanganan tumpahan B3 di industri diatur oleh
+                    regulasi ketat dan wajib dipimpin oleh personel kompeten!.'
     ],
     [
-        'image' => 'gambar3.jpeg',
-        'title' => 'Pentingnya Pengelolaan Limbah B3',
-        'excerpt' => 'Pengelolaan limbah B3 yang tepat dapat membantu perusahaan menjaga keberlanjutan lingkungan.'
+        'image' => 'news3.jpeg',
+        'title' => 'Perbedaan Sampah dan Limbah Padat Non-B3',
+        'excerpt' => 'Dalam praktik di lapangan, masih banyak ditemukan kesalahan dalam mengklasifikasikan antara sampah dan limbah padat non-B3. Akibatnya, pengelolaan menjadi tidak tepat, pelaporan lingkungan menjadi keliru, bahkan dapat berpotensi menimbulkan ketidaksesuaian terhadap peraturan yang berlaku.'
     ],
 ];
 @endphp
 
 <section class="container-custom py-20">
 
-    <div class="grid md:grid-cols-3 gap-8">
+    @foreach($news as $item)
 
-        @foreach($news as $item)
-        <article
-            class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 transition duration-300"
-            data-aos="fade-up"
+    <article
+        class="flex gap-8 items-center mb-12 p-6 rounded-3xl bg-white border border-gray-100 hover:border-green-200 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group"
+    >
+
+        <!-- Gambar -->
+        <div
+            class="w-1/4 flex-shrink-0 overflow-hidden rounded-2xl"
+            data-aos="fade-right"
         >
-
             <img
                 src="{{ asset('images/assets-news/' . $item['image']) }}"
                 alt="{{ $item['title'] }}"
-                class="w-full object-contain"
+                class="w-full h-full object-cover transition duration-700 group-hover:scale-105"
             >
+        </div>
 
-            <div class="p-6">
+        <!-- Konten -->
+        <div
+            class="w-3/4"
+            data-aos="fade-left"
+        >
 
-                <h3 class="text-xl font-bold mb-3">
-                    {{ $item['title'] }}
-                </h3>
+            <h2
+                class="text-2xl md:text-3xl font-bold leading-tight mb-4 transition-colors duration-300 group-hover:text-green-700"
+            >
+                {{ $item['title'] }}
+            </h2>
 
-                <p class="text-gray-600 leading-7">
-                    {{ $item['excerpt'] }}
-                </p>
+            <p class="text-gray-600 leading-8 mb-6">
+                {{ $item['excerpt'] }}
+            </p>
 
-                <a href="#"
-                   class="inline-block mt-4 text-green-700 font-semibold hover:underline">
-                    Baca Selengkapnya →
-                </a>
+            <a
+                href="/news/lca-iso"
+                class="inline-flex items-center gap-2 text-green-700 font-semibold transition-all duration-300 hover:gap-3"
+            >
+                Baca Selengkapnya
+                <span>→</span>
+            </a>
 
-            </div>
+        </div>
 
-        </article>
-        @endforeach
+    </article>
 
-    </div>
+    @endforeach
 
 </section>
