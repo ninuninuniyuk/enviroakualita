@@ -217,6 +217,17 @@ $news = [
 
     </article>
 
+
+
     @endforeach
 
 </section>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('hidden');
+}
+</script>
+
+@endsection
