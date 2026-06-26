@@ -95,16 +95,22 @@
     }
 
     /* gradient bg */
-    .animated-bg {
-        background: linear-gradient(
-            270deg,
-            rgba(34,197,94,0.08),
-            rgba(255,255,255,0.04),
-            rgba(154,202,64,0.08)
-        );
-        background-size: 500% 500%;
-        animation: gradientMove 10s ease infinite;
-    }
+.animated-bg {
+    background:
+        radial-gradient(circle at top left,
+            rgba(43,144,72,.35),
+            transparent 35%),
+        radial-gradient(circle at bottom right,
+            rgba(255,246,100,.40),
+            transparent 35%),
+        radial-gradient(circle at center,
+            rgba(154,202,64,.18),
+            transparent 45%),
+        #ffffff;
+
+    background-size: 200% 200%;
+    animation: gradientMove 12s ease infinite;
+}
 
     @keyframes gradientMove {
         0% { background-position: 0% 50%; }

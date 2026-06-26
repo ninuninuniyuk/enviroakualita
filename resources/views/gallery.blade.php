@@ -317,7 +317,7 @@ $gallery = [
 
 <!-- CTA -->
 <section class="container-custom mb-20">
-    <div class="bg-green-700 rounded-3xl px-6 md:px-10 py-16 text-center text-white" data-aos="fade-up">
+    <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 py-16 text-center text-white" data-aos="fade-up">
 
         <h2 class="text-3xl md:text-4xl font-bold mb-5">
             Ingin Menjadi Bagian dari Program Kami?
