@@ -31,4 +31,6 @@ Route::get('/news', function () {
     return view('news');
 });
 
-Route::view('/news/lca-iso', 'news.lca');
+Route::get('/news/{slug}', function ($slug) {
+    return view('news.' . $slug);
+});
