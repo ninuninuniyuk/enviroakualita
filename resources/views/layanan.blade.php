@@ -261,30 +261,51 @@ function toggleMenu() {
     </p>
 </section>
 
-<!-- Manfaat -->
+<!-- Layanan Kami -->
 <section class="bg-[#FAFDEB]">
     <div class="container-custom section-padding">
         <h2 class="text-3xl font-bold text-center mb-10" data-aos="fade-up">
-            Manfaat Layanan
+            Layanan Kami
         </h2>
 
         @php
             $layanan = [
-                ['judul' => 'Audit Lingkungan', 'isi' => 'Audit menyeluruh sesuai regulasi lingkungan yang berlaku.'],
-                ['judul' => 'Penyusunan Dokumen AMDAL', 'isi' => 'Dokumen AMDAL untuk kebutuhan perizinan usaha besar.'],
-                ['judul' => 'Penyusunan UKL-UPL', 'isi' => 'Dokumen UKL-UPL untuk usaha menengah.'],
-                ['judul' => 'Pengelolaan Limbah B3', 'isi' => 'Pengelolaan limbah berbahaya sesuai standar.'],
-                ['judul' => 'Uji Kualitas Air, Udara, Tanah', 'isi' => 'Pengujian lingkungan terstandarisasi.'],
-                ['judul' => 'Konsultasi Perizinan Lingkungan', 'isi' => 'Pendampingan proses perizinan sampai selesai.'],
+                ['judul' => 'Pelatihan & Sertifikasi Kompetensi BNSP', 'isi' => 'Program sertifikasi resmi bidang lingkungan hidup untuk memastikan personel memenuhi standar kompetensi nasional.'],
+                ['judul' => 'Pelatihan Reguler (Regular Training)', 'isi' => 'Program pelatihan terbuka yang diselenggarakan secara berkala sesuai dengan jadwal rutin perusahaan.'],
+                ['judul' => 'In-House Training', 'isi' => 'Program pelatihan eksklusif yang kurikulum dan pelaksanaannya dapat disesuaikan (customized) dengan kebutuhan spesifik operasional perusahaan Anda.'],
+                ['judul' => 'Jangkauan Layanan Nasional', 'isi' => 'Fleksibilitas penyelenggaraan program pelatihan dan pendampingan di berbagai wilayah di seluruh Indonesia.'],
+                ['judul' => 'Jasa Audit Lingkungan Sukarela (Voluntary)', 'isi' => 'Menyediakan layanan Audit Lingkungan Sukarela dengan kriteria fleksibel yang dapat disesuaikan secara dinamis dengan regulasi berlaku, standar intemasional, maupun kebijakan internal guna meningkatkan kinerja lingkungan perusahaan.'],
             ];
         @endphp
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            @foreach ($layanan as $item)
-                <div onclick="openModal('{{ $item['judul'] }}', '{{ $item['isi'] }}')"
-                     class="bg-[#2B9048] text-white p-6 rounded-xl cursor-pointer hover:bg-green-800 transition hover-lift text-center"
-                     data-aos="zoom-in">
-                    <div class="font-semibold text-lg">
+        <div class="grid md:grid-cols-3 gap-6 mb-6">
+            @foreach(array_slice($layanan,0,3) as $item)
+                <div
+                    onclick="openModal('{{ $item['judul'] }}', '{{ $item['isi'] }}')"
+                    class="bg-[#2B9048] text-white rounded-2xl px-5 py-4 cursor-pointer
+                        hover:bg-[#146032] hover:-translate-y-2
+                        transition-all duration-300 shadow-lg
+                        min-h-[110px] flex items-center justify-center text-center"
+                    data-aos="zoom-in"
+                >
+                    <div class="font-semibold text-xl leading-snug">
+                        {{ $item['judul'] }}
+                    </div>
+                </div>
+            @endforeach
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            @foreach(array_slice($layanan,3,2) as $item)
+                <div
+                    onclick="openModal('{{ $item['judul'] }}', '{{ $item['isi'] }}')"
+                    class="bg-[#2B9048] text-white rounded-2xl px-5 py-4 cursor-pointer
+                        hover:bg-[#146032] hover:-translate-y-2
+                        transition-all duration-300 shadow-lg
+                        min-h-[110px] flex items-center justify-center text-center"
+                    data-aos="zoom-in"
+                >
+                    <div class="font-semibold text-xl leading-snug">
                         {{ $item['judul'] }}
                     </div>
                 </div>
@@ -335,20 +356,17 @@ function toggleMenu() {
     <div class="container-custom section-padding">
         <div class="text-center mb-14" data-aos="fade-up">
             <p class="uppercase tracking-[4px] text-[#2B9048] mb-3 font-semibold">Kenapa Memilih Kami</p>
-            <h2 class="text-3xl md:text-4xl font-bold">Keunggulan Enviroakualita</h2>
-            <p class="text-gray-600 max-w-3xl mx-auto mt-4">
-                Fokus kami adalah membuat proses lingkungan menjadi lebih mudah, cepat, dan terukur untuk Anda.
-            </p>
+            <h2 class="text-3xl md:text-4xl font-bold">4 Alasan Kenapa Memilih Envirokualita</h2>
         </div>
 
         <div class="grid gap-6 md:grid-cols-3">
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up">
-                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Regulasi Terbaru</h3>
-                <p class="text-gray-600 leading-7">Tim kami selalu up to date dengan aturan lingkungan terbaru untuk menjaga kepatuhan bisnis Anda.</p>
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Resmi & Terpercaya (Legal & Credible)</h3>
+                <p class="text-gray-600 leading-7">Didukung oleh legalitas yang lengkap dan sah untuk menyelenggarakan pelatihan serta sertifikasi kompetensi yang diakui oleh BNSP (Badan Nasional Sertifikasi Profesi).</p>
             </div>
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="150">
-                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Pendampingan Sampai Selesai</h3>
-                <p class="text-gray-600 leading-7">Kami tidak hanya memberikan rekomendasi, tetapi juga dukungan eksekusi dan evaluasi hasil.</p>
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Berorientasi pada Mutu (Quality Driven)</h3>
+                <p class="text-gray-600 leading-7">Berkomitmen penuh menjaga kualitas layanan melalui penerapan Sistem Manajemen Mutu ISO 9001, memastikan setiap proses berjalan profesional dan terstandarisasi.</p>
             </div>
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Dokumen Siap Pakai</h3>

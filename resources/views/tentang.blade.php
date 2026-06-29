@@ -226,28 +226,23 @@ function toggleMenu() {
     <div class="absolute top-10 left-0 w-72 h-72 bg-[#FFF664]/20 rounded-full blur-[90px] rotate-slow"></div>
     <div class="absolute bottom-0 right-0 w-80 h-80 bg-[#2B9048]/15 rounded-full blur-[100px] rotate-slow"></div>
     <div class="container-custom py-24">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
-            <div class="fade-up">
+            <div
+                class="max-w-xl mx-auto lg:mx-0"
+                data-aos="fade-right"
+            >
                 <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8">
-                    Tentang Enviroakualita
+                    Tentang Envirokualita
                 </h1>
 
-                <p class="text-gray-600 leading-8 mb-6">
-                    Enviro Akualita adalah platform edukasi dan pelatihan yang
-                    berfokus pada peningkatan kesadaran serta kompetensi di bidang
-                    lingkungan hidup.
+                <p class="text-lg text-gray-600 leading-8 mb-6">
+                    PT Adhikriya Kualita Utama (Envirokualita)
+                    adalah lembaga terdepan yang bergerak di bidang pelatihan, sertifikasi kompetensi personel, serta layanan konsultasi dan audit lingkungan di Indonesia. Didirikan sejak tahun 2006, kami telah mengemban misi selama 20 tahun untuk menjembatani kebutuhan industri dengan pemenuhan regulasi perlindungan lingkungan hidup yang dinamis.
                 </p>
 
-                <p class="text-gray-600 leading-8 mb-6">
-                    Kami hadir untuk membantu individu dan organisasi dalam
-                    memahami pentingnya pengelolaan lingkungan secara berkelanjutan.
-                </p>
-
-                <p class="text-gray-600 leading-8">
-                    Kami percaya bahwa perubahan dimulai dari individu.
-                    Oleh karena itu, kami menyediakan program pelatihan yang
-                    relevan, aplikatif, dan sesuai kebutuhan saat ini.
+                <p class="text-lg text-gray-600 leading-8 mb-6">
+                    Sebagai mitra strategis, Envirokualita tidak hanya berfokus pada pengembangan kualitas sumber daya manusia, tetapi juga pada penguatan sistem manajemen lingkungan perusahaan. Kami bangga telah mendampingi ratusan individu dan korporasi dari berbagai lintas sektor, mulai dari usaha skala lokal, perusahaan nasional, hingga korporasi multinasional (MNC) dalam mencapai standar kepatuhan tertinggi dan operasional yang berkelanjutan (sustainable operations).
                 </p>
             </div>
 

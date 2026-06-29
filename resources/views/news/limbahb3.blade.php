@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     >
 
         <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
-            Life Cycle Assessment
+            Limbah B3
         </span>
 
         <h1 class="text-3xl md:text-5xl font-bold mt-5 leading-tight">
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="flex flex-wrap items-center gap-3 text-gray-500 mt-4 text-sm">
             <span>Enviroakualita</span>
             <span>•</span>
-            <span>24 Juni 2026</span>
+            <span>29 Juni 2026</span>
         </div>
 
     </div>
