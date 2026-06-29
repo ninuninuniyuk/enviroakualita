@@ -96,27 +96,29 @@
 
     /* gradient bg */
 .animated-bg {
-    background:
-        radial-gradient(circle at top left,
-            rgba(43,144,72,.35),
-            transparent 35%),
-        radial-gradient(circle at bottom right,
-            rgba(255,246,100,.40),
-            transparent 35%),
-        radial-gradient(circle at center,
-            rgba(154,202,64,.18),
-            transparent 45%),
-        #ffffff;
+    background: linear-gradient(
+        135deg,
+        rgba(255,246,100,0.18) 0%,
+        rgba(255,255,255,1) 45%,
+        rgba(154,202,64,0.18) 75%,
+        rgba(43,144,72,0.15) 100%
+    );
 
-    background-size: 200% 200%;
-    animation: gradientMove 12s ease infinite;
+    background-size: 250% 250%;
+    animation: gradientMove 10s ease infinite;
 }
 
     @keyframes gradientMove {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
     }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 </style>
 
 <script>
@@ -221,9 +223,8 @@ function toggleMenu() {
 
 <!-- HERO -->
 <section class="relative overflow-hidden animated-bg">
-    <div class="absolute top-20 left-10 w-44 h-44 bg-green-300/20 rounded-full blur-3xl rotate-slow"></div>
-    <div class="absolute bottom-10 right-10 w-56 h-56 bg-emerald-300/20 rounded-full blur-3xl rotate-slow"></div>
-
+    <div class="absolute top-10 left-0 w-72 h-72 bg-[#FFF664]/20 rounded-full blur-[90px] rotate-slow"></div>
+    <div class="absolute bottom-0 right-0 w-80 h-80 bg-[#2B9048]/15 rounded-full blur-[100px] rotate-slow"></div>
     <div class="container-custom py-24">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
