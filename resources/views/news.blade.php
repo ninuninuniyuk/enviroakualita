@@ -149,11 +149,19 @@ document.addEventListener("DOMContentLoaded", function () {
 @php
 $news = [
     [
+        'slug' => 'limbahb3',
+        'image' => 'news4.jpeg',
+        'title' => 'MENGAPA OLI BEKAS TERMASUK LIMBAH B3?',
+        'excerpt' => 'Sering dianggap sekadar "minyak kotor" biasa, ternyata zat ini menyimpan bahaya luar biasa bagi lingkungan dan hukum!'
+    ],
+    [
+        'slug' => 'lca',
         'image' => 'news1.jpeg',
         'title' => 'Mengenal 4 Langkah Standar ISO dalam Life Cycle Assessment',
         'excerpt' => 'Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave) (KLHK, 2021).'
     ],
     [
+        'slug' => 'tumpahan.limbah.b3',
         'image' => 'news2.jpeg',
         'title' => 'Mengatasi Tumpahan Limbah B3',
         'excerpt' => 'Apa yang Harus Dilakukan Jika Terjadi!
@@ -162,6 +170,7 @@ $news = [
                     regulasi ketat dan wajib dipimpin oleh personel kompeten!.'
     ],
     [
+        'slug' => 'sampah.limbah.padat',
         'image' => 'news3.jpeg',
         'title' => 'Perbedaan Sampah dan Limbah Padat Non-B3',
         'excerpt' => 'Dalam praktik di lapangan, masih banyak ditemukan kesalahan dalam mengklasifikasikan antara sampah dan limbah padat non-B3. Akibatnya, pengelolaan menjadi tidak tepat, pelaporan lingkungan menjadi keliru, bahkan dapat berpotensi menimbulkan ketidaksesuaian terhadap peraturan yang berlaku.'
@@ -206,7 +215,7 @@ $news = [
             </p>
 
             <a
-                href="/news/lca-iso"
+                href="/news/{{ $item['slug'] }}"
                 class="inline-flex items-center gap-2 text-green-700 font-semibold transition-all duration-300 hover:gap-3"
             >
                 Baca Selengkapnya
