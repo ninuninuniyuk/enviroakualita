@@ -359,7 +359,7 @@ function toggleMenu() {
             <h2 class="text-3xl md:text-4xl font-bold">4 Alasan Kenapa Memilih Envirokualita</h2>
         </div>
 
-        <div class="grid gap-6 md:grid-cols-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up">
                 <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Resmi & Terpercaya (Legal & Credible)</h3>
                 <p class="text-gray-600 leading-7">Didukung oleh legalitas yang lengkap dan sah untuk menyelenggarakan pelatihan serta sertifikasi kompetensi yang diakui oleh BNSP (Badan Nasional Sertifikasi Profesi).</p>
@@ -369,8 +369,12 @@ function toggleMenu() {
                 <p class="text-gray-600 leading-7">Berkomitmen penuh menjaga kualitas layanan melalui penerapan Sistem Manajemen Mutu ISO 9001, memastikan setiap proses berjalan profesional dan terstandarisasi.</p>
             </div>
             <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
-                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Dokumen Siap Pakai</h3>
-                <p class="text-gray-600 leading-7">Dokumen AMDAL, UKL-UPL, dan lainnya dirancang langsung untuk proses perizinan dan pelaporan.</p>
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Relevan & Adaptif (Relevant & Adaptive)</h3>
+                <p class="text-gray-600 leading-7">Selalu menyelaraskan materi program dengan kebutuhan industri rill dan perkembangan regulasi lingkungan hidup terbaru di Indonesia.</p>
+            </div>
+            <div class="bg-white rounded-3xl p-8 shadow hover-lift" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-xl font-semibold mb-3 text-[#2B9048]">Berpengalaman & Teruji (Experienced & Proven)</h3>
+                <p class="text-gray-600 leading-7">Memiliki rekam jejak kokoh selama 20 tahun dalam mendamping berbagai sektor industri guna mencapai keunggulan kompetensi.</p>
             </div>
         </div>
     </div>
