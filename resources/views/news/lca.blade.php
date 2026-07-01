@@ -83,15 +83,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <article class="text-gray-700 text-[15px] md:text-[16px] leading-7">
 
-            <h2 class="text-2xl font-bold text-gray-900 mb-4">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">
                 Apa Itu Life Cycle Assessment?
             </h2>
 
-            <p class="mb-5">
+            <p class="mb-2">
                 Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave).
             </p>
 
-            <p class="mb-5">
+            <p class="mb-2">
                 LCA menjadi alat penting dalam perencanaan mitigasi dampak lingkungan, pengembangan produk yang lebih berkelanjutan, serta pengambilan keputusan berbasis data bagi perusahaan dan organisasi.
             </p>
 
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     Empat Tahapan dalam Kajian LCA
                 </h3>
 
-                <ol class="list-decimal pl-5 space-y-2">
+                <ol class="list-decimal pl-5">
                     <li>Penentuan tujuan dan ruang lingkup (Goal and Scope Definition)</li>
                     <li>Analisis inventori (Inventory Analysis)</li>
                     <li>Penilaian dampak lingkungan (Life Cycle Impact Assessment)</li>
@@ -119,14 +119,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <!-- CTA -->
     <div
-        class="max-w-4xl mx-auto mt-10"
+        class="max-w-4xl mx-auto mt-5"
         data-aos="fade-up"
         data-aos-delay="200"
     >
 
         <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 text-white transition duration-500 hover:shadow-2xl">
 
-            <h3 class="text-2xl md:text-3xl font-bold mb-4">
+            <h3 class="text-2xl md:text-3xl font-bold mb-2">
                 Butuh Pendampingan Life Cycle Assessment?
             </h3>
 
