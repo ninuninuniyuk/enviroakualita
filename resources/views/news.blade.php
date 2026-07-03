@@ -176,13 +176,13 @@ $news = [
         'excerpt' => 'Dalam praktik di lapangan, masih banyak ditemukan kesalahan dalam mengklasifikasikan antara sampah dan limbah padat non-B3. Akibatnya, pengelolaan menjadi tidak tepat, pelaporan lingkungan menjadi keliru, bahkan dapat berpotensi menimbulkan ketidaksesuaian terhadap peraturan yang berlaku.'
     ],
     [
-        'slug' => 'sampah&nonb3',
+        'slug' => 'auditor-lingkungan',
         'image' => 'news5.jpeg',
         'title' => 'Auditor Lingkungan',
         'excerpt' => 'Garda Terdepan Kepatuhan Regulasi Lingkungan.'
     ],
     [
-        'slug' => 'sampah&nonb3',
+        'slug' => 'definisi-limbahb3',
         'image' => 'news6.jpeg',
         'title' => 'Limbah B3',
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
