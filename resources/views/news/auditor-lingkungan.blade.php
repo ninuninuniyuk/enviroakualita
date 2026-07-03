@@ -89,162 +89,113 @@ document.addEventListener("DOMContentLoaded", function () {
                 Menurut Pasal 1 Permen LH No.3 Tahun 2013, Auditor lingkungan hidup adalah tenaga ahli bersertifikat yang bertugas mengevaluasi ketaatan perusahaan terhadap regulasi lingkungan, baik sukarela (ISO 14001) maupun wajib (AMDAL/PROPER). 
             </p>
 
-            <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Tujuan Auditor Lingkungan
-            </h4>
-            
-            <ol class="list-decimal pl-5">
-                <li>Auditor melakukan inspeksi lapangan terhadap kualitas udara, air, tanah, dan pengelolaan limba b3/non b3  </li>
-                <li>Menyusun laporan temuan dan memverifikasi kepatuhan terhadap regulasi mandatory seperti AMDAL, UKL-UPL, dan PROPER serta voluntary seperti ISO 14001. sesuai UU No.32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup yang kemudian melaporkan ke KLHK/DLH. </li>
-            </ol>
-
-            <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Contoh Sampah:
-            </h4>
-            
-            <ol class="list-decimal pl-5">
-                <li>Sisa makanan </li>
-                <li>Daun dan ranting </li>
-                <li>DBotol plastik minuman </li>
-                <li>Kertas bekas </li>
-                <li>Kaleng bekas </li>
-                <li>Kemasan makanan </li>
-            </ol>
-
             <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Apa Itu Limbah Padat Non-B3?
+                Tugas Auditor Lingkungan
             </h2>
             
-            <p class="mb-2">
-                Limbah padat non-B3 adalah sisa suatu usaha dan/atau kegiatan berbentuk padat yang tidak mengandung Bahan Berbahaya dan Beracun (B3) serta tidak memiliki karakteristik limbah B3.
-            </p>
-            
-            <p class="mb-2">
-                Limbah ini umumnya berasal dari kegiatan industri, perdagangan, perkantoran, maupun fasilitas pelayanan.
-            </p>
+            <div class="space-y-5">
 
-            <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Karakteristik Limbah Padat Non-B3:
-            </h4>
-            
-            <ol class="list-decimal pl-5">
-                <li>Berasal dari kegiatan usaha atau industri </li>
-                <li>Tidak memiliki sifat mudah meledak, mudah terbakar, beracun, korosif, atau infeksius </li>
-                <li>Dapat dimanfaatkan kembali apabila memenuhi persyaratan </li>
-            </ol>
+                <div class="flex gap-4 p-5 rounded-2xl border border-gray-200">
+                    <div class="w-10 h-10 flex-shrink-0 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold">
+                        1
+                    </div>
 
-            <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Contoh Limbah Padat Non-B3:
-            </h4>
-            
-            <ol class="list-decimal pl-5">
-                <li>Kardus bekas kemasan bahan baku </li>
-                <li>Scrap logam </li>
-                <li>Palet kayu </li>
-                <li>Potongan plastik produksi </li>
-                <li>Karung bekas </li>
-                <li>Kertas administrasi perkantoran </li>
-                <li>Sisa kain produksi </li>
-            </ol>
-                
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
-                Mengapa Klasifikasi yang Tepat Penting?
-            </h2>
-            
-            <ol class="list-decimal pl-5">
-                <li> Memastikan kepatuhan terhadap regulasi </li>
-                <li> Menentukan metode pengelolaan yang sesuai </li>
-                <li> Mengoptimalkan potensi pemanfaatan kembali </li>
-                <li> Mencegah terjadinya pencemaran lingkungan. </li>
-            </ol>
-            
-            <div class="overflow-x-auto mt-5 mb-8">
-                <table class="w-full border border-gray-200 rounded-xl overflow-hidden text-sm md:text-base">
-                    <thead class="bg-green-100 text-gray-900">
-                        <tr>
-                            <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
-                                Aspek
-                            </th>
-                            <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
-                                Sampah
-                            </th>
-                            <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
-                                Limbah Padat Non-B3
-                            </th>
-                        </tr>
-                    </thead>
+                    <p class="text-gray-600 leading-7">
+                        Auditor melakukan inspeksi lapangan terhadap kualitas udara, air, tanah, dan pengelolaan limbah B3/non-B3.
+                    </p>
+                </div>
 
-                    <tbody class="bg-white text-gray-700">
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="border border-gray-200 px-4 py-3 font-medium">
-                                Sumber
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Rumah tangga/sejenis rumah tangga
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Kegiatan usaha atau industri
-                            </td>
-                        </tr>
-                        
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="border border-gray-200 px-4 py-3 font-medium">
-                                Dasar Pengaturan
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                UU No. 18 Tahun 2008
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Peraturan lingkungan hidup terkait limbah non-B3
-                            </td>
-                        </tr>
-                        
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="border border-gray-200 px-4 py-3 font-medium">
-                                Pengelola
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Pemerintah daerah dan masyarakat
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Pelaku usaha/penghasil limbah
-                            </td>
-                        </tr>
-                        
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="border border-gray-200 px-4 py-3 font-medium">
-                                Tujuan Pengelolaan
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Mengurangi timbulan sampah
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Mencegah pencemaran dan meningkatkan pemanfaatan
-                            </td>
-                        </tr>
-                        
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="border border-gray-200 px-4 py-3 font-medium">
-                                Contoh
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Sisa makanan, botol minuman
-                            </td>
-                            <td class="border border-gray-200 px-4 py-3">
-                                Scrap logam, kardus produksi
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="flex gap-4 p-5 rounded-2xl border border-gray-200">
+                    <div class="w-10 h-10 flex-shrink-0 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold">
+                        2
+                    </div>
+
+                    <p class="text-gray-600 leading-7">
+                        Menyusun laporan temuan dan memverifikasi kepatuhan terhadap regulasi mandatory seperti AMDAL, UKL-UPL, dan PROPER serta voluntary seperti ISO 14001. sesuai UU No.32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup yang kemudian melaporkan ke KLHK/DLH.
+                    </p>
+                </div>
+
             </div>
 
             <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Kesimpulan
+                Tujuan Auditor Lingkungan
+            </h2>
+
+        <div class="grid gap-5">
+
+            <!-- Card 1 -->
+            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                <div>
+                    <span class="inline-block bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                        Kepatuhan Hukum
+                    </span>
+
+                    <p class="text-gray-600 leading-7">
+                        Memastikan perusahaan mematuhi persyaratan hukum dan ketentuan lingkungan yang berlaku.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                <div>
+                    <span class="inline-block bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                        Manajemen Risiko
+                    </span>
+
+                    <p class="text-gray-600 leading-7">
+                        Mengevaluasi dan mencegah risiko pencemaran maupun kerusakan lingkungan melalui pengelolaan yang tepat.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                <div>
+                    <span class="inline-block bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                        Perbaikan Kinerja
+                    </span>
+
+                    <p class="text-gray-600 leading-7">
+                        Menjadi dasar penyusunan strategi pengelolaan lingkungan sekaligus meningkatkan citra perusahaan.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
+            Sertifikasi Auditor Lingkungan
+        </h2>
+        
+        <!-- Sertifikasi -->
+         <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+             <div>
+                <p class="text-gray-600 leading-7">
+                    Pasal 51 Ayat (2) UU Nomor 32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup menyatakan bahwa auditor lingkungan hidup wajib memiliki sertifikat kompetensi auditor lingkungan hidup yang berlaku mulai tanggal 3 Oktober 2010
+                </p>
+            </div>
+
+        </div>
+            
+            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
+                Siapa Saja Yang Perlu?
             </h2>
             
-            <p class="mb-2">
-                Sampah dan limbah padat non-B3 merupakan dua istilah yang berbeda. Perbedaan utamanya terletak pada sumber penghasilnya. Sampah berasal dari aktivitas sehari-hari masyarakat, sedangkan limbah padat non-B3 berasal dari kegiatan usaha atau industri yang tidak mengandung B3. Pemahaman yang baik mengenai klasifikasi ini menjadi dasar penting dalam pelaksanaan pengelolaan lingkungan yang efektif, efisien, dan sesuai regulasi.
-            </p>
+            <ol class="list-decimal pl-5">
+                <li>Staf K3L/HSE/Compliance Officer yang menangani pengelolaan lingkungan di perusahaan. </li>
+                <li>Praktisi perusahaan yang wajib melaksanakan audit lingkungan sesuai regulasi. </li>
+                <li>Auditor internal ISO 14001 atau tim sistem manajemen lingkungan. </li>
+                <li>Konsultan lingkungan yang memberikan jasa audit atau pendampingan compliance. </li>
+                <li>Lulusan baru atau profesional di bidang teknik lingkungan, biologi, kehutanan, kimia, atau bidang relevan lainnya. </li>
+                <li>Pejabat perusahaan atau manager yang ingin memastikan penerapan manajemen lingkungan sesuai standar. </li>
+            </ol>
+            
+    </div>
 
     <!-- CTA -->
     <div
@@ -256,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 text-white transition duration-500 hover:shadow-2xl">
 
             <h3 class="text-2xl md:text-3xl font-bold mb-2">
-                Butuh Pendampingan Sampah & Limbah Non-B3?
+                Butuh Pendampingan Auditor Lingkungan?
             </h3>
 
             <p class="text-sm md:text-lg opacity-90 mb-6">
