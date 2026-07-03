@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     >
         <img
             src="{{ asset('images/assets-news/news2.jpeg') }}"
-            alt="Life Cycle Assessment"
+            alt="Tumpahan Limbah B3"
             class="w-full h-[250px] md:h-[380px] object-cover rounded-3xl shadow-md transition duration-700 hover:scale-105"
         >
     </div>
