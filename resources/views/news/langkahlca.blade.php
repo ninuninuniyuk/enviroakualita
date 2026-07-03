@@ -40,9 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </h1>
 
         <div class="flex flex-wrap items-center gap-3 text-gray-500 mt-4 text-sm">
-            <span>Enviroakualita</span>
-            <span>•</span>
-            <span>24 Juni 2026</span>
+            <span>Envirokualita</span>
         </div>
 
     </div>

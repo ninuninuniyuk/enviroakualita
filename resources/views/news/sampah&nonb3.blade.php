@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <div class="overflow-x-auto mt-5 mb-8">
                 <table class="w-full border border-gray-200 rounded-xl overflow-hidden text-sm md:text-base">
-                    <thead class="bg-green-100 text-gray-900">
+                    <thead class="bg-[#2B9048] text-gray-900">
                         <tr>
                             <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
                                 Aspek
