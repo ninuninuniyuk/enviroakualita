@@ -161,7 +161,7 @@ $news = [
         'excerpt' => 'Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave) (KLHK, 2021).'
     ],
     [
-        'slug' => 'tumpahan.limbah.b3',
+        'slug' => 'tumpahanlimbah',
         'image' => 'news2.jpeg',
         'title' => 'Mengatasi Tumpahan Limbah B3',
         'excerpt' => 'Apa yang Harus Dilakukan Jika Terjadi!
@@ -170,7 +170,7 @@ $news = [
                     regulasi ketat dan wajib dipimpin oleh personel kompeten!.'
     ],
     [
-        'slug' => 'sampah.limbah.padat',
+        'slug' => 'sampah&nonb3',
         'image' => 'news3.jpeg',
         'title' => 'Perbedaan Sampah dan Limbah Padat Non-B3',
         'excerpt' => 'Dalam praktik di lapangan, masih banyak ditemukan kesalahan dalam mengklasifikasikan antara sampah dan limbah padat non-B3. Akibatnya, pengelolaan menjadi tidak tepat, pelaporan lingkungan menjadi keliru, bahkan dapat berpotensi menimbulkan ketidaksesuaian terhadap peraturan yang berlaku.'
