@@ -200,16 +200,18 @@ $news = [
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
     ],
     [
-        'slug' => 'definisi-limbahb3',
+        'slug' => 'sampelair',
         'image' => 'news9.jpeg',
         'title' => 'STOP! Mengambil Sampel Air Itu Tidak Sesederhana Mengisi Botol',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'excerpt' => 'Kenapa sampling penting? Sampling Menentukan Akurasi Data.
+                    Dalam pengujian kualitas air, hasil analisis sangat bergantung pada proses pengambilan sampel.'
     ],
     [
-        'slug' => 'definisi-limbahb3',
+        'slug' => 'tanamanhias',
         'image' => 'news10.jpeg',
-        'title' => 'Tanaman Hias',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'title' => 'Tanaman Hias = Produktivitas Naik!',
+        'excerpt' => 'Tanaman Hias di Kantor Bisa Meningkatkan Produktivitas 🌿
+        Bukan hanya mempercantik ruangan, tanaman hijau di kantor ternyata bisa mempengaruhi kinerja dan kenyamanan kerja.'
     ],
 ];
 @endphp

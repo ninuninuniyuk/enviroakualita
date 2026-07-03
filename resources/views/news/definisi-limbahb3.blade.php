@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <p class="mb-2">
                 Kewajiban untuk melakukan pengelolaan B3 merupakan upaya untuk mengurangi terjadinya kemungkinan risiko terhadap lingkungan hidup yang berupa terjadinya pencemaran dan/atau kerusakan lingkungan hidup, mengingat B3 mempunyai potensi yang cukup besar untuk menimbulkan dampak negatif.
                 Contohnya bisa berasal dari industri, rumah sakit, laboratorium, hingga bengkel.
+            </p>
 
             <div
                 class="bg-gray-50 border border-gray-100 rounded-2xl p-5 my-8 transition duration-300 hover:shadow-md"
