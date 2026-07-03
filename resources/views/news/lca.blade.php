@@ -84,15 +84,16 @@ document.addEventListener("DOMContentLoaded", function () {
         <article class="text-gray-700 text-[15px] md:text-[16px] leading-7">
 
             <h2 class="text-2xl font-bold text-gray-900 mb-2">
-                Apa Itu Life Cycle Assessment?
+                
             </h2>
 
             <p class="mb-2">
-                Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave).
+                Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave) (KLHK, 2021).
+                LCA menjadi alat penting untuk strategis perencanaan mitigasi dampak lingkungan, pengembangan produk yang lebih berkelanjutan, dan pengambilan keputusan berbasis bukti dalam industri dan kebijakan lingkungan (Chitaka & Goga, 2023).
             </p>
 
             <p class="mb-2">
-                LCA menjadi alat penting dalam perencanaan mitigasi dampak lingkungan, pengembangan produk yang lebih berkelanjutan, serta pengambilan keputusan berbasis data bagi perusahaan dan organisasi.
+                Berdasarkan Principles and Framework LCA pada SNI ISO 14040: 2016 ada empat tahapan dalam kajian LCA yaitu penentuan tujuan dan ruang lingkup (Goal and scope definition), analisis inventori (inventory analysis), penilaian dampak lingkungan (Life cycle impact assessment) dan interpretasi (interpretation) (Badan Standarisasi Nasional, 2016)..
             </p>
 
             <div
@@ -101,15 +102,65 @@ document.addEventListener("DOMContentLoaded", function () {
             >
 
                 <h3 class="text-base font-semibold text-gray-900 mb-3">
-                    Empat Tahapan dalam Kajian LCA
+                    Goal and scope definition
                 </h3>
 
+                <p class="mb-2">
+                    bertujuan untuk menetapkan tujuan penelitian serta menentukan ruang lingkup sistem yang akan dianalisis secara jelas dan sistematis. Ada 4 jenis batas sistem yang digunakan:
+                </p>
+
                 <ol class="list-decimal pl-5">
-                    <li>Penentuan tujuan dan ruang lingkup (Goal and Scope Definition)</li>
-                    <li>Analisis inventori (Inventory Analysis)</li>
-                    <li>Penilaian dampak lingkungan (Life Cycle Impact Assessment)</li>
-                    <li>Interpretasi (Interpretation)</li>
+                    <li>Cradle to grave : ekstraksi bahan baku hingga produk akhir</li>
+                    <li>Cradle to gate :  ekstraksi bahan baku hingga produk akhir</li>
+                    <li>Gate to grave : mencakup tahapan setelah proses produksi selesai, yaitu distribusi, penggunaan produk tahu oleh konsumen</li>
+                    <li>Gate to Gate : mencakup satu atau beberapa tahapan tertentu dalam proses produksi</li>
                 </ol>
+
+                <h3 class="text-base font-semibold text-gray-900 mt-6 mb-3">
+                    Life Analysis Inventory (LCI)
+                </h3>
+
+                <p class="mb-2">
+                    Mengidentifikasi proses - proses yang sesuai dalam sistem produk, sehingga dapat menggambarkan secara lengkap aliran bahan, energi, dan emisi yang terjadi sepanjang siklus hidupnya. Selanjutnya, dilakukan pengumpulan data kuantitatif terhadap setiap aliran input dan output pada masing-masing proses.
+                </p>
+
+                <ul class="pl-5 space-y-0">
+                    <li>- data input meliputi penggunaan bahan baku, energi, air, dan sumber daya lainnya, </li>
+                    <li>- data output mencakup produk utama, produk samping, emisi ke udara, limbah cair, dan limbah padat yang dihasilkan selama proses produksi</li>
+                </ul>
+
+                <h3 class="text-base font-semibold text-gray-900 mt-6 mb-3">
+                    Life Cycle Impact Assessment (LCIA)
+                </h3>
+
+                <p class="mb-2">
+                    Mengevaluasi dan mengukur besarnya potensi dampak lingkungan yang dihasilkan oleh suatu sistem produk berdasarkan data input dan output yang telah dikumpulkan pada tahap Life Cycle Inventory (LCI).
+                    Beberapa kategori dampak lingkungan yang dapat dikaji dalam kajian LCA : Abiotic
+                </p>
+
+                <ul class="pl-5 space-y-0">
+                    <li>- Abiotic Depletion: Penipisan sumber daya alam</li>
+                    <li>- Abiotic Depletion (fossil fuel): Penipisan bahan bakar fosil</li>
+                    <li>- Global Warming: Pemanasan bumi</li>
+                    <li>- Ozone Layer Depletion: Penipisan ozon</li>
+                    <li>- Photochemical Oxidation: Kabut asap (smog)</li>
+                    <li>- Acidification: Peningkatan keasaman</li>
+                    <li>- Eutrophication: Ledakan alga di perairan</li>
+                </ul>
+
+                <h3 class="text-base font-semibold text-gray-900 mt-6 mb-3">
+                    Interpretation
+                </h3>
+
+                <p class="mb-2">
+                    Tahapan ini bertujuan untuk mendapatkan hasil akhir kajian berdasarkan hasil analisis inventori dan penilaian dampak. Interpretasi hasil digunakan sebagai dasar untuk 
+                </p>
+
+                <ul class="pl-5 space-y-0">
+                    <li>- Di mana titik dampak terbesar (Hotspot)?</li>
+                    <li>- Apa langkah efisiensi yang bisa diambil?</li>
+                    <li>- Apakah hasilnya sudah sesuai dengan tujuan awal di Tahap 1?</li>
+                </ul>
 
             </div>
 
@@ -127,11 +178,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 text-white transition duration-500 hover:shadow-2xl">
 
             <h3 class="text-2xl md:text-3xl font-bold mb-2">
-                Butuh Pendampingan Life Cycle Assessment?
+                Ingin Menghitung Dampak Lingkungan Secara Akurat?
             </h3>
 
             <p class="text-sm md:text-lg opacity-90 mb-6">
-                Tim Enviroakualita siap membantu pelaksanaan kajian, analisis data, hingga penyusunan laporan sesuai standar ISO 14040 dan ISO 14044.
+                LCA adalah kunci menuju industri hijau yang transparan. Pastikan tim Anda memahami metodologi ini dengan tepat melalui pelatihan ahli di EnviroKualita.
             </p>
 
             <a href="/kontak">
