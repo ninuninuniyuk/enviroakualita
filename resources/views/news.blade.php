@@ -200,10 +200,11 @@ $news = [
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
     ],
     [
-        'slug' => 'definisi-limbahb3',
+        'slug' => 'sampelair',
         'image' => 'news9.jpeg',
         'title' => 'STOP! Mengambil Sampel Air Itu Tidak Sesederhana Mengisi Botol',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'excerpt' => 'Kenapa sampling penting? Sampling Menentukan Akurasi Data.
+                    Dalam pengujian kualitas air, hasil analisis sangat bergantung pada proses pengambilan sampel.'
     ],
     [
         'slug' => 'definisi-limbahb3',
