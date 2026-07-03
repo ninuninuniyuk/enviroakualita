@@ -158,7 +158,7 @@ $news = [
         'slug' => 'langkahlca',
         'image' => 'news1.jpeg',
         'title' => 'Mengenal 4 Langkah Standar ISO dalam Life Cycle Assessment',
-        'excerpt' => 'Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave) (KLHK, 2021).'
+        'excerpt' => 'Life Cycle Assessment (LCA) merupakan metode untuk mengevaluasi dampak lingkungan suatu produk, proses, atau sistem sepanjang siklus hidupnya, mulai dari bahan baku hingga tahap akhir penggunaannya.'
     ],
     [
         'slug' => 'tumpahanlimbah',
@@ -173,31 +173,31 @@ $news = [
         'slug' => 'sampah&nonb3',
         'image' => 'news3.jpeg',
         'title' => 'Perbedaan Sampah dan Limbah Padat Non-B3',
-        'excerpt' => 'Dalam praktik di lapangan, masih banyak ditemukan kesalahan dalam mengklasifikasikan antara sampah dan limbah padat non-B3. Akibatnya, pengelolaan menjadi tidak tepat, pelaporan lingkungan menjadi keliru, bahkan dapat berpotensi menimbulkan ketidaksesuaian terhadap peraturan yang berlaku.'
+        'excerpt' => 'Kesalahan dalam membedakan sampah dan limbah padat non-B3 dapat menyebabkan pengelolaan yang tidak tepat serta ketidaksesuaian dengan regulasi lingkungan.'
     ],
     [
         'slug' => 'auditor-lingkungan',
         'image' => 'news5.jpeg',
         'title' => 'Auditor Lingkungan',
-        'excerpt' => 'Garda Terdepan Kepatuhan Regulasi Lingkungan.'
+        'excerpt' => 'Di balik perusahaan yang patuh terhadap regulasi lingkungan, terdapat peran auditor lingkungan yang memastikan setiap kegiatan berjalan sesuai standar dan prinsip keberlanjutan.'
     ],
     [
         'slug' => 'definisi-limbahb3',
         'image' => 'news6.jpeg',
         'title' => 'Limbah B3',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'excerpt' => 'Kenali apa itu limbah B3, karakteristiknya, serta pentingnya pengelolaan yang tepat sesuai dengan peraturan untuk mengurangi risiko terhadap lingkungan dan kesehatan.'
     ],
     [
         'slug' => 'puasaplastik',
         'image' => 'news7.jpeg',
         'title' => 'Puasa Plastik, Yuk!',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'excerpt' => 'Tahukah Anda? Sebagian besar plastik sekali pakai hanya digunakan dalam hitungan menit, tetapi dapat bertahan di lingkungan selama ratusan tahun. Saatnya mulai mengurangi penggunaannya.'
     ],
     [
         'slug' => 'airjernih',
         'image' => 'news8.jpeg',
         'title' => 'Air Jernih Belum Tentu Aman',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'excerpt' => 'Air yang tampak jernih belum tentu memenuhi standar kualitas air. Kenali parameter penting yang menentukan keamanan air agar tetap layak digunakan dan tidak membahayakan kesehatan.'
     ],
     [
         'slug' => 'sampelair',
