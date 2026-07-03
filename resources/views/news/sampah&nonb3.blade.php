@@ -40,9 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </h1>
 
         <div class="flex flex-wrap items-center gap-3 text-gray-500 mt-4 text-sm">
-            <span>Enviroakualita</span>
-            <span>•</span>
-            <span>29 Juni 2026</span>
+            <span>Envirokualita</span>
         </div>
 
     </div>
@@ -113,71 +111,141 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li>Kaleng bekas </li>
                 <li>Kemasan makanan </li>
             </ol>
-                
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
-                Apa Saja di Dalam Oli Bekas?
-            </h2>
-                
-            <p class="mb-2">
-                Analisis laboratorium menunjukkan oli bekas sarat akan zat berbahaya:
-            </p>
-                
-            <ol class="list-decimal pl-5">
-                <li>Logam Berat: Mengandung Timbal (Pb), Merkuri (Hg), Kromium (Cr), dan Arsenik (As) hasil erosi komponen mesin.</li>
-                <li>Senyawa PAHs: Polyaromatic Hydrocarbons, senyawa organik beracun sisa pembakaran yang sulit terurai.</li>
-                <li>Aditif Kimia Terdegradasi: Sisa deterjen dan zat anti-karat yang telah rusak dan bersifat korosif/toksik </li>
-            </ol>
-                
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
-                Rasio Kerusakan 1 : 1.000.000!
-            </h2>
-                
-            <p class="mb-2">
-                Tahukah Anda? Hanya 1 LITER oli bekas mampu merusak kualitas 1.000.000 LITER air tawar (setara kebutuhan air bersih untuk 50 orang selama setahun!).
-            </p>
-                
-            <p class="mb-2">
-                Lembaga Perlindungan Lingkungan Amerika Serikat (US EPA) adalah salah satu sumber utama yang mempublikasikan data ini dalam program edukasi pengelolaan minyak bekas mereka (Used Oil Management Program) menyatakan bahwa minyak bumi atau oli bekas dalam jumlah kecil dapat menyebar membentuk lapisan tipis di atas permukaan air dengan radius yang sangat luas. Satu galon oli bekas (sekitar 3,78 liter) dapat mencemari hingga 1 juta galon air bersih (atau secara ekuivalen: 1 liter oli bekas mengkontaminasi sekitar 1 juta liter air).
-            </p>
-                
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
-                Dampak Infiltrasi yang Merusak
-            </h2>
-                
-            <ol class="list-decimal pl-5">
-                <li>Bagi Tanah: Tumpahan oli bekas menyumbat pori-pori tanah, mematikan mikroorganisme esensial, dan membuat tanah menjadi tidak produktif (tandus).</li>
-                <li>Bagi perairan : Oli bekas tidak larut dalam air, melainkan mengapung dan membentuk lapisan film (oil slick). Lapisan tipis ini menghalangi difusi oksigen dari udara ke dalam air dan memblokir sinar matahari, sehingga menurunkan kadar Dissolved Oxygen (DO) secara drastis dan mematikan biota air </li>
-                <li>Bagi Manusia: Logam berat dari oli bekas yang merembes ke air tanah akan masuk ke dalam rantai makanan dan bersifat akumulatif di tubuh manusia.</li>
-            </ol>
-            
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
-                Bahaya Kesehatan Jangka Panjang
+
+            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
+                Apa Itu Limbah Padat Non-B3?
             </h2>
             
             <p class="mb-2">
-                Paparan oli bekas tanpa APD yang sesuai dapat memicu:
+                Limbah padat non-B3 adalah sisa suatu usaha dan/atau kegiatan berbentuk padat yang tidak mengandung Bahan Berbahaya dan Beracun (B3) serta tidak memiliki karakteristik limbah B3.
             </p>
             
+            <p class="mb-2">
+                Limbah ini umumnya berasal dari kegiatan industri, perdagangan, perkantoran, maupun fasilitas pelayanan.
+            </p>
+
+            <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
+                Karakteristik Limbah Padat Non-B3:
+            </h4>
+            
             <ol class="list-decimal pl-5">
-                <li>Efek Karsinogenik: Senyawa PAHs terbukti meningkatkan risiko kanker kulit, kanker paru-paru, dan kandung kemih.</li>
-                <li>Kerusakan Organ: Akumulasi logam berat seperti Timbal (Pb) dapat merusak sistem saraf pusat dan mengganggu fungsi ginjal.</li>
+                <li>Berasal dari kegiatan usaha atau industri </li>
+                <li>Tidak memiliki sifat mudah meledak, mudah terbakar, beracun, korosif, atau infeksius </li>
+                <li>Dapat dimanfaatkan kembali apabila memenuhi persyaratan </li>
             </ol>
 
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
-                STOP! Jangan Lakukan 3 Hal Ini:
-            </h2>
-                
+            <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
+                Contoh Limbah Padat Non-B3:
+            </h4>
+            
             <ol class="list-decimal pl-5">
-                <li>Membuang ke Drainase: Menyebabkan pencemaran air permukaan secara masif.</li>
-                <li>Membakar Secara Terbuka: Pelepasan gas beracun (dioksin & furan) langsung ke udara yang berbahaya jika terhirup.</li>
-                <li>Menyimpan Tanpa Label/Simbol: Melanggar hukum regulasi dan berisiko memicu kecelakaan kerja di area storage.</li>
+                <li>Kardus bekas kemasan bahan baku </li>
+                <li>Scrap logam </li>
+                <li>Palet kayu </li>
+                <li>Potongan plastik produksi </li>
+                <li>Karung bekas </li>
+                <li>Kertas administrasi perkantoran </li>
+                <li>Sisa kain produksi </li>
             </ol>
                 
+            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-2">
+                Mengapa Klasifikasi yang Tepat Penting?
+            </h2>
+            
+            <ol class="list-decimal pl-5">
+                <li> Memastikan kepatuhan terhadap regulasi </li>
+                <li> Menentukan metode pengelolaan yang sesuai </li>
+                <li> Mengoptimalkan potensi pemanfaatan kembali </li>
+                <li> Mencegah terjadinya pencemaran lingkungan. </li>
+            </ol>
+            
+            <div class="overflow-x-auto mt-5 mb-8">
+                <table class="w-full border border-gray-200 rounded-xl overflow-hidden text-sm md:text-base">
+                    <thead class="bg-green-100 text-gray-900">
+                        <tr>
+                            <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
+                                Aspek
+                            </th>
+                            <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
+                                Sampah
+                            </th>
+                            <th class="border border-gray-200 px-4 py-3 text-left font-semibold">
+                                Limbah Padat Non-B3
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="bg-white text-gray-700">
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="border border-gray-200 px-4 py-3 font-medium">
+                                Sumber
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Rumah tangga/sejenis rumah tangga
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Kegiatan usaha atau industri
+                            </td>
+                        </tr>
+                        
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="border border-gray-200 px-4 py-3 font-medium">
+                                Dasar Pengaturan
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                UU No. 18 Tahun 2008
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Peraturan lingkungan hidup terkait limbah non-B3
+                            </td>
+                        </tr>
+                        
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="border border-gray-200 px-4 py-3 font-medium">
+                                Pengelola
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Pemerintah daerah dan masyarakat
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Pelaku usaha/penghasil limbah
+                            </td>
+                        </tr>
+                        
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="border border-gray-200 px-4 py-3 font-medium">
+                                Tujuan Pengelolaan
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Mengurangi timbulan sampah
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Mencegah pencemaran dan meningkatkan pemanfaatan
+                            </td>
+                        </tr>
+                        
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="border border-gray-200 px-4 py-3 font-medium">
+                                Contoh
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Sisa makanan, botol minuman
+                            </td>
+                            <td class="border border-gray-200 px-4 py-3">
+                                Scrap logam, kardus produksi
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-        </article>
-
-    </div>
+            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
+                Kesimpulan
+            </h2>
+            
+            <p class="mb-2">
+                Sampah dan limbah padat non-B3 merupakan dua istilah yang berbeda. Perbedaan utamanya terletak pada sumber penghasilnya. Sampah berasal dari aktivitas sehari-hari masyarakat, sedangkan limbah padat non-B3 berasal dari kegiatan usaha atau industri yang tidak mengandung B3. Pemahaman yang baik mengenai klasifikasi ini menjadi dasar penting dalam pelaksanaan pengelolaan lingkungan yang efektif, efisien, dan sesuai regulasi.
+            </p>
 
     <!-- CTA -->
     <div
@@ -189,11 +257,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 text-white transition duration-500 hover:shadow-2xl">
 
             <h3 class="text-2xl md:text-3xl font-bold mb-2">
-                Butuh Pendampingan Limbah B3?
+                Butuh Pendampingan Sampah & Limbah Non-B3?
             </h3>
 
             <p class="text-sm md:text-lg opacity-90 mb-6">
-                Tim Enviroakualita siap membantu pelaksanaan kajian, analisis data, hingga penyusunan laporan sesuai standar ISO 14040 dan ISO 14044.
+                Tim Envirokualita siap membantu pelaksanaan kajian, analisis data, hingga penyusunan laporan sesuai standar ISO 14040 dan ISO 14044.
             </p>
 
             <a href="/kontak">
