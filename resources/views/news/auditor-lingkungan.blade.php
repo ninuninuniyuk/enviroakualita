@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="space-y-5">
 
                 <div class="flex gap-4 p-5 rounded-2xl border border-gray-200">
-                    <div class="w-10 h-10 flex-shrink-0 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold">
+                    <div class="w-10 h-10 flex-shrink-0 bg-[#2B9048] text-white rounded-full flex items-center justify-center font-bold">
                         1
                     </div>
 
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
                 <div class="flex gap-4 p-5 rounded-2xl border border-gray-200">
-                    <div class="w-10 h-10 flex-shrink-0 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold">
+                    <div class="w-10 h-10 flex-shrink-0 bg-[#2B9048] text-white rounded-full flex items-center justify-center font-bold">
                         2
                     </div>
 
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
 
                 <div>
-                    <span class="inline-block bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                    <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
                         Kepatuhan Hukum
                     </span>
 
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
 
                 <div>
-                    <span class="inline-block bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                    <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
                         Manajemen Risiko
                     </span>
 
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
 
                 <div>
-                    <span class="inline-block bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                    <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
                         Perbaikan Kinerja
                     </span>
 
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </h2>
         
         <!-- Sertifikasi -->
-         <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+         <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#2B9048] hover:shadow-lg transition-all duration-300">
 
              <div>
                 <p class="text-gray-600 leading-7">
@@ -207,11 +207,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 text-white transition duration-500 hover:shadow-2xl">
 
             <h3 class="text-2xl md:text-3xl font-bold mb-2">
-                Butuh Pendampingan Auditor Lingkungan?
+                Butuh Pendampingan Audit Lingkungan?
             </h3>
 
             <p class="text-sm md:text-lg opacity-90 mb-6">
-                Tim Envirokualita siap membantu pelaksanaan kajian, analisis data, hingga penyusunan laporan sesuai standar ISO 14040 dan ISO 14044.
+                Tim Enviroakualita siap membantu pelaksanaan audit lingkungan, identifikasi aspek dan dampak lingkungan, evaluasi kepatuhan regulasi, hingga penyusunan rekomendasi perbaikan sesuai dengan ketentuan yang berlaku.
             </p>
 
             <a href="/kontak">

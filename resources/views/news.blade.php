@@ -188,13 +188,13 @@ $news = [
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
     ],
     [
-        'slug' => 'definisi-limbahb3',
+        'slug' => 'puasaplastik',
         'image' => 'news7.jpeg',
         'title' => 'Puasa Plastik, Yuk!',
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
     ],
     [
-        'slug' => 'definisi-limbahb3',
+        'slug' => 'airjernih',
         'image' => 'news8.jpeg',
         'title' => 'Air Jernih Belum Tentu Aman',
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
