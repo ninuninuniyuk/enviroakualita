@@ -207,10 +207,11 @@ $news = [
                     Dalam pengujian kualitas air, hasil analisis sangat bergantung pada proses pengambilan sampel.'
     ],
     [
-        'slug' => 'definisi-limbahb3',
+        'slug' => 'tanamanhias',
         'image' => 'news10.jpeg',
-        'title' => 'Tanaman Hias',
-        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+        'title' => 'Tanaman Hias = Produktivitas Naik!',
+        'excerpt' => 'Tanaman Hias di Kantor Bisa Meningkatkan Produktivitas 🌿
+        Bukan hanya mempercantik ruangan, tanaman hijau di kantor ternyata bisa mempengaruhi kinerja dan kenyamanan kerja.'
     ],
 ];
 @endphp
