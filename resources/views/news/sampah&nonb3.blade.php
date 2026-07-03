@@ -93,24 +93,58 @@ document.addEventListener("DOMContentLoaded", function () {
                 Karakteristik Sampah:
             </h4>
             
-            <ol class="list-decimal pl-5">
-                <li>Berasal dari rumah tangga atau sejenis rumah tangga. </li>
-                <li>Umumnya dihasilkan secara rutin setiap hari.</li>
-                <li>Dikelola melalui sistem persampahan daerah.</li>
-            </ol>
+            <ul class="space-y-3 mt-4">
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Berasal dari rumah tangga atau sejenis rumah tangga.</span>
+                </li>
 
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Umumnya dihasilkan secara rutin setiap hari.</span>
+                </li>
+
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Dikelola melalui sistem persampahan daerah.</span>
+                </li>
+            </ul>
+            
             <h4 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
                 Contoh Sampah:
             </h4>
-            
-            <ol class="list-decimal pl-5">
-                <li>Sisa makanan </li>
-                <li>Daun dan ranting </li>
-                <li>DBotol plastik minuman </li>
-                <li>Kertas bekas </li>
-                <li>Kaleng bekas </li>
-                <li>Kemasan makanan </li>
-            </ol>
+
+            <ul class="space-y-3 mt-4">
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Sisa makanan</span>
+                </li>
+
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Daun dan ranting</span>
+                </li>
+
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Botol plastik minuman</span>
+                </li>
+
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Kertas bekas</span>
+                </li>
+
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Kaleng bekas</span>
+                </li>
+
+                <li class="flex gap-3">
+                    <span class="text-green-600 font-bold">✔</span>
+                    <span>Kemasan makanan</span>
+                </li>
+            </ul>
 
             <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
                 Apa Itu Limbah Padat Non-B3?

@@ -187,6 +187,30 @@ $news = [
         'title' => 'Limbah B3',
         'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
     ],
+    [
+        'slug' => 'definisi-limbahb3',
+        'image' => 'news7.jpeg',
+        'title' => 'Puasa Plastik, Yuk!',
+        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+    ],
+    [
+        'slug' => 'definisi-limbahb3',
+        'image' => 'news8.jpeg',
+        'title' => 'Air Jernih Belum Tentu Aman',
+        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+    ],
+    [
+        'slug' => 'definisi-limbahb3',
+        'image' => 'news9.jpeg',
+        'title' => 'STOP! Mengambil Sampel Air Itu Tidak Sesederhana Mengisi Botol',
+        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+    ],
+    [
+        'slug' => 'definisi-limbahb3',
+        'image' => 'news10.jpeg',
+        'title' => 'Tanaman Hias',
+        'excerpt' => 'Diam-Diam Bisa Jadi Ancaman.'
+    ],
 ];
 @endphp
 
