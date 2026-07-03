@@ -155,7 +155,7 @@ $news = [
         'excerpt' => 'Sering dianggap sekadar "minyak kotor" biasa, ternyata zat ini menyimpan bahaya luar biasa bagi lingkungan dan hukum!'
     ],
     [
-        'slug' => 'lca',
+        'slug' => 'langkahlca',
         'image' => 'news1.jpeg',
         'title' => 'Mengenal 4 Langkah Standar ISO dalam Life Cycle Assessment',
         'excerpt' => 'Life Cycle Assessment (LCA) adalah suatu metodologi ilmiah yang digunakan untuk mengevaluasi dampak lingkungan dari suatu produk, proses, atau sistem sepanjang seluruh siklus hidupnya, mulai dari pengambilan bahan mentah, proses produksi, distribusi, penggunaan, hingga akhir masa pakai atau pembuangan (cradle to grave) (KLHK, 2021).'
