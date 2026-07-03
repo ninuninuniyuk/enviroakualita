@@ -102,50 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 </nav>
 
-<!-- FEATURED NEWS -->
-<section class="container-custom py-12">
-
-    <div
-        class="relative overflow-hidden rounded-3xl"
-        data-aos="zoom-in"
-    >
-
-        <img
-            src="{{ asset('images/assets-media/contoh.png') }}"
-            alt="Featured News"
-            class="w-full h-[550px] object-cover"
-        >
-
-        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-
-        <div class="absolute bottom-0 left-0 p-8 md:p-12 text-white max-w-4xl">
-
-            <span class="bg-green-600 px-4 py-2 rounded-full text-sm font-medium">
-                Audit Lingkungan
-            </span>
-
-            <h1 class="text-4xl md:text-6xl font-bold mt-5 mb-4 leading-tight">
-                Implementasi Audit Lingkungan
-                untuk Meningkatkan Kepatuhan
-                dan Kinerja Perusahaan
-            </h1>
-
-            <p class="text-gray-200 text-lg leading-8 mb-5">
-                Audit lingkungan membantu perusahaan mengidentifikasi
-                potensi risiko, meningkatkan kepatuhan regulasi,
-                dan mendukung praktik bisnis yang berkelanjutan.
-            </p>
-
-            <div class="flex flex-wrap gap-6 text-sm text-gray-300">
-                <span>Enviroakualita</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
 @php
 $news = [
     [
@@ -214,9 +170,165 @@ $news = [
         Bukan hanya mempercantik ruangan, tanaman hijau di kantor ternyata bisa mempengaruhi kinerja dan kenyamanan kerja.'
     ],
 ];
+
+// =====================
+// FILTER SEARCH
+// =====================
+$search = request('search');
+
+if ($search) {
+    $news = array_filter($news, function ($item) use ($search) {
+        return str_contains(strtolower($item['title']), strtolower($search))
+            || str_contains(strtolower($item['excerpt']), strtolower($search));
+    });
+
+    // Reset index array
+    $news = array_values($news);
+}
+
 @endphp
 
+<!-- SEARCH -->
+<section class="container-custom pt-10 pb-4">
+    <form action="{{ url('/news') }}" method="GET">
+        <div class="flex items-center gap-3 max-w-2xl mx-auto">
+
+            <input
+                type="text"
+                name="search"
+                value="{{ request('search') }}"
+                placeholder="Cari berita..."
+                class="flex-1 px-5 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-600"
+            >
+
+            <button
+                type="submit"
+                class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-6 py-3 rounded-xl hover:opacity-90 transition"
+            >
+                Search
+            </button>
+
+        </div>
+    </form>
+</section>
+
+@if(!$search && count($news))
+
+<section class="container-custom py-10">
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- HERO -->
+        <div class="lg:col-span-2">
+
+            <div class="relative rounded-3xl overflow-hidden h-[520px]">
+
+                <img
+                    id="heroImage"
+                    src="{{ asset('images/assets-news/'.$news[0]['image']) }}"
+                    class="absolute inset-0 w-full h-full object-cover"
+                >
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+
+                <div class="absolute bottom-0 left-0 p-8 text-white">
+
+                    <h1
+                        id="heroTitle"
+                        class="text-4xl font-bold mb-4"
+                    >
+                        {{ $news[0]['title'] }}
+                    </h1>
+
+                    <p
+                        id="heroExcerpt"
+                        class="text-gray-200 mb-6"
+                    >
+                        {{ $news[0]['excerpt'] }}
+                    </p>
+
+                    <a
+                        id="heroLink"
+                        href="/news/{{ $news[0]['slug'] }}"
+                        class="inline-block bg-green-600 hover:bg-green-700 px-6 py-3 rounded-xl"
+                    >
+                        Baca Selengkapnya →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- LIST BERITA -->
+        <div class="space-y-4">
+
+            @foreach(array_slice($news,1,4) as $item)
+
+            <div
+                onclick="changeHero(this)"
+                data-image="{{ asset('images/assets-news/'.$item['image']) }}"
+                data-title="{{ $item['title'] }}"
+                data-excerpt="{{ $item['excerpt'] }}"
+                data-link="/news/{{ $item['slug'] }}"
+                class="cursor-pointer flex gap-4 bg-white rounded-2xl p-3 shadow hover:shadow-lg transition"
+            >
+
+                <img
+                    src="{{ asset('images/assets-news/'.$item['image']) }}"
+                    class="w-28 h-24 rounded-xl object-cover"
+                >
+
+                <div>
+
+                    <h3 class="font-bold line-clamp-2">
+                        {{ $item['title'] }}
+                    </h3>
+
+                    <p class="text-sm text-gray-500 mt-2 line-clamp-2">
+                        {{ $item['excerpt'] }}
+                    </p>
+
+                </div>
+
+            </div>
+
+            @endforeach
+
+        </div>
+
+    </div>
+
+</section>
+
+@endif
+
+@if($search)
+<div class="container-custom py-8">
+
+    <div class="max-w-xl mx-auto text-center">
+
+        <p class="inline-flex items-center gap-2 bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+            Hasil pencarian
+        </p>
+
+        <h2 class="mt-4 text-2xl font-bold text-gray-800">
+            "{{ $search }}"
+        </h2>
+
+        <p class="mt-2 text-gray-500 text-sm">
+            Ditemukan <span class="font-semibold text-green-700">{{ count($news) }}</span> berita yang sesuai.
+        </p>
+
+    </div>
+
+</div>
+@endif
+
 <section class="container-custom py-20">
+
+    @if(count($news))
 
     @foreach($news as $item)
 
@@ -268,12 +380,36 @@ $news = [
 
     @endforeach
 
+    @else
+
+    <div class="text-center py-16">
+        <h2 class="text-2xl font-bold">Berita tidak ditemukan.</h2>
+    </div>
+
+@endif
+
 </section>
 
 <script>
 function toggleMenu() {
     const menu = document.getElementById('mobileMenu');
     menu.classList.toggle('hidden');
+}
+
+function changeHero(card){
+
+    document.getElementById('heroImage').src =
+        card.dataset.image;
+
+    document.getElementById('heroTitle').innerText =
+        card.dataset.title;
+
+    document.getElementById('heroExcerpt').innerText =
+        card.dataset.excerpt;
+
+    document.getElementById('heroLink').href =
+        card.dataset.link;
+
 }
 </script>
 
