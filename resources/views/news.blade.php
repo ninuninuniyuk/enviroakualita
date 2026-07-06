@@ -169,6 +169,13 @@ $news = [
         'excerpt' => 'Tanaman Hias di Kantor Bisa Meningkatkan Produktivitas 🌿
         Bukan hanya mempercantik ruangan, tanaman hijau di kantor ternyata bisa mempengaruhi kinerja dan kenyamanan kerja.'
     ],
+    [
+        'slug' => 'polusiudara',
+        'image' => 'news12.jpeg',
+        'title' => 'Udah Tau Sumber Polusi Udara Terbesar?',
+        'excerpt' => 'Banyak yang mikir cuma dari pabrik…
+                    Padahal, aktivitas sehari-hari juga jadi penyumbang utama!'
+    ],
 ];
 
 // =====================

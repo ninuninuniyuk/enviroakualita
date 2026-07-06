@@ -795,7 +795,7 @@ function initTestimonialCarousel() {
                         <img src="https://i.pravatar.cc/150?img=12" alt="Aditya">
                     </div>
                     <div class="card-text">
-                        <p class="quote">"Audit lingkungan dari Enviroakualita memberi kami insight yang membuat proses operasional jadi lebih ramah lingkungan dan efisien."</p>
+                        <p class="quote">"Audit lingkungan dari Envirokualita memberi kami insight yang membuat proses operasional jadi lebih ramah lingkungan dan efisien."</p>
                         <h3>Aditya Prakoso</h3>
                         <p class="role">Pemilik Usaha</p>
                     </div>
