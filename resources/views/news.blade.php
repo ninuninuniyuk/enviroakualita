@@ -240,19 +240,19 @@ $news = [
     ],
     [
         'slug' => 'ujiair',
-        'image' => 'news24.jpeg',
+        'image' => 'news23.jpeg',
         'title' => 'Parameter Uji Air yang Paling Sering Digunakan dalam Audit Lingkungan',
         'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
     ],
     [
         'slug' => 'daurulang',
-        'image' => 'news25.jpeg',
+        'image' => 'news24.jpeg',
         'title' => 'Kenapa Daur Ulang Tidak Selalu Menyelesaikan Masalah?',
         'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
     ],
     [
         'slug' => 'comdev',
-        'image' => 'news18.jpeg',
+        'image' => 'news25.jpeg',
         'title' => 'Mengapa Community Development & Keanekaragaman Hayati Penting bagi Perusahaan?',
         'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
     ],
