@@ -383,8 +383,7 @@ function toggleMenu() {
 
             <!-- Google Maps -->
             <div class="rounded-3xl overflow-hidden shadow-lg" data-aos="fade-left">
-                <iframe class="w-full h-full" style="min-height: 450px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.269662910655!2d106.8227387!3d-6.2297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e5d5d1%3A0x100e44e5b6408ce0!2sJakarta!5e0!3m2!1sid!2sid!4v1234567890">
-                </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1116668875543!2d110.46921677403674!3d-6.996128368517415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ce1b39ada93%3A0x38813ea0bc529c6a!2sPT%20Adhikriya%20Kualita%20Utama%20(AKUALITA)%20%7C%20Pelatihan%20dan%20Sertifikasi%20PJK3%20KEMNAKER%20RI%20%26%20TUK%20BNSP!5e0!3m2!1sid!2sid!4v1783303604677!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
         </div>

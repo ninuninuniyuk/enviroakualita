@@ -269,9 +269,9 @@ if ($search) {
         </div>
 
         <!-- LIST BERITA -->
-        <div class="space-y-4">
+        <div class="h-[520px] flex flex-col justify-between">
 
-            @foreach(array_slice($news,1,4) as $item)
+            @foreach(array_slice($news,1,3) as $item)
 
             <div
                 onclick="changeHero(this)"
@@ -279,26 +279,16 @@ if ($search) {
                 data-title="{{ $item['title'] }}"
                 data-excerpt="{{ $item['excerpt'] }}"
                 data-link="/news/{{ $item['slug'] }}"
-                class="cursor-pointer flex gap-4 bg-white rounded-2xl p-3 shadow hover:shadow-lg transition"
+                class="cursor-pointer flex gap-4 bg-white rounded-2xl p-4 shadow hover:shadow-lg transition h-full max-h-[165px]"
             >
-
                 <img
                     src="{{ asset('images/assets-news/'.$item['image']) }}"
-                    class="w-28 h-24 rounded-xl object-cover"
+                    class="w-32 h-full rounded-xl object-cover"
                 >
-
-                <div>
-
-                    <h3 class="font-bold line-clamp-2">
-                        {{ $item['title'] }}
-                    </h3>
-
-                    <p class="text-sm text-gray-500 mt-2 line-clamp-2">
-                        {{ $item['excerpt'] }}
-                    </p>
-
+                <div class="flex flex-col justify-center">
+                    <h3 class="font-bold line-clamp-2">{{ $item['title'] }}</h3>
+                    <p class="text-sm text-gray-500 mt-2 line-clamp-3">{{ $item['excerpt'] }}</p>
                 </div>
-
             </div>
 
             @endforeach
