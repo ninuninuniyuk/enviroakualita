@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     >
 
         <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
-            Limbah B3
+            Tumpahan Limbah
         </span>
 
         <h1 class="text-3xl md:text-5xl font-bold mt-5 leading-tight">

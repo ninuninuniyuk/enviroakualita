@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="zoom-in"
     >
         <img
-            src="{{ asset('images/assets-news/news9.jpeg') }}"
+            src="{{ asset('images/assets-news/news12.jpeg') }}"
             alt="Limbah B3"
             class="w-full h-[250px] md:h-[380px] object-cover rounded-3xl shadow-md transition duration-700 hover:scale-105"
         >
