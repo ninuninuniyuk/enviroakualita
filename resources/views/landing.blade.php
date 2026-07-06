@@ -132,16 +132,6 @@
         box-shadow: 0 26px 52px rgba(15,23,42,0.16);
     }
 
-    .testimonial-card .avatar {
-        width: 64px;
-        height: 64px;
-        border-radius: 9999px;
-        overflow: hidden;
-        background: #e6f5ea;
-        border: 2px solid rgba(34,197,94,0.18);
-        margin-bottom: 1rem;
-    }
-
     .testimonial-card .avatar img {
         width: 100%;
         height: 100%;
@@ -780,55 +770,25 @@ function initTestimonialCarousel() {
         <div class="testimonial-wrapper" data-aos="fade-up">
             <button class="testimonial-nav-button left testimonial-prev" aria-label="Sebelumnya">‹</button>
             <div class="testimonial-carousel">
+                @forelse($testimonials as $t)
                 <div class="testimonial-card">
-                    <div class="avatar">
-                        <img src="https://i.pravatar.cc/150?img=32" alt="Rina">
-                    </div>
                     <div class="card-text">
-                        <p class="quote">"Pelatihan Envirokualita membuat tim kami lebih memahami cara kerja lingkungan. Materinya jelas dan langsung bisa kami terapkan."</p>
-                        <h3>Rina Safitri</h3>
-                        <p class="role">Manajer CSR</p>
+                        <p class="quote">"{{ $t->quote }}"</p>
+                        <h3>{{ $t->name }}</h3>
+                        <p class="role">{{ $t->role }}</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="avatar">
-                        <img src="https://i.pravatar.cc/150?img=12" alt="Aditya">
-                    </div>
-                    <div class="card-text">
-                        <p class="quote">"Audit lingkungan dari Envirokualita memberi kami insight yang membuat proses operasional jadi lebih ramah lingkungan dan efisien."</p>
-                        <h3>Aditya Prakoso</h3>
-                        <p class="role">Pemilik Usaha</p>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="avatar">
-                        <img src="https://i.pravatar.cc/150?img=18" alt="Nadia">
-                    </div>
-                    <div class="card-text">
-                        <p class="quote">"Pendekatan konsultasinya personal dan sangat membantu, terutama untuk tim yang baru ingin memulai program sustainability."</p>
-                        <h3>Nadia Putri</h3>
-                        <p class="role">Koordinator Komunitas</p>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="avatar">
-                        <img src="https://i.pravatar.cc/150?img=22" alt="Bayu">
-                    </div>
-                    <div class="card-text">
-                        <p class="quote">"Programnya lengkap, dari pelatihan hingga evaluasi, jadi kami bisa menjaga komitmen perusahaan terhadap lingkungan."</p>
-                        <h3>Bayu Santoso</h3>
-                        <p class="role">Supervisor Operasional</p>
-                    </div>
-                </div>
+                @empty
+                    <p class="text-gray-500 text-center w-full">Belum ada testimoni.</p>
+                @endforelse
             </div>
             <button class="testimonial-nav-button right testimonial-next" aria-label="Selanjutnya">›</button>
         </div>
 
-        <div class="testimonial-controls" data-aos="fade-up">
-            <button class="testimonial-dot active"></button>
-            <button class="testimonial-dot"></button>
-            <button class="testimonial-dot"></button>
-            <button class="testimonial-dot"></button>
+        <div class="testimonial-controls">
+            @foreach($testimonials as $index => $t)
+                <button class="testimonial-dot {{ $index === 0 ? 'active' : '' }}"></button>
+            @endforeach
         </div>
     </div>
 </section>

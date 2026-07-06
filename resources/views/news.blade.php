@@ -176,6 +176,43 @@ $news = [
         'excerpt' => 'Banyak yang mikir cuma dari pabrik…
                     Padahal, aktivitas sehari-hari juga jadi penyumbang utama!'
     ],
+    [
+        'slug' => 'ambienemisi',
+        'image' => 'news13.jpeg',
+        'title' => 'Udara Ambien vs Udara Emisi',
+        'excerpt' => 'Keduanya sama-sama “udara”… Tapi yang satu kita hirup, yang satu lagi jadi sumber pencemar! Kamu udah tau bedanya?
+        Pahami perbedaannya agar pengendalian pencemaran udara dapat dilakukan secara tepat.'
+    ],
+    [
+        'slug' => 'definisilca',
+        'image' => 'news14.jpeg',
+        'title' => 'Definisi LCA (Life Cycle Assessment)',
+        'excerpt' => 'Life Cycle Assessment (LCA) adalah metode untuk mengevaluasi dampak lingkungan dari suatu produk atau layanan selama seluruh siklus hidupnya.'
+    ],
+    [
+        'slug' => 'proper',
+        'image' => 'news15.jpeg',
+        'title' => 'Kompetensi SDM untuk PROPER',
+        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+    ],
+    [
+        'slug' => 'auditor-konsultan',
+        'image' => 'news16.jpeg',
+        'title' => 'Perbedaan Auditor Lingkungan vs Konsultan Lingkungan',
+        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+    ],
+    [
+        'slug' => 'greenwashing',
+        'image' => 'news17.jpeg',
+        'title' => 'Greenwashing',
+        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+    ],
+    [
+        'slug' => 'sertifikasi',
+        'image' => 'news18.jpeg',
+        'title' => 'Kenapa Sertifikasi Bisa Naikin Value Perusahaan?',
+        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+    ],
 ];
 
 // =====================

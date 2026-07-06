@@ -1,9 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TestimonialController;
+use App\Models\Testimonial;
 
 Route::get('/', function () {
-    return view('landing');
+    $testimonials = Testimonial::where('is_approved', true)
+        ->latest()
+        ->take(10)
+        ->get();
+
+    return view('landing', compact('testimonials'));
 });
 
 Route::get('/tentang-kami', function () {
@@ -34,3 +41,5 @@ Route::get('/news', function () {
 Route::get('/news/{slug}', function ($slug) {
     return view('news.' . $slug);
 });
+
+Route::post('/testimoni', [TestimonialController::class, 'store'])->name('testimoni.store');

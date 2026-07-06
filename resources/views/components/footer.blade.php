@@ -63,15 +63,12 @@
                 <h4 class="text-white font-semibold mb-4">Hubungi Kami</h4>
                 <ul class="space-y-3 text-sm">
                     <li class="flex gap-2">
-                        <span class="text-green-400">📍</span>
-                        <span class="text-green-100">Jl. Lingkungan No. 123<br>Jakarta, Indonesia</span>
+                        <span class="text-green-100">Jl. Kyai Abdul Manan No.25, Pedurungan Tengah, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50192</span>
                     </li>
                     <li class="flex gap-2">
-                        <span class="text-green-400">📞</span>
                         <a href="tel:+6281234567890" class="text-green-100 hover:text-white transition">+62 812 345 67890</a>
                     </li>
                     <li class="flex gap-2">
-                        <span class="text-green-400">✉️</span>
                         <a href="mailto:info@enviroakualita.com" class="text-green-100 hover:text-white transition">info@enviroakualita.com</a>
                     </li>
                 </ul>

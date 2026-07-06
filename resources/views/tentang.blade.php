@@ -360,26 +360,35 @@ function toggleMenu() {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
 
             <!-- Form Testimoni -->
-<div class="rounded-3xl bg-white p-8 shadow-lg" data-aos="fade-right">
-    <form class="h-full flex flex-col justify-between space-y-4">
-        <div>
-            <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
-            <input type="text" placeholder="Masukkan nama Anda"
-                class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#2B9048]">
-        </div>
+            <div class="rounded-3xl bg-white p-8 shadow-lg" data-aos="fade-right">
+                <form class="h-full flex flex-col justify-between space-y-4"
+                    action="{{ route('testimoni.store') }}" method="POST">
+                    @csrf
 
-        <div class="flex-1">
-            <label class="font-semibold text-gray-700 text-sm block mb-2">Testimoni</label>
-            <textarea placeholder="Bagikan pengalaman Anda bersama Enviroakualita..." rows="6"
-                class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#2B9048]"></textarea>
-        </div>
+                    @if(session('success'))
+                        <p class="text-green-700 text-sm font-medium bg-green-50 p-3 rounded-lg">
+                            {{ session('success') }}
+                        </p>
+                    @endif
 
-        <button type="submit"
-            class="w-full bg-[#2B9048] text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-[#146032] transition text-sm">
-            Kirim Testimoni
-        </button>
-    </form>
- </div>
+                    <div>
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Nama</label>
+                        <input type="text" name="name" placeholder="Masukkan nama Anda" required
+                            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#2B9048]">
+                    </div>
+
+                    <div class="flex-1">
+                        <label class="font-semibold text-gray-700 text-sm block mb-2">Testimoni</label>
+                        <textarea name="quote" placeholder="Bagikan pengalaman Anda bersama Enviroakualita..." rows="6" required
+                            class="w-full h-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#2B9048]"></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-[#2B9048] text-white px-4 py-2 rounded-lg font-semibold btn-shine hover:bg-[#146032] transition text-sm">
+                        Kirim Testimoni
+                    </button>
+                </form>
+            </div>
 
             <!-- Google Maps -->
             <div class="rounded-3xl overflow-hidden shadow-lg" data-aos="fade-left">
