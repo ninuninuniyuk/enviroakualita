@@ -199,13 +199,14 @@ $news = [
         'slug' => 'auditor-konsultan',
         'image' => 'news16.jpeg',
         'title' => 'Perbedaan Auditor Lingkungan vs Konsultan Lingkungan',
-        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+        'excerpt' => 'Dua profesi penting, tapi sering disamakan!
+                    Auditor Lingkungan Hidup menurut Peraturan Menteri Lingkungan Hidup (PermenLH) Nomor 3 Tahun 2013 adalah.. '
     ],
     [
         'slug' => 'greenwashing',
         'image' => 'news17.jpeg',
-        'title' => 'Greenwashing',
-        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+        'title' => 'Greenwashing: Antara Komitmen Lingkungan cuma Strategi Marketing ',
+        'excerpt' => 'Greenwashing adalah praktik memberikan kesan palsu atau klaim yang menyesatkan bahwa sebuah produk, jasa, atau kebijakan perusahaan jauh lebih ramah lingkungan daripada kenyataannya.'
     ],
     [
         'slug' => 'sertifikasi',

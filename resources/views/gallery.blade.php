@@ -282,6 +282,11 @@ $gallery = [
         'title' => 'Konsultasi Perusahaan',
         'description' => 'Sesi konsultasi terkait pengelolaan lingkungan dan keberlanjutan perusahaan.'
     ],
+    [
+        'image' => 'gambar5.jpeg',
+        'title' => 'PPPU-POIPPU',
+        'description' => 'Sesi konsultasi terkait pengelolaan lingkungan dan keberlanjutan perusahaan.'
+    ],
 ];
 @endphp
 
