@@ -212,7 +212,49 @@ $news = [
         'slug' => 'sertifikasi',
         'image' => 'news18.jpeg',
         'title' => 'Kenapa Sertifikasi Bisa Naikin Value Perusahaan?',
-        'excerpt' => 'PROPER (Prosedur Operasional untuk Pengelolaan Limbah) memerlukan kompetensi khusus dari sumber daya manusia. Pelatihan dan pengembangan kapasitas SDM menjadi penting untuk implementasi yang efektif.'
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'sampah',
+        'image' => 'news19.jpeg',
+        'title' => 'Fakta Pahit: Mengapa Sebagian Besar Sampah Tidak Pernah Didaur Ulang?',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'plnb3',
+        'image' => 'news20.jpeg',
+        'title' => 'Jangan Salah! Limbah Non-B3 Tetap Wajib Dikelola',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'limbahrt',
+        'image' => 'news21.jpeg',
+        'title' => 'Kenapa Limbah Rumah Tangga Juga Berbahaya?',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'penyimpananlb3',
+        'image' => 'news22.jpeg',
+        'title' => 'Tata Cara Penyimpanan Limbah B3 yang Benar Menurut Peraturan Menteri Lingkungan Hidup Dan Kehutanan RI No 6 Tahun 2021',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'ujiair',
+        'image' => 'news24.jpeg',
+        'title' => 'Parameter Uji Air yang Paling Sering Digunakan dalam Audit Lingkungan',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'daurulang',
+        'image' => 'news25.jpeg',
+        'title' => 'Kenapa Daur Ulang Tidak Selalu Menyelesaikan Masalah?',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'comdev',
+        'image' => 'news18.jpeg',
+        'title' => 'Mengapa Community Development & Keanekaragaman Hayati Penting bagi Perusahaan?',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
     ],
 ];
 
