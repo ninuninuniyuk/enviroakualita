@@ -224,13 +224,15 @@ $news = [
         'slug' => 'plnb3',
         'image' => 'news20.jpeg',
         'title' => 'Jangan Salah! Limbah Non-B3 Tetap Wajib Dikelola',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Menurut PP No. 22 Tahun 2021, Limbah Non-B3 adalah sisa suatu usaha dan/atau kegiatan yang tidak memiliki karakteristik limbah B3.
+                Sederhananya: Limbah ini tidak mudah meledak, tidak beracun, tidak korosif, dan tidak menyebabkan infeksi secara langsung.'
     ],
     [
         'slug' => 'limbahrt',
         'image' => 'news21.jpeg',
         'title' => 'Kenapa Limbah Rumah Tangga Juga Berbahaya?',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Banyak orang berpikir limbah berbahaya hanya berasal dari pabrik.
+                    Padahal, aktivitas sehari-hari di rumah juga menghasilkan limbah yang dapat mencemari lingkungan dan mengganggu kesehatan.'
     ],
     [
         'slug' => 'penyimpananlb3',
