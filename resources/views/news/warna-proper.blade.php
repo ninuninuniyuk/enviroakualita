@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Peringkat Merah
                         </span>
 
-                        <p class="text-gray-600 leading-7">
+                        <p class="text-gray-600 leading-7 mb-2">
                             Diberikan kepada perusahaan yang upaya pengelolaan lingkungan hidupnya tidak sepenuhnya sesuai ketentuan peraturan perundang-undangan, hanya sebagian aspek yang memenuhi persyaratan.
                         </p>
 
@@ -190,89 +190,166 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <span class="text-green-600 font-bold">.</span>
                                         <span>Terdapat temuan berupa ketidakpatuhan administratif atau teknis dalam pelaporan dan pelaksanaannya</span>
                                     </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Izin operasional atau lingkungan terkait aspek tertentu belum sah atau belum diperbarui</span>
+                                    </li>
                                 </ul>
 
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
 
                     <div>
-                        <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
-                            Kepercayaan
+                        <span class="inline-block bg-[#003cff] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                            Peringkat Biru
                         </span>
 
-                        <p class="text-gray-600 leading-7">
-                            Meningkatkan transparansi dan kredibilitas di mata investor & pelanggan.
+                        <p class="text-gray-600 leading-7 mb-2">
+                            Diberikan kepada perusahaan yang telah taat melakukan upaya pengelolaan lingkungan hidup sesuai ketentuan peraturan yang berlaku, memenuhi standar minimal pengelolaan lingkungan seperti pengendalian pencemaran air, udara, limbah B3, dan implementasi AMDAL.
                         </p>
+
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                            <div>
+                                <p class="text-gray-600 leading-7 mb-2">
+                                    Perusahaan telah memenuhi seluruh persyaratan dasar yang diwajibkan oleh regulasi lingkungan.
+                                </p>
+                                
+                                <ul class="mb-2">
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Memenuhi baku mutu</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Mengelola limbah dengan baik</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Memiliki dokumen lingkungan</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Memenuhi ketentuan perizinan</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                    <div>
+                        <span class="inline-block bg-[#3dee19] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                            Peringkat Hijau
+                        </span>
+
+                        <p class="text-gray-600 leading-7 mb-2">
+                            Diberikan kepada perusahaan yang melebihi ketaatan yang diwajibkan dalam peraturan perundang-undangan, dengan pengelolaan lingkungan yang baik, termasuk penerapan sistem manajemen lingkungan, konservasi keanekaragaman hayati, pengelolaan limbah 3R (Reuse, Recycle, Recovery), penurunan beban pencemaran air dan udara, serta efisiensi energi.
+                        </p>
+
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                            <div>
+                                <p class="text-gray-600 leading-7 mb-2">
+                                    Tidak hanya taat regulasi, perusahaan juga melakukan upaya lebih dari yang dipersyaratkan.
+                                </p>
+                                
+                                <ul class="mb-2">
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Efisiensi energi</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Pengurangan limbah</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Konservasi air</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Penurunan emisi</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Inovasi lingkungan</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                    <div>
+                        <span class="inline-block bg-[#ffd000] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                            Peringkat Emas
+                        </span>
+
+                        <p class="text-gray-600 leading-7 mb-2">
+                            Merupakan penghargaan tertinggi, Peringkat ini diberikan kepada perusahaan yang secara konsisten menunjukkan keunggulan dalam proses industri dan jasa, melakukan pengelolaan lingkungan lebih dari yang dipersyaratkan, serta memiliki program unggulan inovasi sosial dan pengembangan masyarakat secara berkelanjutan.
+                        </p>
+
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+
+                            <div>
+                                <p class="text-gray-600 leading-7 mb-2">
+                                    Peringkat tertinggi dalam PROPER. <br>Selain memiliki kinerja lingkungan yang sangat baik, perusahaan juga menunjukkan:
+                                </p>
+                                
+                                <ul class="mb-2">
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Community Development yang berkelanjutan</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Program keanekaragaman hayati</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Inovasi berkelanjutan</span>
+                                    </li>
+
+                                    <li class="flex gap-3">
+                                        <span class="text-green-600 font-bold">.</span>
+                                        <span>Kontribusi nyata terhadap lingkungan dan masyarakat</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 
             </div>
-
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Pemilahan Membantu Efisiensi Pengelolaan
-            </h2>
-
-            <p>
-                Dengan pemilahan yang benar:
-            </p>
-
-            <ul class="mb-2">
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Limbah yang masih bernilai dapat dimanfaatkan kembali</span>
-                </li>
-
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Pengangkutan menjadi lebih mudah</span>
-                </li>
-
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Biaya pengelolaan dapat ditekan</span>
-                </li>
-
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Data limbah menjadi lebih akurat</span>
-                </li>
-            </ul>
-
-            <h2 class="text-2xl font-bold text-gray-900 mt-5 mb-4">
-                Pemilahan yang Baik Mendukung Kepatuhan Lingkungan
-            </h2>
-
-            <p>
-                Pemilahan limbah membantu perusahaan:
-            </p>
-
-            <ul class="mb-2">
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Memenuhi regulasi lingkungan</span>
-                </li>
-
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Mendukung pengelolaan TPS yang baik</span>
-                </li>
-
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Mengurangi risiko temuan audit</span>
-                </li>
-
-                <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
-                    <span>Mendukung penilaian PROPER</span>
-                </li>
-            </ul>
 
     <!-- CTA -->
     <div
@@ -284,11 +361,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="bg-gradient-to-r from-[#9ACA40] to-[#146032] rounded-3xl p-6 md:p-10 text-white transition duration-500 hover:shadow-2xl">
 
             <h3 class="text-2xl md:text-3xl font-bold mb-2">
-                Sudah waktunya action!
+                Perusahaanmu Ada di Warna yang Mana?
             </h3>
 
             <p class="text-sm md:text-lg opacity-90 mb-6">
-               Jadi Auditor Bersertifikat BNSP Sekarang bersama Envirokualita
+               Semakin tinggi peringkat PROPER, semakin baik kinerja lingkungan perusahaan
             </p>
 
             <a href="/kontak">
