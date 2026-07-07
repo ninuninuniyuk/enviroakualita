@@ -218,7 +218,7 @@ $news = [
         'slug' => 'sampah',
         'image' => 'news19.jpeg',
         'title' => 'Fakta Pahit: Mengapa Sebagian Besar Sampah Tidak Pernah Didaur Ulang?',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Di tingkat nasional, data Sistem Informasi Pengelolaan Sampah Nasional (SIPSN) 2025 mencatat timbulan sampah Indonesia mencapai 24,8 juta ton per tahun. Dari jumlah tersebut,'
     ],
     [
         'slug' => 'plnb3',
