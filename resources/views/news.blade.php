@@ -237,8 +237,8 @@ $news = [
     [
         'slug' => 'penyimpananlb3',
         'image' => 'news22.jpeg',
-        'title' => 'Tata Cara Penyimpanan Limbah B3 yang Benar Menurut Peraturan Menteri Lingkungan Hidup Dan Kehutanan RI No 6 Tahun 2021',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'title' => 'Tata Cara Penyimpanan Limbah B3 yang Benar',
+        'excerpt' => 'Bahan berbahaya dan beracun (B3) adalah zat, energi, atau komponen lain yang karena..'
     ],
     [
         'slug' => 'ujiair',
