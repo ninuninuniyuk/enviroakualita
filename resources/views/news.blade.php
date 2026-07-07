@@ -258,6 +258,48 @@ $news = [
         'title' => 'Mengapa Community Development & Keanekaragaman Hayati Penting bagi Perusahaan?',
         'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
     ],
+    [
+        'slug' => 'energi-sampah-organik',
+        'image' => 'news26.jpeg',
+        'title' => 'Energi Sampah Organik',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'de-influencing',
+        'image' => 'news27.jpeg',
+        'title' => 'Tren "De-Influencing"',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'simpel',
+        'image' => 'news28.jpeg',
+        'title' => 'SIMPEL',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'TPS',
+        'image' => 'news29.jpeg',
+        'title' => 'TPS Limbah B3 Perusahaanmu Sudah Siap Nilai PROPER? Cek Kriterianya di Sini!',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'pemilahan',
+        'image' => 'news30.jpeg',
+        'title' => 'Mengapa Pemilahan Limbah Menjadi Langkah Pertama yang Penting?',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'warna-proper',
+        'image' => 'news31.jpeg',
+        'title' => 'Kenali makna di balik warna penilaian kinerja lingkungan perusahaan',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
+    [
+        'slug' => 'tumpahan-limbah',
+        'image' => 'news32.jpeg',
+        'title' => 'Apa yang Harus Dilakukan Jika Terjadi Tumpahan Limbah B3?',
+        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+    ],
 ];
 
 // =====================
