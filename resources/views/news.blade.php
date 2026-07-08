@@ -243,14 +243,17 @@ $news = [
     [
         'slug' => 'ujiair',
         'image' => 'news23.jpeg',
-        'title' => 'Parameter Uji Air yang Paling Sering Digunakan dalam Audit Lingkungan',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'title' => 'Kenali Parameter Uji Air yang Paling Sering Digunakan Auditor Lingkungan',
+        'excerpt' => 'Kenapa Parameter Air Penting?
+                    Pengujian kualitas air dilakukan untuk:'
     ],
     [
         'slug' => 'daurulang',
         'image' => 'news24.jpeg',
         'title' => 'Kenapa Daur Ulang Tidak Selalu Menyelesaikan Masalah?',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Daur Ulang Bukan Solusi Tunggal
+                    Banyak orang berpikir semua sampah bisa didaur ulang. Faktanya:
+                    ⚠️ Tidak semua material dapat diproses kembali dengan mudah.'
     ],
     [
         'slug' => 'comdev',
