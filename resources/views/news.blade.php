@@ -265,43 +265,45 @@ $news = [
         'slug' => 'energi-sampah-organik',
         'image' => 'news26.jpeg',
         'title' => 'Energi Sampah Organik',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Menurut Undang-Undang Nomor 10 Tahun 2008 tentang Pengelolaan Sampah, sampah adalah sisa kegiatan sehari-hari manusia dan atau proses alam yang berbentuk padat.'
     ],
     [
         'slug' => 'de-influencing',
         'image' => 'news27.jpeg',
         'title' => 'Tren "De-Influencing"',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Selama bertahun-tahun, algoritma media sosial telah mendikte perilaku kita melalui "racun" belanja impulsif, video unboxing, hingga manipulasi diskon kilat. Namun, kini lahir gerakan sebaliknya bernama De-influencing.'
     ],
     [
         'slug' => 'simpel',
         'image' => 'news28.jpeg',
         'title' => 'SIMPEL',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'SIMPEL adalah sistem elektronik satu pintu yang dikembangkan oleh Kementerian Lingkungan Hidup dan Kehutanan (KLHK) untuk memfasilitasi perusahaan dalam melaporkan pelaksanaan rencana..'
     ],
     [
         'slug' => 'TPS',
         'image' => 'news29.jpeg',
         'title' => 'TPS Limbah B3 Perusahaanmu Sudah Siap Nilai PROPER? Cek Kriterianya di Sini!',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Dalam penilaian PROPER, pengelolaan limbah menjadi salah satu aspek kepatuhan yang diperiksa.
+                    TPS yang tidak sesuai dapat menunjukkan..'
     ],
     [
         'slug' => 'pemilahan',
         'image' => 'news30.jpeg',
         'title' => 'Mengapa Pemilahan Limbah Menjadi Langkah Pertama yang Penting?',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Pengelolaan limbah yang baik selalu dimulai dari pemilahan yang tepat. Pemilahan limbah adalah proses mernisahkan limbah berdasarkan'
     ],
     [
         'slug' => 'warna-proper',
         'image' => 'news31.jpeg',
         'title' => 'Kenali makna di balik warna penilaian kinerja lingkungan perusahaan',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Program Penilaian Peringkat Kinerja Perusahaan dalam Pengelolaan Lingkungan Hidup yang selanjutnya disebut PROPER adalah evaluasi kinerja penanggung jawab usaha dan/atau kegiatan di bidang..'
     ],
     [
-        'slug' => 'tumpahan-limbah',
+        'slug' => 'bod-cod',
         'image' => 'news32.jpeg',
-        'title' => 'Apa yang Harus Dilakukan Jika Terjadi Tumpahan Limbah B3?',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'title' => 'Cara Mudah Memahami BOD dan COD',
+        'excerpt' => 'BOD dan COD Itu Sama?
+                    Keduanya sama-sama digunakan untuk mengukur tingkat pencemaran air limbah. Tetapi…'
     ],
 ];
 
