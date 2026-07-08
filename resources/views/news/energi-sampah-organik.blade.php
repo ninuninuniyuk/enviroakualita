@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Energi Sampah Organik
         </span>
 
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </h2>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     Ton sampah/Tahun
                 </span>
             </p>
@@ -161,12 +161,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 <ul class="space-y-3 mb-2">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Cara A: Biogas yang dihasilkan dalam jumlah besar digunakan sebagai bahan bakar untuk memutar turbin generator listrik.</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Cara B (Insinerasi/Termal): Sampah organik kering dibakar dalam ruang khusus untuk menghasilkan panas tinggi. Panas ini mengubah air menjadi uap bertekanan besar untuk memutar turbin listrik.</span>
                 </li>
             </ul>

@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Sampah & Non-B3
         </span>
 
@@ -95,17 +95,17 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Berasal dari rumah tangga atau sejenis rumah tangga.</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Umumnya dihasilkan secara rutin setiap hari.</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Dikelola melalui sistem persampahan daerah.</span>
                 </li>
             </ul>
@@ -116,32 +116,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Sisa makanan</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Daun dan ranting</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Botol plastik minuman</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Kertas bekas</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Kaleng bekas</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Kemasan makanan</span>
                 </li>
             </ul>

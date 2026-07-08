@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Simpel
         </span>
 
@@ -254,17 +254,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mb-2">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span> <b> Ketaatan Administratif: </b> Jika perusahaan tidak atau terlambat melapor di SIMPEL, otomatis nilai ketaatannya akan turun (bisa langsung masuk zona Merah atau Hitam).</span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span> <b> Validitas Data: </b> Data emisi, limbah B3, dan air limbah yang diunggah secara digital akan langsung diverifikasi oleh sistem dan tim evaluator PROPER.</span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span> <b> Basis Data PROPER Hijau/Emas: </b> Integrasi data di SIMPEL memudahkan perusahaan membuktikan pemenuhan ketaatan (Beyond Compliance) untuk melaju ke peringkat Hijau atau Emas.</span>
                 </li>
             </ul>
@@ -329,27 +329,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Registrasi Akun/ID Digital</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Input Data Teknis & Administratif</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Submit Laporan Periodik</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Validasi & Verifikasi oleh KLHK/DLH</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Penilaian Ketaatan (E-PROPER)</span>
                 </li>
             </ul>
@@ -432,22 +432,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mt-4 mb-2">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Mengelola data lingkungan</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Mendukung kepatuhan lingkungan</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Mempersiapkan evaluasi PROPER</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Meningkatkan kualitas pelaporan</span>
                 </li>
             </ul>

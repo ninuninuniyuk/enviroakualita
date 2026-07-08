@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Sertifikasi
         </span>
 
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </h2>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     PP No. 22 Tahun 2021
                 </span>
             </p>
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </p>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     PermenLH BPLH No.7 Tahun 2025
                 </span>
             </p>

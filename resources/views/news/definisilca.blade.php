@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Life Cycle Assessment (LCA)
         </span>
 
@@ -95,17 +95,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>mengidentifikasi penggunaan sumber daya (input) </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>menghitung emisi dan limbah (output)</span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>mengevaluasi dampak lingkungan</span>
                 </li>
             </ul>
@@ -124,22 +124,22 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <ul class="space-y-4 mt-4 mb-6">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Mengidentifikasi tahap dengan dampak terbesar (hotspot) </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Membandingkan beberapa alternatif produk/proses</span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Membantu pengambilan keputusan berbasis lingkungan</span>
                 </li>
 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Meningkatkan efisiensi penggunaan energi dan sumber daya</span>
                 </li>
             </ul>
@@ -214,22 +214,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Goal & Scope Definition menentukan tujuan dan ruang lingkup studi </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Life Cycle Inventory (LCI) Tahap pengumpulan dan perhitungan data input dan output </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Life Cycle Impact Assessment (LCIA) melihat dampak lingkungan. </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#146032] font-bold">✔</span>
                     <span>Interpretation menganalisis hasil LCA dan menarik kesimpulan.</span>
                 </li>
             </ul>

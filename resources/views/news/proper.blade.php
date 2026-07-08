@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Kompetensi SDM untuk PROPER
         </span>
 
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </h2>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     PerMen LH BPLH Nomor 7 Tahun 2025 tentang PROPER
                 </span>
             </p>
@@ -113,12 +113,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mb-2">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Alat pengolahan </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#146032] font-bold">.</span>
                     <span>Teknologi</span>
                 </li>
                 
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Auditor Energi
                             </span>
                         </p>
@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Pengendalian Pencemaran Udara (PPU)
                             </span>
                         </p>
@@ -253,13 +253,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Pengendalian Pencemaran Air (PPA)
                             </span>
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Pengambilan Contoh Uji Air (PCUA)
                             </span>
                         </p>
@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Pemantauan Pengolahan Limbah B3 (PLB3)
                             </span>
                         </p>
@@ -309,13 +309,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Pemantauan & Analisis Pengolahan Sampah/Limbah Padat Non B3 (PLNB3)
                             </span>
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi Mengoperasikan Pengolahan Sampah/Limbah Padat Non B3 SKKNI (OPLNB3)
                             </span>
                         </p>
@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </p>
 
                         <p class="mt-2">
-                            <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                            <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                                 Pelatihan & Sertifikasi LCA
                             </span>
                         </p>

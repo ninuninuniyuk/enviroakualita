@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Kenapa Limbah Rumah Tangga Juga Berbahaya
         </span>
 
@@ -96,10 +96,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">🏠 Rumah Tangga</span>
-                        <span class="text-green-700 font-semibold">54,46%</span>
+                        <span class="text-[#146032] font-semibold">54,46%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-600 h-4 rounded-full" style="width:54.46%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:54.46%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">6,96 juta ton/tahun</p>
                 </div>
@@ -108,10 +108,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">🏪 Pasar</span>
-                        <span class="text-green-700 font-semibold">13,65%</span>
+                        <span class="text-[#146032] font-semibold">13,65%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-500 h-4 rounded-full" style="width:13.65%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:13.65%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">1,68 juta ton/tahun</p>
                 </div>
@@ -120,10 +120,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">🛍️ Perdagangan</span>
-                        <span class="text-green-700 font-semibold">7,8%</span>
+                        <span class="text-[#146032] font-semibold">7,8%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-500 h-4 rounded-full" style="width:7.8%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:7.8%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">0,97 juta ton/tahun</p>
                 </div>
@@ -132,10 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">🏢 Fasilitas Publik</span>
-                        <span class="text-green-700 font-semibold">7,2%</span>
+                        <span class="text-[#146032] font-semibold">7,2%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-500 h-4 rounded-full" style="width:7.2%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:7.2%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">0,89 juta ton/tahun</p>
                 </div>
@@ -144,10 +144,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">🏘️ Permukiman</span>
-                        <span class="text-green-700 font-semibold">4,48%</span>
+                        <span class="text-[#146032] font-semibold">4,48%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-500 h-4 rounded-full" style="width:4.48%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:4.48%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">0,55 juta ton/tahun</p>
                 </div>
@@ -156,10 +156,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">🏢 Perkantoran</span>
-                        <span class="text-green-700 font-semibold">4,2%</span>
+                        <span class="text-[#146032] font-semibold">4,2%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-500 h-4 rounded-full" style="width:4.2%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:4.2%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">0,52 juta ton/tahun</p>
                 </div>
@@ -168,10 +168,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <div class="flex justify-between mb-2">
                         <span class="font-semibold">📦 Lain-lain</span>
-                        <span class="text-green-700 font-semibold">6,2%</span>
+                        <span class="text-[#146032] font-semibold">6,2%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div class="bg-green-500 h-4 rounded-full" style="width:6.2%"></div>
+                        <div class="bg-[#9ACA40] h-4 rounded-full" style="width:6.2%"></div>
                     </div>
                     <p class="text-sm text-gray-500 mt-1">0,76 juta ton/tahun</p>
                 </div>

@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Mengapa Sebagian Besar Sampah Tidak Pernah Didaur Ulang? 
         </span>
 
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <div class="overflow-x-auto my-6">
     <table class="w-full border border-gray-200 rounded-lg overflow-hidden">
-        <thead class="bg-green-600 text-white">
+        <thead class="bg-[#146032] text-white">
             <tr>
                 <th class="px-6 py-4 text-center font-semibold">Kategori</th>
                 <th class="px-6 py-4 text-center font-semibold">Data</th>

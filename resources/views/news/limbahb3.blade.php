@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Limbah B3
         </span>
 
@@ -41,8 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div class="flex flex-wrap items-center gap-3 text-gray-500 mt-4 text-sm">
             <span>Enviroakualita</span>
-            <span>•</span>
-            <span>29 Juni 2026</span>
         </div>
 
     </div>

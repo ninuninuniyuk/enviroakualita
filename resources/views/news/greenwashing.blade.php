@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Greenwashing: Antara Komitmen Lingkungan cuma Strategi Marketing 
         </span>
 
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 Menjadi konsumen yang sadar lingkungan bukan hanya tentang membeli produk berlabel "hijau", tapi tentang menjadi kritis terhadap apa yang kita konsumsi. Jangan biarkan warna hijau menutupi kenyataan di baliknya.
             </p>
 
-            <blockquote class="border-l-4 border-green-600 pl-4 italic text-gray-700 my-4">
+            <blockquote class="border-l-4 border-[#146032] pl-4 italic text-gray-700 my-4">
                 "Greenwashing membuat kita merasa sudah membantu bumi, padahal kita hanya membantu meningkatkan keuntungan perusahaan."
             </blockquote>
 
