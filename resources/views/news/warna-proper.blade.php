@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Warna Proper
         </span>
 
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </h2>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     PermenLH BPLH NO 07 Tahun 2025 Tentang PROPER
                 </span>
             </p>
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="grid gap-5">
 
                 <!-- Card 1 -->
-                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                     <div>
                         <span class="inline-block bg-[#000000] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Perusahaan dengan peringkat hitam berisiko mendapatkan sanksi berat, termasuk pencabutan izin usaha.
                         </p>
 
-                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                             <div>
                                 <p class="text-gray-600 leading-7 mb-2">
@@ -136,17 +136,17 @@ document.addEventListener("DOMContentLoaded", function () {
                                 
                                 <ul class="mb-2">
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Tidak memenuhi ketentuan lingkungan</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Menimbulkan dampak serius</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Dapat dikenakan sanksi hukum</span>
                                     </li>
                                 </ul>
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
                 <!-- Card 2 -->
-                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                     <div>
                         <span class="inline-block bg-[#ff0000] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Diberikan kepada perusahaan yang upaya pengelolaan lingkungan hidupnya tidak sepenuhnya sesuai ketentuan peraturan perundang-undangan, hanya sebagian aspek yang memenuhi persyaratan.
                         </p>
 
-                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                             <div>
                                 <p class="text-gray-600 leading-7 mb-2">
@@ -177,22 +177,22 @@ document.addEventListener("DOMContentLoaded", function () {
                                 
                                 <ul class="mb-2">
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Tidak memenuhi  sebagian kewajiban lingkungan hidup yang diwajibkan</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Pengelolaan limbah atau emisi tidak sesuai dengan standar baku mutu yang berlaku</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Terdapat temuan berupa ketidakpatuhan administratif atau teknis dalam pelaporan dan pelaksanaannya</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Izin operasional atau lingkungan terkait aspek tertentu belum sah atau belum diperbarui</span>
                                     </li>
                                 </ul>
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
                 <!-- Card 3 -->
-                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                     <div>
                         <span class="inline-block bg-[#003cff] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Diberikan kepada perusahaan yang telah taat melakukan upaya pengelolaan lingkungan hidup sesuai ketentuan peraturan yang berlaku, memenuhi standar minimal pengelolaan lingkungan seperti pengendalian pencemaran air, udara, limbah B3, dan implementasi AMDAL.
                         </p>
 
-                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                             <div>
                                 <p class="text-gray-600 leading-7 mb-2">
@@ -224,22 +224,22 @@ document.addEventListener("DOMContentLoaded", function () {
                                 
                                 <ul class="mb-2">
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Memenuhi baku mutu</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Mengelola limbah dengan baik</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Memiliki dokumen lingkungan</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Memenuhi ketentuan perizinan</span>
                                     </li>
                                 </ul>
@@ -251,10 +251,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
                 <!-- Card 4 -->
-                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                     <div>
-                        <span class="inline-block bg-[#3dee19] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                        <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
                             Peringkat Hijau
                         </span>
 
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Diberikan kepada perusahaan yang melebihi ketaatan yang diwajibkan dalam peraturan perundang-undangan, dengan pengelolaan lingkungan yang baik, termasuk penerapan sistem manajemen lingkungan, konservasi keanekaragaman hayati, pengelolaan limbah 3R (Reuse, Recycle, Recovery), penurunan beban pencemaran air dan udara, serta efisiensi energi.
                         </p>
 
-                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                             <div>
                                 <p class="text-gray-600 leading-7 mb-2">
@@ -271,27 +271,27 @@ document.addEventListener("DOMContentLoaded", function () {
                                 
                                 <ul class="mb-2">
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Efisiensi energi</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Pengurangan limbah</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Konservasi air</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Penurunan emisi</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Inovasi lingkungan</span>
                                     </li>
                                 </ul>
@@ -303,10 +303,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
                 <!-- Card 5 -->
-                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                     <div>
-                        <span class="inline-block bg-[#ffd000] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
+                        <span class="inline-block bg-[#FFB900] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
                             Peringkat Emas
                         </span>
 
@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Merupakan penghargaan tertinggi, Peringkat ini diberikan kepada perusahaan yang secara konsisten menunjukkan keunggulan dalam proses industri dan jasa, melakukan pengelolaan lingkungan lebih dari yang dipersyaratkan, serta memiliki program unggulan inovasi sosial dan pengembangan masyarakat secara berkelanjutan.
                         </p>
 
-                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                             <div>
                                 <p class="text-gray-600 leading-7 mb-2">
@@ -323,22 +323,22 @@ document.addEventListener("DOMContentLoaded", function () {
                                 
                                 <ul class="mb-2">
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Community Development yang berkelanjutan</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Program keanekaragaman hayati</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Inovasi berkelanjutan</span>
                                     </li>
 
                                     <li class="flex gap-3">
-                                        <span class="text-green-600 font-bold">.</span>
+                                        <span class="text-[#2B9048] font-bold">.</span>
                                         <span>Kontribusi nyata terhadap lingkungan dan masyarakat</span>
                                     </li>
                                 </ul>

@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Auditor Lingkungan
         </span>
 
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="grid gap-5">
 
             <!-- Card 1 -->
-            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                 <div>
                     <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
 
             <!-- Card 2 -->
-            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                 <div>
                     <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
 
             <!-- Card 3 -->
-            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300">
+            <div class="flex items-start gap-4 p-5 rounded-2xl border border-gray-200 hover:border-[#4DB451] hover:shadow-lg transition-all duration-300">
 
                 <div>
                     <span class="inline-block bg-[#2B9048] text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">

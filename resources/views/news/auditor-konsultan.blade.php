@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Perbedaan Auditor Lingkungan vs Konsultan Lingkungan
         </span>
 
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 Konsultan lingkungan adalah profesional yang membantu perusahaan dalam merencanakan, mengelola, dan meningkatkan kinerja lingkungan melalui solusi teknis dan strategis. 
             </p>
 
-            <blockquote class="border-l-4 border-green-600 pl-4 italic text-gray-700 my-4">
+            <blockquote class="border-l-4 border-[#2B9048] pl-4 italic text-gray-700 my-4">
                 Fokus Utama: solusi & perbaikan
             </blockquote>
 
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <div class="overflow-x-auto my-6">
                 <table class="w-full border border-gray-200 rounded-lg overflow-hidden">
-                <thead class="bg-green-600 text-white">
+                <thead class="bg-[#2B9048] text-white">
             <tr>
                 <th class="px-6 py-4 text-center font-semibold">Aspek</th>
                 <th class="px-6 py-4 text-center font-semibold">Auditor Lingkungan</th>
@@ -189,37 +189,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <tbody class="divide-y divide-gray-200 bg-white">
 
-            <tr class="hover:bg-green-50 transition">
+            <tr class="hover:bg-[#4DB451]/10 transition">
                 <td class="px-6 py-4 font-semibold">Fokus</td>
                 <td class="px-6 py-4">Penilaian &amp; evaluasi</td>
                 <td class="px-6 py-4">Solusi &amp; perbaikan</td>
             </tr>
 
-            <tr class="hover:bg-green-50 transition">
+            <tr class="hover:bg-[#4DB451]/10 transition">
                 <td class="px-6 py-4 font-semibold">Peran</td>
                 <td class="px-6 py-4">Mengaudit &amp; menilai</td>
                 <td class="px-6 py-4">Membantu &amp; merancang</td>
             </tr>
 
-            <tr class="hover:bg-green-50 transition">
+            <tr class="hover:bg-[#4DB451]/10 transition">
                 <td class="px-6 py-4 font-semibold">Sifat</td>
                 <td class="px-6 py-4">Independen</td>
                 <td class="px-6 py-4">Kolaboratif</td>
             </tr>
 
-            <tr class="hover:bg-green-50 transition">
+            <tr class="hover:bg-[#4DB451]/10 transition">
                 <td class="px-6 py-4 font-semibold">Keterlibatan</td>
                 <td class="px-6 py-4">Tidak terlibat operasional</td>
                 <td class="px-6 py-4">Terlibat langsung</td>
             </tr>
 
-            <tr class="hover:bg-green-50 transition">
+            <tr class="hover:bg-[#4DB451]/10 transition">
                 <td class="px-6 py-4 font-semibold">Tujuan</td>
                 <td class="px-6 py-4">Kepatuhan regulasi</td>
                 <td class="px-6 py-4">Peningkatan kinerja</td>
             </tr>
 
-            <tr class="hover:bg-green-50 transition">
+            <tr class="hover:bg-[#4DB451]/10 transition">
                 <td class="px-6 py-4 font-semibold">Output</td>
                 <td class="px-6 py-4">Laporan audit &amp; temuan</td>
                 <td class="px-6 py-4">Solusi &amp; program</td>

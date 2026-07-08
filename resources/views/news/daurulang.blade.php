@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Kenapa Daur Ulang Tidak Selalu Menyelesaikan Masalah?
         </span>
 
@@ -137,9 +137,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 Proses Daur Ulang Tetap Membutuhkan Energi
             </h2>
 
-            <div class="bg-green-50 border-l-4 border-green-500 rounded-r-lg p-5 my-6">
+            <div class="bg-[#2B9048]/5 border-l-4 border-[#2B9048] rounded-r-lg p-5 my-6">
 
-                <h3 class="text-lg font-bold text-green-700">
+                <h3 class="text-lg font-bold text-[#2B9048]">
                     ♻️ Daur Ulang Bukan Proses "Tanpa Dampak"
                 </h3>
 
@@ -190,8 +190,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     </ul>
                 </div>
 
-                <div class="mt-5 bg-green-100 rounded-lg p-3">
-                    <p class="text-green-800 font-medium">
+                <div class="mt-5 bg-[#2B9048]/10 rounded-lg p-3">
+                    <p class="text-[#146032] font-medium">
                         💡 Semakin jauh proses distribusi, semakin besar pula jejak lingkungan yang dihasilkan.
                     </p>
                 </div>
@@ -202,9 +202,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 Kualitas Material Bisa Menurun
             </h2>
 
-            <div class="bg-green-50 border-l-4 border-green-500 rounded-r-lg p-5 my-6">
+            <div class="bg-[#2B9048]/5 border-l-4 border-[#2B9048] rounded-r-lg p-5 my-6">
 
-            <h3 class="text-lg font-bold text-green-700">
+            <h3 class="text-lg font-bold text-[#2B9048]">
                 📉 Tidak semua material dapat didaur ulang terus-menerus.
             </h3>
 
@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
                 <div class="mt-5">
-                    <h4 class="font-semibold text-green-600 mb-2">
+                    <h4 class="font-semibold text-[#2B9048] mb-2">
                         ⚠️ Akibatnya
                     </h4>
 

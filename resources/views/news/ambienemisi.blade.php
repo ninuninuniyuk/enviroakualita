@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#2B9048] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Udara Ambien vs Udara Emisi
         </span>
 
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </p>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     Udara ambien = udara bebas di lingkungan yang kita hirup setiap hari
                 </span>
             </p>
@@ -101,17 +101,17 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Berada di luar ruangan (outdoor) </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Mencerminkan kualitas udara suatu wilayah</span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Dipengaruhi oleh banyak sumber emisi</span>
                 </li>
             </ul>
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </p>
 
             <p class="mb-2">
-                <span class="bg-gradient-to-t from-lime-300 to-transparent px-1">
+                <span class="bg-gradient-to-t from-[#9ACA40] to-transparent px-1">
                     Udara emisi = gas/partikel pencemar yang dilepaskan dari sumber tertentu.
                 </span>
             </p>
@@ -136,22 +136,22 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Kendaraan bermotor </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Cerobong industri </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Pembakaran terbuka (sampah/lahan)</span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">✔</span>
+                    <span class="text-[#2B9048] font-bold">✔</span>
                     <span>Pembangkit listrik berbahan fosil </span>
                 </li>
             </ul>
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 Lalu... Bagaimana hubungan keduanya?
             </h2>
 
-            <p class="text-gray-600 leading-7 mt-5 mb-4 font-bold text-green-800">
+            <p class="text-gray-600 leading-7 mt-5 mb-4 font-bold text-[#146032]">
                 Udara emisi adalah penyebab, udara ambien adalah penerima
             </p>
 
@@ -174,12 +174,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <ul class="space-y-3 mt-4">
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#2B9048] font-bold">.</span>
                     <span>Baku Mutu Ambien, digunakan untuk memantau seberapa sehat kualitas lingkungan di suatu wilayah (apakah layak huni). </span>
                 </li>
                 
                 <li class="flex gap-3">
-                    <span class="text-green-600 font-bold">.</span>
+                    <span class="text-[#2B9048] font-bold">.</span>
                     <span>Baku Mutu Emisi, digunakan untuk mengendalikan polusi dari sumbernya (apakah pabrik/kendaraan sudah memenuhi standar buang). </span>
                 </li>
             </ul>

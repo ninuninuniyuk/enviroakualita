@@ -248,7 +248,7 @@ function toggleMenu() {
 
             <div data-aos="zoom-in">
                 <img
-                    src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1200&auto=format&fit=crop"
+                    src="{{ asset('images/tentangkami.jpg') }}"
                     class="rounded-3xl shadow-xl w-full floating"
                 >
             </div>

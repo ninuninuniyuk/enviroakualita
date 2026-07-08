@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container-custom">
 
     <a href="/news"
-       class="inline-flex items-center gap-2 text-green-700 font-medium hover:underline mb-6">
+       class="inline-flex items-center gap-2 text-[#146032] font-medium hover:underline mb-6">
         ← Kembali ke News
     </a>
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#2B9048]/10 text-[#2B9048] px-4 py-2 rounded-full text-sm font-medium">
             Air Jernih Belum Tentu Aman
         </span>
 
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <div class="overflow-x-auto mt-5 mb-8">
                 <table class="w-full border border-gray-200 rounded-xl overflow-hidden text-sm md:text-base">
-                    <thead class="bg-[rgb(43,144,72)] text-gray-900">
+                    <thead class="bg-[#2B9048] text-gray-900">
                         <tr>
                             <th class="border border-gray-200 px-4 py-3 text-center font-semibold">
                                 Parameter

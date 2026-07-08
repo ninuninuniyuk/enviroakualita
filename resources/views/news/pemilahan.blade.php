@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data-aos="fade-up"
     >
 
-        <span class="bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
+        <span class="bg-[#4DB451] text-[#146032] px-4 py-2 rounded-full text-sm font-medium">
             Pentingnya Pemilahan
         </span>
 

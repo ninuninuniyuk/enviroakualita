@@ -793,5 +793,122 @@ function initTestimonialCarousel() {
     </div>
 </section>
 
+<!-- Instagram Feed -->
+<section class="py-24 bg-gray-50">
+    <div class="container-custom">
+
+        <div class="text-center mb-12" data-aos="fade-up">
+            <p class="uppercase tracking-[4px] text-green-700 mb-3 font-semibold">Instagram Kami</p>
+            <h2 class="text-4xl font-bold">Ikuti Aktivitas Terbaru Kami</h2>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Dapatkan informasi dan dokumentasi kegiatan terbaru melalui Instagram resmi kami.</p>
+        </div>
+
+        <!-- Profile Header -->
+        <div class="bg-white rounded-3xl p-6 md:p-8 mb-8 shadow-md flex items-center justify-between flex-wrap gap-5 transition duration-300 hover:shadow-xl hover:-translate-y-1" data-aos="fade-up">
+            <div class="flex items-center gap-5">
+                <div class="relative flex-shrink-0">
+                    <div class="w-[72px] h-[72px] rounded-full p-[3px] bg-gradient-to-tr from-[#9ACA40] via-[#2B9048] to-[#146032]">
+                        <img src="{{ asset('images/logo-ig-envirokualita.jpeg') }}"
+                             class="w-full h-full rounded-full border-2 border-white object-cover">
+                    </div>
+                    <div class="absolute -bottom-1 -right-1 bg-white rounded-full p-1 shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#146032]" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 011.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772 4.915 4.915 0 01-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.065.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm0 8.25a3.25 3.25 0 110-6.5 3.25 3.25 0 010 6.5zm5.35-8.65a1.175 1.175 0 100-2.35 1.175 1.175 0 000 2.35z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-lg leading-snug">Jasa Audit Lingkungan Hidup | Training & Consulting</h3>
+                    <p class="text-gray-500">@envirokualita</p>
+
+                    <!-- Statistik -->
+                    <div class="flex gap-6 mt-2 text-sm">
+                        <div>
+                            <span class="font-bold text-gray-800">59</span>
+                            <span class="text-gray-500">Postingan</span>
+                        </div>
+
+                        <div>
+                            <span class="font-bold text-gray-800">1.303</span>
+                            <span class="text-gray-500">Pengikut</span>
+                        </div>
+
+                        <div>
+                            <span class="font-bold text-gray-800">5</span>
+                            <span class="text-gray-500">Diikuti</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://www.instagram.com/envirokualita?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+               target="_blank"
+               class="bg-gradient-to-r from-[#9ACA40] to-[#146032] text-white px-6 py-2.5 rounded-xl font-semibold btn-shine whitespace-nowrap">
+                Follow
+            </a>
+        </div>
+
+        <!-- Grid Postingan -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+
+            <a href="https://www.instagram.com/p/Dacu6WhknpQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"
+               class="group relative block aspect-square overflow-hidden rounded-2xl shadow-lg" data-aos="fade-up">
+                <img src="{{ asset('images/assets-news/news35.jpeg') }}"
+                     alt="Instagram Post 1"
+                     class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center pb-5">
+                    <span class="text-white font-semibold text-sm flex items-center gap-2">
+                        Lihat Postingan
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </span>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/p/DaVK_NCEh4X/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"
+               class="group relative block aspect-square overflow-hidden rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="150">
+                <img src="{{ asset('images/post-rekap1.jpeg') }}"
+                     alt="Instagram Post 2"
+                     class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center pb-5">
+                    <span class="text-white font-semibold text-sm flex items-center gap-2">
+                        Lihat Postingan
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </span>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/p/DaSUoT7E3R7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"
+               class="group relative block aspect-square overflow-hidden rounded-2xl shadow-lg col-span-2 md:col-span-1" data-aos="fade-up" data-aos-delay="300">
+                <img src="{{ asset('images/assets-news/news34.jpeg') }}"
+                     alt="Instagram Post 3"
+                     class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center pb-5">
+                    <span class="text-white font-semibold text-sm flex items-center gap-2">
+                        Lihat Postingan
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </span>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="text-center mt-8" data-aos="fade-up">
+            <a href="https://www.instagram.com/envirokualita" target="_blank"
+               class="inline-flex items-center gap-2 text-[#146032] font-semibold hover:gap-3 transition-all duration-300">
+                Lihat Semua di Instagram
+                <span>→</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
 
 @endsection
