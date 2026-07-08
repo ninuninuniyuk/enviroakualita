@@ -259,7 +259,8 @@ $news = [
         'slug' => 'comdev',
         'image' => 'news25.jpeg',
         'title' => 'Mengapa Community Development & Keanekaragaman Hayati Penting bagi Perusahaan?',
-        'excerpt' => 'Sertifikasi tidak hanya meningkatkan kompetensi individu, tetapi juga memperkuat kredibilitas perusahaan, meningkatkan kepercayaan stakeholder, dan menciptakan nilai tambah yang berkelanjutan.'
+        'excerpt' => 'Sustainability bukan cuma soal limbah dan emisi.
+                    Perusahaan sekarang juga dinilai dari..'
     ],
     [
         'slug' => 'energi-sampah-organik',
